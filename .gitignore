@@ -1,0 +1,51 @@
+.venv/
+site/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+/.credentials/
+/credentials
+/credentials.json
+/credentials.ini
+/kubeconfig
+/kubeconfig.*
+/vault-password*
+
+# Terraform/OpenTofu local and sensitive files
+.terraform/
+.terraform.lock.hcl.backup
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Ansible local artifacts
+.ansible/
+*.retry
+
+# Cloud CLI state if a tool is accidentally configured inside the repository
+.aws/
+.azure/
+.config/gcloud/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

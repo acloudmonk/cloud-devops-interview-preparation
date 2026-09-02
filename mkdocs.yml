@@ -1,0 +1,118 @@
+site_name: Cloud & DevOps Architect Knowledge Base
+site_description: Architect-level cloud and DevOps learning, scenarios, labs, and interview preparation.
+site_url: https://acloudmonk.github.io/cloud-devops-interview-preparation/
+repo_url: https://github.com/acloudmonk/cloud-devops-interview-preparation
+repo_name: acloudmonk/cloud-devops-interview-preparation
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+extra_javascript:
+  - path: javascripts/mermaid.mjs
+    type: module
+
+nav:
+  - Start Here:
+      - Home: index.md
+      - Master Competency Map: master-competency-map.md
+      - Study Roadmap: roadmap.md
+  - Curriculum:
+      - Curriculum Overview: curriculum/index.md
+      - 01 Cloud Architecture & Distributed Systems:
+          - Module Overview: 01-cloud-architecture/index.md
+          - Core Concepts: 01-cloud-architecture/concepts.md
+          - Resilience & Integration Patterns: 01-cloud-architecture/patterns.md
+          - Scenario Questions: 01-cloud-architecture/scenarios.md
+          - Hands-on Architecture Lab: 01-cloud-architecture/lab.md
+          - References & Videos: 01-cloud-architecture/references.md
+      - 02 AWS Architecture: 02-aws/index.md
+      - 03 Azure Architecture: 03-azure/index.md
+      - 04 GCP Architecture: 04-gcp/index.md
+      - 05 Cross-Cloud Capability Mapping: 05-multi-cloud-mapping/index.md
+      - 06 Linux & OS Fundamentals: 06-linux/index.md
+      - 07 Networking & DNS: 07-networking/index.md
+      - 08 Git & Source Control: 08-git/index.md
+      - 09 CI/CD Engineering: 09-cicd/index.md
+      - 10 Docker & Containers: 10-docker/index.md
+      - 11 Kubernetes: 11-kubernetes/index.md
+      - 12 Kubernetes Ecosystem: 12-kubernetes-ecosystem/index.md
+      - 13 Terraform & IaC: 13-terraform/index.md
+      - 14 Ansible: 14-ansible/index.md
+      - 15 DevSecOps: 15-devsecops/index.md
+      - 16 Zero Trust: 16-zero-trust/index.md
+      - 17 Observability: 17-observability/index.md
+      - 18 Site Reliability Engineering: 18-sre/index.md
+      - 19 Platform Engineering: 19-platform-engineering/index.md
+      - 20 Microservices: 20-microservices/index.md
+      - 21 SaaS Architecture: 21-saas/index.md
+      - 22 Event-Driven Architecture: 22-event-driven/index.md
+      - 23 Database Architecture: 23-databases/index.md
+      - 24 Migration & Modernization: 24-migration-modernization/index.md
+      - 25 High Availability, DR & BCP: 25-ha-dr-bcp/index.md
+      - 26 FinOps: 26-finops/index.md
+      - 27 Well-Architected Reviews: 27-well-architected/index.md
+      - 28 Hybrid & Multi-Cloud: 28-hybrid-multicloud/index.md
+      - 29 APIs & Identity: 29-api-identity/index.md
+      - 30 Python Automation: 30-python-automation/index.md
+      - 31 AI for Cloud & DevOps: 31-ai-for-devops/index.md
+  - Architecture Case Studies: case-studies/index.md
+  - Interview Playbook:
+      - Scenario Answer Framework: interview-playbook/scenario-answer-framework.md
+      - Full Mock Interviews: mock-interviews/index.md
+  - Reference Catalog:
+      - Source Standards: reference-catalog/index.md
+      - Trusted Sources: reference-catalog/trusted-sources.md
+
+strict: true
