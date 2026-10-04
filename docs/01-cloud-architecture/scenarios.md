@@ -1,6 +1,6 @@
 # Scenario Questions and Model Answers
 
-Last reviewed: **2026-09-02**
+Last reviewed: **2026-10-04**
 
 Answer each prompt aloud before reading the model answer. Use the
 [CLEAR-DOC framework](../interview-playbook/scenario-answer-framework.md)
@@ -231,3 +231,34 @@ For each answer, score one point for each item you covered:
 
 Scores below seven indicate that the answer likely needs more architect-level
 depth.
+
+## AWS implementation drill
+
+After each vendor-neutral answer, make it concrete without turning the answer
+into a service list:
+
+1. Map each required capability to an AWS service and state why it fits.
+2. Name the identity, network, encryption, logging, and deployment boundary.
+3. Identify one quota, one cost driver, and one unsafe default or assumption.
+4. State the CloudWatch or application evidence that proves the design works.
+5. Describe a load, failure, rollback, or restore test that could disprove it.
+6. Translate one material decision to Azure and Google Cloud, including a
+   semantic difference that could change behavior.
+
+For the traffic-spike scenario, a strong implementation answer should discuss
+CloudFront and AWS WAF admission controls, ECS or another justified compute
+choice, atomic DynamoDB reservation, SQS load leveling, idempotent workers,
+payment reconciliation, customer-outcome telemetry, and tested recovery. It
+should not assume that autoscaling alone protects a stateful dependency.
+
+## Scoring anchors
+
+| Score | Interpretation |
+| ---: | --- |
+| 0–4 | Names components but leaves requirements, invariants, and recovery implicit |
+| 5–6 | Coherent design with some trade-offs, but weak evidence or operations |
+| 7–8 | Senior answer with measurable behavior, security, failure, and validation |
+| 9–10 | Architect answer connecting business value, alternatives, evidence, cost, delivery, and ownership |
+
+A cloud service name earns no additional credit unless the answer explains the
+required capability, relevant semantics, and validation evidence.

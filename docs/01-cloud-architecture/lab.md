@@ -2,7 +2,7 @@
 
 ## Design for a scheduled ten-times traffic spike
 
-Last reviewed: **2026-09-02**
+Last reviewed: **2026-10-04**
 Estimated time: **4–6 hours**
 Expected cloud cost: **None for the design-only path**
 
@@ -133,10 +133,16 @@ twelve-week incremental delivery plan with risk-reduction milestones.
 
 ## Optional implementation path
 
-Implement a local simulation using containers and a lightweight queue. Generate
-normal and spike traffic, deliberately slow a dependency, and measure queue age,
-latency percentiles, errors, and recovery time. The implementation should test
-one architecture claim rather than attempt to reproduce the entire platform.
+Continue with the staged [AWS implementation guide](implementation-guide.md)
+and its
+[`labs/aws/01-cloud-architecture-ticketing`](https://github.com/acloudmonk/cloud-devops-interview-preparation/tree/main/labs/aws/01-cloud-architecture-ticketing)
+workspace. Prove correctness locally before provisioning AWS, then add the
+single-Region core, admission controls, delivery, observability, load testing,
+failure experiments, and measured recovery.
+
+Use [AWS reference architecture](reference-architecture.md) for service
+selection and [multi-cloud translation](multi-cloud.md) when evaluating Azure
+or Google Cloud alternatives.
 
 ## Teardown
 

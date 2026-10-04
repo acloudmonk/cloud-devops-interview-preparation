@@ -1,6 +1,6 @@
 # References and Videos
 
-Last verified: **2026-09-02**
+Last verified: **2026-10-04**
 
 The reading path favors durable architecture guidance over product catalogs.
 
@@ -93,6 +93,62 @@ videos to this page only after reviewing their content and publication date.
 Recommended search themes include distributed-system failure modes, overload,
 multi-region consistency, cell-based architecture, safe deployments, and
 Well-Architected reviews.
+
+## Pilot lab implementation references
+
+### AWS reliability testing guidance
+
+- **Source:** Amazon Web Services
+- **Type:** Well-Architected implementation guidance
+- **Lifecycle:** Current when last verified
+- **Why:** Defines production-like, representative, IaC-based resiliency,
+  scaling, and quota testing practices.
+- **Link:** [Test resiliency using chaos engineering](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_testing_resiliency_test_non_functional.html)
+
+### DynamoDB conditional writes
+
+- **Source:** Amazon Web Services
+- **Type:** Product documentation
+- **Lifecycle:** Current when last verified
+- **Why:** Provides the conditional-expression mechanism used to protect the
+  reservation state transition.
+- **Link:** [Condition expressions](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html)
+
+### CloudFront visitor prioritization
+
+- **Source:** AWS Networking & Content Delivery Blog
+- **Type:** Reference implementation guidance
+- **Lifecycle:** Preferred current pattern when last verified
+- **Why:** Demonstrates admission control with CloudFront Functions, AWS WAF,
+  CloudWatch, and an S3 waiting-room origin.
+- **Link:** [Visitor prioritization with CloudFront and CloudFront Functions](https://aws.amazon.com/blogs/networking-and-content-delivery/visitor-prioritization-on-e-commerce-websites-with-cloudfront-and-cloudfront-functions/)
+
+### Virtual Waiting Room on AWS
+
+- **Source:** Amazon Web Services
+- **Type:** Archived solution
+- **Lifecycle:** **Discontinued; do not use for a new implementation**
+- **Replacement:** Use the CloudFront visitor-prioritization pattern above and
+  validate it against current requirements.
+- **Link:** [Virtual Waiting Room on AWS lifecycle notice](https://aws.amazon.com/solutions/implementations/virtual-waiting-room-on-aws/)
+
+### Distributed Load Testing on AWS
+
+- **Source:** Amazon Web Services
+- **Type:** Optional managed solution
+- **Lifecycle:** Verify version and cost before deployment
+- **Why:** Provides a distributed path when a workstation cannot generate the
+  required test load; the core lab uses local k6 first.
+- **Link:** [Distributed Load Testing on AWS](https://docs.aws.amazon.com/solutions/latest/distributed-load-testing-on-aws/solution-overview.html)
+
+### AWS Fault Injection Service
+
+- **Source:** Amazon Web Services
+- **Type:** Product documentation
+- **Lifecycle:** Current when last verified
+- **Why:** Supports bounded, observable fault experiments after stop conditions
+  and rollback are established.
+- **Link:** [AWS Fault Injection Service user guide](https://docs.aws.amazon.com/fis/latest/userguide/what-is.html)
 
 ## Books
 
