@@ -5,8 +5,8 @@ Last reviewed: **2026-10-04**
 Estimated time: **12–20 hours for the core path**
 
 This guide turns the [architecture lab](lab.md) into a staged implementation.
-The companion workspace is
-[`labs/aws/01-cloud-architecture-ticketing`](https://github.com/acloudmonk/cloud-devops-interview-preparation/tree/main/labs/aws/01-cloud-architecture-ticketing).
+The companion workspace is `labs/aws/01-cloud-architecture-ticketing` in the
+repository root.
 
 !!! warning "Cost and access"
     Use a dedicated AWS sandbox, short-lived credentials, a budget alert, and

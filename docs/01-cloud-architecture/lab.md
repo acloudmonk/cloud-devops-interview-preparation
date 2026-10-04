@@ -134,9 +134,8 @@ twelve-week incremental delivery plan with risk-reduction milestones.
 ## Optional implementation path
 
 Continue with the staged [AWS implementation guide](implementation-guide.md)
-and its
-[`labs/aws/01-cloud-architecture-ticketing`](https://github.com/acloudmonk/cloud-devops-interview-preparation/tree/main/labs/aws/01-cloud-architecture-ticketing)
-workspace. Prove correctness locally before provisioning AWS, then add the
+and the `labs/aws/01-cloud-architecture-ticketing` workspace in the repository.
+Prove correctness locally before provisioning AWS, then add the
 single-Region core, admission controls, delivery, observability, load testing,
 failure experiments, and measured recovery.
 
