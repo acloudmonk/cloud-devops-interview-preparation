@@ -1,0 +1,92 @@
+name: ticketing-lab
+
+services:
+  dynamodb:
+    image: amazon/dynamodb-local:${DYNAMODB_LOCAL_VERSION:-2.6.1}
+    command: -jar DynamoDBLocal.jar -sharedDb -inMemory
+    ports:
+      - "8000:8000"
+
+  localstack:
+    image: localstack/localstack:${LOCALSTACK_VERSION:-4.0.3}
+    environment:
+      SERVICES: sqs
+      DEBUG: "0"
+    ports:
+      - "4566:4566"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4566/_localstack/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  init:
+    build: .
+    command: python -m ticketing.bootstrap
+    environment: &app-environment
+      AWS_ACCESS_KEY_ID: local
+      AWS_SECRET_ACCESS_KEY: local
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      DYNAMODB_ENDPOINT: http://dynamodb:8000
+      QUEUE_ENDPOINT: http://localstack:4566
+      INVENTORY_TABLE: ticketing-inventory
+      ORDERS_TABLE: ticketing-orders
+      IDEMPOTENCY_TABLE: ticketing-idempotency
+      QUEUE_NAME: ticketing-orders
+      DLQ_NAME: ticketing-orders-dlq
+      PAYMENT_STUB_URL: http://payment-stub:8081
+      RESERVATION_HOLD_SECONDS: ${RESERVATION_HOLD_SECONDS:-120}
+      PAYMENT_TIMEOUT_SECONDS: ${PAYMENT_TIMEOUT_SECONDS:-2}
+    depends_on:
+      dynamodb:
+        condition: service_started
+      localstack:
+        condition: service_healthy
+    restart: "no"
+
+  payment-stub:
+    build: .
+    command: uvicorn ticketing.payment_stub:app --host 0.0.0.0 --port 8081
+    environment: *app-environment
+    ports:
+      - "8081:8081"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - import urllib.request; urllib.request.urlopen('http://localhost:8081/health')
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build: .
+    environment: *app-environment
+    ports:
+      - "8080:8080"
+    depends_on:
+      init:
+        condition: service_completed_successfully
+      payment-stub:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - import urllib.request; urllib.request.urlopen('http://localhost:8080/ready')
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  worker:
+    build: .
+    command: python -m ticketing.worker
+    environment: *app-environment
+    depends_on:
+      init:
+        condition: service_completed_successfully
+      payment-stub:
+        condition: service_healthy
+    restart: unless-stopped

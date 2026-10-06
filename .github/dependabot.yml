@@ -13,3 +13,17 @@ updates:
     directory: /
     schedule:
       interval: monthly
+
+  - package-ecosystem: pip
+    directory: /labs/aws/01-cloud-architecture-ticketing
+    schedule:
+      interval: monthly
+    groups:
+      ticketing-lab:
+        patterns:
+          - "*"
+
+  - package-ecosystem: docker
+    directory: /labs/aws/01-cloud-architecture-ticketing
+    schedule:
+      interval: monthly

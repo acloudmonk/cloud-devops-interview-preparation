@@ -47,10 +47,16 @@ idempotency key, request fingerprint, status, and original response. Do not use
 a read-then-write sequence for correctness.
 
 ```bash
+cd labs/aws/01-cloud-architecture-ticketing
 cp .env.example .env
 docker compose up --build
 curl http://localhost:8080/health
 ```
+
+Run `python -m unittest discover -s tests -v` first. The completed local slice
+contains the API, worker, payment stub, DynamoDB Local, LocalStack SQS/DLQ,
+idempotency and concurrency tests, and a cross-platform smoke script. Its
+README includes dispatch-outage and ambiguous-payment exercises.
 
 Required tests:
 

@@ -1,5 +1,17 @@
 # Required Tests
 
+The automated local suite currently covers the domain invariants, HTTP API
+contract, payment ambiguity, worker acknowledgement, and duplicate terminal
+delivery. Run it with:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The complete Compose smoke test is `python scripts/smoke.py` after the stack is
+healthy. Cloud failure and recovery tests remain acceptance gates for the later
+AWS infrastructure milestone.
+
 ## Correctness
 
 - two callers compete for one seat and exactly one reservation succeeds;
