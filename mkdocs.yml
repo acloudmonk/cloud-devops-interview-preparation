@@ -75,7 +75,10 @@ nav:
           - Core Concepts: 01-cloud-architecture/concepts.md
           - Resilience & Integration Patterns: 01-cloud-architecture/patterns.md
           - Scenario Questions: 01-cloud-architecture/scenarios.md
+          - AWS Reference Architecture: 01-cloud-architecture/reference-architecture.md
+          - Multi-Cloud Translation: 01-cloud-architecture/multi-cloud.md
           - Hands-on Architecture Lab: 01-cloud-architecture/lab.md
+          - AWS Implementation Guide: 01-cloud-architecture/implementation-guide.md
           - References & Videos: 01-cloud-architecture/references.md
       - 02 AWS Architecture: 02-aws/index.md
       - 03 Azure Architecture: 03-azure/index.md

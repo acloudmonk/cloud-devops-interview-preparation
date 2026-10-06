@@ -34,6 +34,14 @@ crash.*.log
 *.tfvars
 *.tfvars.json
 !*.tfvars.example
+tfplan
+*.tfplan
+
+# Lab outputs and sanitized evidence are documented separately
+labs/**/evidence/*.json
+labs/**/evidence/*.csv
+labs/**/evidence/*.html
+labs/**/evidence/*.log
 
 # Ansible local artifacts
 .ansible/

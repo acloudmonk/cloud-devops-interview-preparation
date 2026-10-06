@@ -1,10 +1,12 @@
 # Cloud Architecture & Distributed Systems
 
-Last reviewed: **2026-09-02**
+Last reviewed: **2026-10-04**
 Level: **Architect**
 
 This pilot module builds the vendor-neutral reasoning needed before selecting
-AWS, Azure, GCP, Kubernetes, database, or messaging services.
+AWS, Azure, GCP, Kubernetes, database, or messaging services. AWS provides the
+reference implementation; the same decisions are translated to Azure and
+Google Cloud by capability and behavior.
 
 ## Learning objectives
 
@@ -25,8 +27,11 @@ By the end of the module, you should be able to:
 1. [Core concepts](concepts.md)
 2. [Resilience and integration patterns](patterns.md)
 3. [Scenario questions and model answers](scenarios.md)
-4. [Hands-on architecture lab](lab.md)
-5. [References and videos](references.md)
+4. [AWS reference architecture](reference-architecture.md)
+5. [Multi-cloud translation guide](multi-cloud.md)
+6. [Hands-on architecture lab](lab.md)
+7. [AWS implementation guide](implementation-guide.md)
+8. [References and videos](references.md)
 
 ## Architecture quality model
 
