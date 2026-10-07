@@ -94,7 +94,10 @@ Recommended search themes include distributed-system failure modes, overload,
 multi-region consistency, cell-based architecture, safe deployments, and
 Well-Architected reviews.
 
-## Pilot lab implementation references
+## Deferred implementation references
+
+These sources support optional future implementation practice. They are not
+required for the current theory, documentation, and scenario-based pilot.
 
 ### AWS reliability testing guidance
 
@@ -164,8 +167,10 @@ edition before purchasing.
 ## Suggested reading order
 
 1. This module's core concepts and patterns
-2. One cloud Well-Architected framework end to end
-3. Builders' Library articles on timeouts/retries and overload
-4. The SRE chapters on service objectives and handling overload
-5. The hands-on design lab
-6. Relevant chapters from *Designing Data-Intensive Applications* and *Release It!*
+2. The capacity/SLO example and AWS decision matrix
+3. One cloud Well-Architected framework end to end
+4. Builders' Library articles on timeouts/retries and overload
+5. The SRE chapters on service objectives and handling overload
+6. The design lab, scenario drills, and troubleshooting playbook
+7. The timed mock interview and active-recall cards
+8. Relevant chapters from *Designing Data-Intensive Applications* and *Release It!*

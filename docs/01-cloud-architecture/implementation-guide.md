@@ -1,12 +1,18 @@
-# AWS Implementation Guide
+# Deferred Optional Implementation Guide
 
 Last reviewed: **2026-10-04**
 
 Estimated time: **12–20 hours for the core path**
 
-This guide turns the [architecture lab](lab.md) into a staged implementation.
-The companion workspace is `labs/aws/01-cloud-architecture-ticketing` in the
-repository root.
+!!! note "Not required for the interview-preparation path"
+    Executable implementation is deferred to a future optional milestone. The
+    current curriculum prioritizes theory, architecture documentation, and
+    scenario-based interview reasoning. Use the
+    [AWS design walkthrough](design-walkthrough.md) for the active study path.
+
+This archived plan is retained as a future reference so implementation work can
+be recovered without distracting from the current interview curriculum. The
+companion workspace is `labs/aws/01-cloud-architecture-ticketing` in the repository root.
 
 !!! warning "Cost and access"
     Use a dedicated AWS sandbox, short-lived credentials, a budget alert, and

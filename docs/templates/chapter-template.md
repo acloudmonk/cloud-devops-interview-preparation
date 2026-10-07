@@ -45,12 +45,13 @@ Explain semantic differences such as delivery guarantees, ordering,
 consistency, transaction boundaries, scaling, identity, networking, recovery,
 quotas, and pricing. A list of similar service names is not sufficient.
 
-## AWS reference implementation
+## AWS implementation reasoning
 
-Unless the subject is specific to another platform, use AWS for the executable
-reference. Include service-selection rationale, IaC, identity, networking,
-telemetry, validation, cost controls, and teardown. Keep the concept explanation
-vendor neutral.
+Unless the subject is specific to another platform, use AWS for the concrete
+architecture walkthrough. Include service-selection rationale, identity,
+networking, telemetry, validation, cost, and recovery reasoning. Application
+code and cloud deployment are optional future material. Keep the concept
+explanation vendor neutral.
 
 ## Capacity, SLOs, and recovery
 
@@ -75,8 +76,10 @@ Add a runbook or decision tree for the most likely operational failures.
 
 ## Hands-on exercise
 
-Link to a reproducible lab with prerequisites, staged commands, expected
-results, acceptance tests, failure injection, cost controls, and teardown.
+Link to a lightweight design exercise with requirements, assumptions, capacity,
+diagrams, decisions, failure analysis, SLOs, cost, and presentation evidence.
+Do not require code or cloud deployment unless a later milestone explicitly
+adds an optional implementation lab.
 
 ## Knowledge checks
 

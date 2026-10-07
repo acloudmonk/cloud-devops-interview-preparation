@@ -39,8 +39,12 @@ Every major module is designed to contain:
 - security, reliability, operations, and cost considerations;
 - AWS, Azure, and GCP relevance;
 - troubleshooting guidance;
-- hands-on exercises;
+- lightweight design exercises and paper labs;
 - scenario-based questions with architect-level answers;
 - curated documentation, books, talks, and videos.
+
+Executable application and cloud-deployment labs are optional future material.
+The current priority is theoretical depth, architecture reasoning,
+troubleshooting, and scenario-based interview practice.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) before adding or changing content.

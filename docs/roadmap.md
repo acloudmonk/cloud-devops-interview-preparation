@@ -8,8 +8,12 @@ are ordered by dependency and interview value rather than vendor popularity.
 - Documentation site, navigation, templates, and reference standards
 - Thirty-six-point traceability map
 - Cloud Architecture & Distributed Systems pilot
-- Scenario answer framework and hands-on design lab
+- Scenario answer framework, worked examples, and lightweight design lab
 - Automated build and link validation
+
+Executable application and cloud-deployment labs are deferred optional material.
+Milestones prioritize theoretical depth, troubleshooting, architecture decisions,
+scenario practice, revision, and communication.
 
 ## Milestone 2 — Systems and delivery foundations
 

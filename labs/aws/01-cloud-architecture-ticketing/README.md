@@ -1,5 +1,11 @@
 # AWS Ticketing Architecture Lab Workspace
 
+> [!NOTE]
+> **Deferred optional material:** Executable implementation is not required for
+> the current interview-focused curriculum. Use the documentation module's
+> design lab, scenario drills, and AWS design walkthrough. This workspace is
+> retained only for a possible future practical milestone.
+
 This workspace supports the pilot module's
 [AWS implementation guide](../../../docs/01-cloud-architecture/implementation-guide.md).
 It provides safe structure and test artifacts without pretending that
