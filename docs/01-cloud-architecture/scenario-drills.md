@@ -1,5 +1,7 @@
 # Advanced Scenario Drills
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last reviewed: **2026-10-07**
 
 The core scenario page contains 15 model answers. These 12 drills bring the

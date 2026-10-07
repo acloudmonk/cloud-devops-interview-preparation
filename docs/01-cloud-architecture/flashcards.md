@@ -1,5 +1,7 @@
 # Active-Recall Flashcards
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Use these prompts without looking at the answer. Speak for 30–60 seconds, then
 compare your response with the cue. The cue is a minimum, not a script.
 

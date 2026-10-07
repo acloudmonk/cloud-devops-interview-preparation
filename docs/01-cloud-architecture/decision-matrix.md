@@ -1,5 +1,7 @@
 # AWS Architecture Decision Matrix
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last reviewed: **2026-10-07**
 
 Use this matrix to explain selection criteria. Do not recite it as a fixed

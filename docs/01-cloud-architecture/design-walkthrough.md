@@ -1,5 +1,7 @@
 # AWS Design Walkthrough
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last reviewed: **2026-10-07**
 
 This is an interview walkthrough, not a deployment tutorial. Use it to explain

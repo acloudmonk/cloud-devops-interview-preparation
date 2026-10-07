@@ -1,5 +1,7 @@
 # References and Videos
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last verified: **2026-10-04**
 
 The reading path favors durable architecture guidance over product catalogs.

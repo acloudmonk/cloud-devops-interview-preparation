@@ -1,5 +1,7 @@
 # Deferred Optional Implementation Guide
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last reviewed: **2026-10-04**
 
 Estimated time: **12–20 hours for the core path**

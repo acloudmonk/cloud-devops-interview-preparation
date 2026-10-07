@@ -1,5 +1,7 @@
 # Resilience and Integration Patterns
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last reviewed: **2026-09-02**
 
 Patterns are reusable responses to forces and failure modes. They are not

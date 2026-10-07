@@ -1,10 +1,15 @@
-# Hands-on Architecture Lab
+# Architecture Design Exercise
+
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
 
 ## Design for a scheduled ten-times traffic spike
 
 Last reviewed: **2026-10-04**
-Estimated time: **4–6 hours**
-Expected cloud cost: **None for the design-only path**
+Estimated time: **3–4 hours**
+Expected cloud cost: **None**
+
+This is a paper-and-whiteboard exercise. It requires no application code,
+infrastructure deployment, or cloud account.
 
 ## Objective
 

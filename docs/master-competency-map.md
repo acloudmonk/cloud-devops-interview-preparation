@@ -3,6 +3,15 @@
 This map preserves all 36 points from the original preparation plan while
 separating technical modules from the supporting interview system.
 
+## How to use this page
+
+This is a coverage and status index, not the current study order. New learners
+should start with the
+[Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md)
+and follow its numbered module path. Use the
+[study roadmap](roadmap.md) to understand the long-term sequence; entries marked
+**Planned** are scope placeholders, not completed learning modules.
+
 Status values:
 
 - **Pilot complete** — initial concepts, scenarios, lab, and references exist.

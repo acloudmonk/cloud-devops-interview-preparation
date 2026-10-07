@@ -1,5 +1,7 @@
 # Ten-Minute Architecture Presentation
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last reviewed: **2026-10-07**
 
 The goal is not to describe every box. Demonstrate that you can turn ambiguity

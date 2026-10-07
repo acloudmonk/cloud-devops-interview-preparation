@@ -10,6 +10,7 @@ theme:
   features:
     - navigation.indexes
     - navigation.sections
+    - navigation.footer
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -81,7 +82,7 @@ nav:
           - Multi-Cloud Translation: 01-cloud-architecture/multi-cloud.md
           - Capacity & SLO Worked Example: 01-cloud-architecture/capacity-slo-worked-example.md
           - Troubleshooting Playbook: 01-cloud-architecture/troubleshooting-playbook.md
-          - Hands-on Design Lab: 01-cloud-architecture/lab.md
+          - Architecture Design Exercise: 01-cloud-architecture/lab.md
           - AWS Design Walkthrough: 01-cloud-architecture/design-walkthrough.md
           - Ten-Minute Presentation: 01-cloud-architecture/presentation-template.md
           - Rapid-Fire Revision: 01-cloud-architecture/rapid-fire.md

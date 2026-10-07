@@ -1,5 +1,7 @@
 # Architecture Troubleshooting Playbook
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last reviewed: **2026-10-07**
 
 Troubleshooting answers should move from symptom to evidence to mitigation to

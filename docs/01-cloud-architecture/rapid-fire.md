@@ -1,5 +1,7 @@
 # Rapid-Fire Revision
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last reviewed: **2026-10-07**
 
 Answer each in 30–60 seconds. The cue is the minimum idea a strong answer should

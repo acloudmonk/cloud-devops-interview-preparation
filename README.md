@@ -3,6 +3,15 @@
 An architect-level, scenario-driven knowledge base for senior Cloud, DevOps,
 Platform Engineering, SRE, and consulting interviews.
 
+## Start here
+
+The currently available learning path is the
+[Cloud Architecture & Distributed Systems pilot](docs/01-cloud-architecture/index.md).
+Open its module overview and follow the numbered path from **Core Concepts** to
+the scored mock interview. Use the [site home](docs/index.md) for study guidance
+and the [master competency map](docs/master-competency-map.md) to see all 36
+topics and their delivery status.
+
 The curriculum covers AWS, Azure, GCP, Linux, networking, CI/CD, containers,
 Kubernetes, Infrastructure as Code, security, observability, reliability,
 modernization, FinOps, distributed systems, and technical consulting.
