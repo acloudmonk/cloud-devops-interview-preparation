@@ -6,5 +6,6 @@ master map, scenario framework, case studies, roadmap, and mock-interview
 workflow.
 
 Start with [Module 01: Cloud Architecture & Distributed Systems](../01-cloud-architecture/index.md),
-then follow the [study roadmap](../roadmap.md). Every planned module already has
-a tracked landing page so its scope and delivery status remain visible.
+continue to [Module 06: Linux & OS Fundamentals](../06-linux/index.md), then
+follow the [study roadmap](../roadmap.md). Every planned module already has a
+tracked landing page so its scope and delivery status remain visible.

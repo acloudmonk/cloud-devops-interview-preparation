@@ -5,10 +5,10 @@ Platform Engineering, SRE, and consulting interviews.
 
 ## Start here
 
-The currently available learning path is the
-[Cloud Architecture & Distributed Systems pilot](docs/01-cloud-architecture/index.md).
-Open its module overview and follow the numbered path from **Core Concepts** to
-the scored mock interview. Use the [site home](docs/index.md) for study guidance
+Begin with [Cloud Architecture & Distributed Systems](docs/01-cloud-architecture/index.md),
+then continue to [Linux & OS Fundamentals](docs/06-linux/index.md). Follow each
+module's numbered path from concepts to its scored mock interview. Use the
+[site home](docs/index.md) for study guidance
 and the [master competency map](docs/master-competency-map.md) to see all 36
 topics and their delivery status.
 
@@ -18,8 +18,8 @@ modernization, FinOps, distributed systems, and technical consulting.
 
 ## Current status
 
-The documentation foundation and the first pilot module—Cloud Architecture &
-Distributed Systems—are under active development. See the
+The documentation foundation and Cloud Architecture module are complete. The
+Linux & OS Fundamentals module is the current milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation
@@ -27,7 +27,7 @@ Distributed Systems—are under active development. See the
 Two viewing methods are supported:
 
 1. **GitHub Markdown:** Start from the
-   [pilot module overview](docs/01-cloud-architecture/index.md) and follow its
+   [Cloud Architecture module](docs/01-cloud-architecture/index.md) and follow its
    numbered page links. This requires no local setup.
 2. **Local MkDocs site:** Use this when you want full-text search, sidebar and
    previous/next navigation, Mermaid diagrams, and the complete site theme.

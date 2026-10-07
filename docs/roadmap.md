@@ -23,7 +23,7 @@ scenario practice, revision, and communication.
 
 ## Milestone 2 — Systems and delivery foundations
 
-- Linux and operating-system troubleshooting
+- Linux and operating-system troubleshooting — initial release
 - Networking, DNS, HTTP, TLS, routing, and load balancing
 - Git and source-control operating models
 - CI/CD architecture and progressive delivery
