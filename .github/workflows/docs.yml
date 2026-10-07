@@ -1,4 +1,4 @@
-name: Documentation
+name: Documentation validation
 
 on:
   push:
@@ -29,12 +29,6 @@ jobs:
       - name: Build documentation
         run: python -m mkdocs build --strict
 
-      - name: Upload GitHub Pages artifact
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
   markdown:
     runs-on: ubuntu-latest
     steps:
@@ -59,21 +53,3 @@ jobs:
         with:
           args: --config .lychee.toml --no-progress "README.md" "docs/**/*.md"
           fail: true
-
-  deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs:
-      - build
-      - markdown
-      - links
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
