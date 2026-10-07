@@ -74,7 +74,7 @@ Add a runbook or decision tree for the most likely operational failures.
 - Mistake and consequence
 - Mistake and consequence
 
-## Hands-on exercise
+## Architecture design exercise
 
 Link to a lightweight design exercise with requirements, assumptions, capacity,
 diagrams, decisions, failure analysis, SLOs, cost, and presentation evidence.

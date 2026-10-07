@@ -1,4 +1,6 @@
-# Hands-on Labs
+# Optional Practical Labs
 
-Executable and design labs live here. Every lab must document prerequisites,
-estimated cost, validation, security constraints, and complete teardown steps.
+No executable lab is required for the current interview-focused curriculum.
+Future practical labs may live here after a separate milestone is approved.
+Every added lab must document prerequisites, estimated cost, validation,
+security constraints, and complete teardown steps.

@@ -64,7 +64,7 @@ Status values:
 - [ ] Security, reliability, operations, and cost
 - [ ] Cross-cloud relevance
 - [ ] Troubleshooting guide
-- [ ] At least one hands-on lab
+- [ ] At least one scored architecture design exercise
 - [ ] 15–25 scenario-based questions
 - [ ] Rapid-fire revision questions
 - [ ] Curated official documentation

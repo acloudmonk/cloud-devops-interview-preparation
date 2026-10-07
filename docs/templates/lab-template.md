@@ -1,4 +1,4 @@
-# Lab: Title
+# Architecture Design Exercise: Title
 
 ## Objective
 
@@ -6,21 +6,16 @@ Describe the skill or decision the learner will demonstrate.
 
 ## Prerequisites
 
-- Tools
-- Accounts
+- Prior module pages
 - Background knowledge
+- Optional diagramming or note-taking tool
 
-## Cost and safety
+## Scope and cost
 
-State expected cloud cost, credential requirements, data sensitivity, and hard
-limits. Never assume free-tier eligibility.
-
-For the current interview curriculum, default to a no-cost paper/design lab.
-Mark executable or cloud-deployment work as an optional future extension.
-
-Include a sandbox requirement, budget alert, required tags, short-lived
-authentication, service quotas, regional availability, and resources that may
-continue to incur cost after compute stops.
+The default exercise is completed on paper or a whiteboard and has no cloud
+cost. It must not require credentials, application code, infrastructure
+deployment, or a cloud account. Any practical implementation belongs in a
+separately approved future milestone.
 
 ## Scenario
 
@@ -41,32 +36,36 @@ evidence, decision criteria, and interview follow-ups.
 
 ## Deliverables
 
+- Requirements and assumptions table
+- Capacity and service-objective model
 - Architecture diagram
-- Decision record
-- Code or configuration
-- Test evidence
-- Cost estimate
+- Option comparison and decision record
+- Failure-mode and recovery table
+- Security and trust-boundary notes
+- Observability and validation plan
+- Cost drivers and delivery phases
+- Timed verbal presentation
 
 ## Validation
 
-List objective checks and expected results. Validate business invariants,
-duplicate delivery, partial failure, overload behavior, rollback, and measured
-recovery—not only resource health.
+List the questions, calculations, review criteria, and proposed experiments that
+would validate business invariants, duplicate delivery, partial failure,
+overload behavior, rollback, and recovery. The learner designs the evidence;
+running an implementation is not required.
 
 ## Evidence
 
-- Tool and configuration versions
-- Sanitized command/test output
-- Dashboard or trace references
+- Explicit assumptions and sensitivity analysis
 - Architecture Decision Records
-- Proposed load and fault experiment evidence
+- Proposed customer and system signals
+- Proposed load, fault, rollback, and recovery experiments
 - Defensible RTO/RPO and cost model
 
-## Teardown
+## Scoring
 
-List every resource that must be removed and how removal is verified by tag and
-service. Include retained logs, images, backups, snapshots, IP addresses,
-replicas, secrets, keys, and state infrastructure.
+Define observable weak, acceptable, strong, and architect-level signals for
+requirements, trade-offs, correctness, failure handling, security, operations,
+economics, delivery, and communication.
 
 ## Reflection
 

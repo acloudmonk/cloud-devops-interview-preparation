@@ -96,10 +96,10 @@ Recommended search themes include distributed-system failure modes, overload,
 multi-region consistency, cell-based architecture, safe deployments, and
 Well-Architected reviews.
 
-## Deferred implementation references
+## AWS architecture and resilience references
 
-These sources support optional future implementation practice. They are not
-required for the current theory, documentation, and scenario-based pilot.
+Use these sources to deepen the reasoning in the design exercise and scenario
+answers. They are supporting references, not deployment instructions.
 
 ### AWS reliability testing guidance
 
@@ -127,24 +127,6 @@ required for the current theory, documentation, and scenario-based pilot.
 - **Why:** Demonstrates admission control with CloudFront Functions, AWS WAF,
   CloudWatch, and an S3 waiting-room origin.
 - **Link:** [Visitor prioritization with CloudFront and CloudFront Functions](https://aws.amazon.com/blogs/networking-and-content-delivery/visitor-prioritization-on-e-commerce-websites-with-cloudfront-and-cloudfront-functions/)
-
-### Virtual Waiting Room on AWS
-
-- **Source:** Amazon Web Services
-- **Type:** Archived solution
-- **Lifecycle:** **Discontinued; do not use for a new implementation**
-- **Replacement:** Use the CloudFront visitor-prioritization pattern above and
-  validate it against current requirements.
-- **Link:** [Virtual Waiting Room on AWS lifecycle notice](https://aws.amazon.com/solutions/implementations/virtual-waiting-room-on-aws/)
-
-### Distributed Load Testing on AWS
-
-- **Source:** Amazon Web Services
-- **Type:** Optional managed solution
-- **Lifecycle:** Verify version and cost before deployment
-- **Why:** Provides a distributed path when a workstation cannot generate the
-  required test load; the core lab uses local k6 first.
-- **Link:** [Distributed Load Testing on AWS](https://docs.aws.amazon.com/solutions/latest/distributed-load-testing-on-aws/solution-overview.html)
 
 ### AWS Fault Injection Service
 

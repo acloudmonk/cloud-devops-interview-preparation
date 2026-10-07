@@ -3,8 +3,8 @@
 AWS exercises must use a dedicated sandbox and include budget and teardown
 guidance. Never assume free-tier eligibility.
 
-## Available labs
+## Current status
 
-- [Cloud architecture ticketing lab](01-cloud-architecture-ticketing/README.md) —
-  phased ECS, DynamoDB, SQS, edge admission, observability, load, and recovery
-  practice for the pilot module.
+No executable AWS lab is part of the current interview-focused curriculum.
+Future practical milestones must be proposed and reviewed on a feature branch
+before being listed here.

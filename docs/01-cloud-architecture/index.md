@@ -72,12 +72,6 @@ By the end of the module, you should be able to:
 - [ ] I can present the recommendation, trade-offs, and failure behavior in ten minutes.
 - [ ] I completed the mock interview and recorded evidence for weak dimensions.
 
-## Deferred optional material
-
-The [implementation guide](implementation-guide.md) is retained for a possible
-future practical milestone. It is not part of the numbered interview-preparation
-path and is not required to complete this module.
-
 ## Architecture quality model
 
 Architecture is a set of decisions made under constraints. A useful design
