@@ -1,10 +1,15 @@
-# Hands-on Architecture Lab
+# Architecture Design Exercise
+
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
 
 ## Design for a scheduled ten-times traffic spike
 
 Last reviewed: **2026-10-04**
-Estimated time: **4–6 hours**
-Expected cloud cost: **None for the design-only path**
+Estimated time: **3–4 hours**
+Expected cloud cost: **None**
+
+This is a paper-and-whiteboard exercise. It requires no application code,
+infrastructure deployment, or cloud account.
 
 ## Objective
 
@@ -131,13 +136,13 @@ twelve-week incremental delivery plan with risk-reduction milestones.
 | Cost | 10% | Cost drivers, unit cost, elasticity, trade-offs |
 | Communication | 10% | Explicit assumptions, rationale, risks, phased plan |
 
-## Optional implementation path
+## Interview walkthrough path
 
-Continue with the staged [AWS implementation guide](implementation-guide.md)
-and the `labs/aws/01-cloud-architecture-ticketing` workspace in the repository.
-Prove correctness locally before provisioning AWS, then add the
-single-Region core, admission controls, delivery, observability, load testing,
-failure experiments, and measured recovery.
+Continue with the [AWS design walkthrough](design-walkthrough.md), the
+[worked capacity example](capacity-slo-worked-example.md), and the
+[ten-minute presentation template](presentation-template.md). Explain how you
+would validate correctness, overload behavior, observability, and recovery; no
+application code or cloud deployment is required for the current curriculum.
 
 Use [AWS reference architecture](reference-architecture.md) for service
 selection and [multi-cloud translation](multi-cloud.md) when evaluating Azure

@@ -1,5 +1,7 @@
 # References and Videos
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last verified: **2026-10-04**
 
 The reading path favors durable architecture guidance over product catalogs.
@@ -94,7 +96,10 @@ Recommended search themes include distributed-system failure modes, overload,
 multi-region consistency, cell-based architecture, safe deployments, and
 Well-Architected reviews.
 
-## Pilot lab implementation references
+## AWS architecture and resilience references
+
+Use these sources to deepen the reasoning in the design exercise and scenario
+answers. They are supporting references, not deployment instructions.
 
 ### AWS reliability testing guidance
 
@@ -123,24 +128,6 @@ Well-Architected reviews.
   CloudWatch, and an S3 waiting-room origin.
 - **Link:** [Visitor prioritization with CloudFront and CloudFront Functions](https://aws.amazon.com/blogs/networking-and-content-delivery/visitor-prioritization-on-e-commerce-websites-with-cloudfront-and-cloudfront-functions/)
 
-### Virtual Waiting Room on AWS
-
-- **Source:** Amazon Web Services
-- **Type:** Archived solution
-- **Lifecycle:** **Discontinued; do not use for a new implementation**
-- **Replacement:** Use the CloudFront visitor-prioritization pattern above and
-  validate it against current requirements.
-- **Link:** [Virtual Waiting Room on AWS lifecycle notice](https://aws.amazon.com/solutions/implementations/virtual-waiting-room-on-aws/)
-
-### Distributed Load Testing on AWS
-
-- **Source:** Amazon Web Services
-- **Type:** Optional managed solution
-- **Lifecycle:** Verify version and cost before deployment
-- **Why:** Provides a distributed path when a workstation cannot generate the
-  required test load; the core lab uses local k6 first.
-- **Link:** [Distributed Load Testing on AWS](https://docs.aws.amazon.com/solutions/latest/distributed-load-testing-on-aws/solution-overview.html)
-
 ### AWS Fault Injection Service
 
 - **Source:** Amazon Web Services
@@ -164,8 +151,10 @@ edition before purchasing.
 ## Suggested reading order
 
 1. This module's core concepts and patterns
-2. One cloud Well-Architected framework end to end
-3. Builders' Library articles on timeouts/retries and overload
-4. The SRE chapters on service objectives and handling overload
-5. The hands-on design lab
-6. Relevant chapters from *Designing Data-Intensive Applications* and *Release It!*
+2. The capacity/SLO example and AWS decision matrix
+3. One cloud Well-Architected framework end to end
+4. Builders' Library articles on timeouts/retries and overload
+5. The SRE chapters on service objectives and handling overload
+6. The design lab, scenario drills, and troubleshooting playbook
+7. The timed mock interview and active-recall cards
+8. Relevant chapters from *Designing Data-Intensive Applications* and *Release It!*

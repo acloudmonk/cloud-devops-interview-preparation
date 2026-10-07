@@ -1,10 +1,15 @@
 # Scenario Questions and Model Answers
 
+[← Module overview](index.md) · [Master competency map](../master-competency-map.md)
+
 Last reviewed: **2026-10-04**
 
 Answer each prompt aloud before reading the model answer. Use the
 [CLEAR-DOC framework](../interview-playbook/scenario-answer-framework.md)
 and challenge any unstated assumptions.
+
+After completing these 15 core scenarios, continue with the
+[12 advanced scenario drills](scenario-drills.md) for a total of 27.
 
 ## 1. Ten-times traffic spike
 

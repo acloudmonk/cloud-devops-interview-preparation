@@ -1,4 +1,4 @@
-# Lab: Title
+# Architecture Design Exercise: Title
 
 ## Objective
 
@@ -6,18 +6,16 @@ Describe the skill or decision the learner will demonstrate.
 
 ## Prerequisites
 
-- Tools
-- Accounts
+- Prior module pages
 - Background knowledge
+- Optional diagramming or note-taking tool
 
-## Cost and safety
+## Scope and cost
 
-State expected cloud cost, credential requirements, data sensitivity, and hard
-limits. Never assume free-tier eligibility.
-
-Include a sandbox requirement, budget alert, required tags, short-lived
-authentication, service quotas, regional availability, and resources that may
-continue to incur cost after compute stops.
+The default exercise is completed on paper or a whiteboard and has no cloud
+cost. It must not require credentials, application code, infrastructure
+deployment, or a cloud account. Any practical implementation belongs in a
+separately approved future milestone.
 
 ## Scenario
 
@@ -25,45 +23,49 @@ Provide business context, constraints, and non-functional requirements.
 
 ## Tasks
 
-For every phase include the goal, exact command or configuration direction,
-expected result, objective checkpoint, troubleshooting notes, and cleanup.
+For every phase include the question being answered, assumptions, expected
+evidence, decision criteria, and interview follow-ups.
 
 1. Quantify requirements, invariants, capacity, SLOs, RTO, and RPO.
-2. Prove correctness locally before creating cloud resources.
-3. Provision the AWS reference with IaC unless another cloud is topic-specific.
-4. Add identity, network, data protection, and secret controls.
-5. Add delivery, observability, and rollback.
-6. Run load, failure, and recovery tests with bounded blast radius.
+2. Explain how correctness would be validated under concurrency and retries.
+3. Produce an AWS reference design unless another cloud is topic-specific.
+4. Add identity, network, data protection, and trust boundaries.
+5. Explain delivery, observability, rollback, and ownership.
+6. Design load, failure, and recovery experiments with bounded blast radius.
 7. Translate relevant capabilities to Azure and GCP by semantics.
 
 ## Deliverables
 
+- Requirements and assumptions table
+- Capacity and service-objective model
 - Architecture diagram
-- Decision record
-- Code or configuration
-- Test evidence
-- Cost estimate
+- Option comparison and decision record
+- Failure-mode and recovery table
+- Security and trust-boundary notes
+- Observability and validation plan
+- Cost drivers and delivery phases
+- Timed verbal presentation
 
 ## Validation
 
-List objective checks and expected results. Validate business invariants,
-duplicate delivery, partial failure, overload behavior, rollback, and measured
-recovery—not only resource health.
+List the questions, calculations, review criteria, and proposed experiments that
+would validate business invariants, duplicate delivery, partial failure,
+overload behavior, rollback, and recovery. The learner designs the evidence;
+running an implementation is not required.
 
 ## Evidence
 
-- Tool and configuration versions
-- Sanitized command/test output
-- Dashboard or trace references
+- Explicit assumptions and sensitivity analysis
 - Architecture Decision Records
-- Load and fault experiment reports
-- Measured RTO/RPO and cost
+- Proposed customer and system signals
+- Proposed load, fault, rollback, and recovery experiments
+- Defensible RTO/RPO and cost model
 
-## Teardown
+## Scoring
 
-List every resource that must be removed and how removal is verified by tag and
-service. Include retained logs, images, backups, snapshots, IP addresses,
-replicas, secrets, keys, and state infrastructure.
+Define observable weak, acceptable, strong, and architect-level signals for
+requirements, trade-offs, correctness, failure handling, security, operations,
+economics, delivery, and communication.
 
 ## Reflection
 

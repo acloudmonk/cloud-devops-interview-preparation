@@ -9,16 +9,25 @@ Knowing that a service exists is useful; knowing when it is appropriate, how it
 fails, how it is secured and operated, and what it costs is architect-level
 knowledge.
 
+!!! tip "Start the available course here"
+    Open the [Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md)
+    and follow its numbered learning path. It is the only complete module in
+    the current release; other numbered modules are visible placeholders for
+    future milestones.
+
 ## How to use this knowledge base
 
-1. Review the [master competency map](master-competency-map.md).
-2. Follow the [study roadmap](roadmap.md) or select a weak area.
-3. Read the module concepts without memorizing service lists.
-4. Complete its design or troubleshooting lab.
-5. Answer its scenarios aloud before reading the model answer.
+1. Begin at the [pilot module overview](01-cloud-architecture/index.md).
+2. Follow the numbered module path; use the
+   [master competency map](master-competency-map.md) only to inspect broader
+   coverage and status.
+3. Read the concepts without memorizing service lists.
+4. Complete the design and troubleshooting exercises.
+5. Answer scenarios aloud before reading the model answer.
 6. Score yourself using the
    [scenario answer framework](interview-playbook/scenario-answer-framework.md).
-7. Revisit weak decisions with the linked primary sources.
+7. Finish with active recall and the timed mock interview.
+8. Revisit weak decisions with the linked primary sources.
 
 ## Architect decision loop
 

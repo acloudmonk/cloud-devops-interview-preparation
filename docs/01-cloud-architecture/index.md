@@ -1,12 +1,21 @@
 # Cloud Architecture & Distributed Systems
 
-Last reviewed: **2026-10-04**
+[← Curriculum overview](../curriculum/index.md) ·
+[Master competency map](../master-competency-map.md)
+
+Last reviewed: **2026-10-07**
 Level: **Architect**
 
 This pilot module builds the vendor-neutral reasoning needed before selecting
 AWS, Azure, GCP, Kubernetes, database, or messaging services. AWS provides the
 reference implementation; the same decisions are translated to Azure and
 Google Cloud by capability and behavior.
+
+!!! tip "Where to start"
+    Start with **1. Core concepts** below and complete the pages in numbered
+    order. The path separates learning, application, and assessment so you know
+    when to read, practise, and test yourself. No cloud account or code is
+    required.
 
 ## Learning objectives
 
@@ -22,16 +31,46 @@ By the end of the module, you should be able to:
 - design safe incremental delivery and recovery mechanisms;
 - present architecture decisions, alternatives, evidence, and trade-offs clearly.
 
-## Module path
+## Recommended module path
 
-1. [Core concepts](concepts.md)
-2. [Resilience and integration patterns](patterns.md)
-3. [Scenario questions and model answers](scenarios.md)
-4. [AWS reference architecture](reference-architecture.md)
-5. [Multi-cloud translation guide](multi-cloud.md)
-6. [Hands-on architecture lab](lab.md)
-7. [AWS implementation guide](implementation-guide.md)
-8. [References and videos](references.md)
+### Phase 1 — Learn the foundations
+
+| Step | Page | Outcome |
+| ---: | --- | --- |
+| 1 | [Core concepts](concepts.md) | Establish precise architecture vocabulary |
+| 2 | [Resilience and integration patterns](patterns.md) | Understand when patterns help and how they fail |
+| 3 | [Capacity, SLO, RTO, and RPO example](capacity-slo-worked-example.md) | Turn business language into measurable targets |
+| 4 | [AWS reference architecture](reference-architecture.md) | Connect the vendor-neutral model to an AWS design |
+| 5 | [AWS decision matrix](decision-matrix.md) | Compare credible service choices |
+| 6 | [Multi-cloud translation guide](multi-cloud.md) | Translate behavior without treating services as identical |
+| 7 | [Architecture troubleshooting playbook](troubleshooting-playbook.md) | Move from symptom to evidence, mitigation, and prevention |
+
+### Phase 2 — Apply the reasoning
+
+| Step | Page | Outcome |
+| ---: | --- | --- |
+| 8 | [Architecture design exercise](lab.md) | Create your answer before seeing the walkthrough; no deployment required |
+| 9 | [AWS design walkthrough](design-walkthrough.md) | Compare decisions with a reasoned example, not one model answer |
+| 10 | [Scenario questions and model answers](scenarios.md) | Answer 15 core questions aloud before reading each answer |
+| 11 | [Advanced scenario drills](scenario-drills.md) | Practise 12 ambiguous and failure-oriented follow-ups |
+| 12 | [Ten-minute presentation](presentation-template.md) | Present decisions and trade-offs instead of describing boxes |
+
+### Phase 3 — Revise and assess
+
+| Step | Page | Outcome |
+| ---: | --- | --- |
+| 13 | [Rapid-fire revision](rapid-fire.md) | Check concise verbal recall |
+| 14 | [Active-recall flashcards](flashcards.md) | Revisit weak concepts using spaced repetition |
+| 15 | [Timed mock interview](../mock-interviews/cloud-architecture.md) | Complete the 50-minute assessment and record the score |
+| 16 | [References and videos](references.md) | Deepen weak areas with primary and durable sources |
+
+## Completion checklist
+
+- [ ] I can explain every learning objective without reading the page.
+- [ ] I completed the design lab before reading the walkthrough.
+- [ ] I answered all 27 scenarios aloud.
+- [ ] I can present the recommendation, trade-offs, and failure behavior in ten minutes.
+- [ ] I completed the mock interview and recorded evidence for weak dimensions.
 
 ## Architecture quality model
 

@@ -3,13 +3,23 @@
 The roadmap doubles as a study sequence and a repository delivery plan. Topics
 are ordered by dependency and interview value rather than vendor popularity.
 
+!!! info "Current learner route"
+    Only the [Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md)
+    is complete in the current release. Follow that module's numbered path now.
+    The milestones and 24-week sequence below describe the intended full
+    curriculum as future modules are delivered.
+
 ## Milestone 1 — Foundation and pilot
 
 - Documentation site, navigation, templates, and reference standards
 - Thirty-six-point traceability map
 - Cloud Architecture & Distributed Systems pilot
-- Scenario answer framework and hands-on design lab
+- Scenario answer framework, worked examples, and lightweight design lab
 - Automated build and link validation
+
+Executable application and cloud-deployment labs are deferred optional material.
+Milestones prioritize theoretical depth, troubleshooting, architecture decisions,
+scenario practice, revision, and communication.
 
 ## Milestone 2 — Systems and delivery foundations
 
