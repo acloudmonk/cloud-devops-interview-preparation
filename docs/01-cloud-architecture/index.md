@@ -6,7 +6,7 @@
 Last reviewed: **2026-10-07**
 Level: **Architect**
 
-This pilot module builds the vendor-neutral reasoning needed before selecting
+This foundational module builds the vendor-neutral reasoning needed before selecting
 AWS, Azure, GCP, Kubernetes, database, or messaging services. AWS provides the
 reference implementation; the same decisions are translated to Azure and
 Google Cloud by capability and behavior.

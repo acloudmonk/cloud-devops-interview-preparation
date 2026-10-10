@@ -5,7 +5,7 @@
 Last reviewed: **2026-10-07**
 
 The core scenario page contains 15 model answers. These 12 drills bring the
-pilot total to 27 scenarios. Answer each aloud with CLEAR-DOC before opening the
+module total to 27 scenarios. Answer each aloud with CLEAR-DOC before opening the
 answer outline. The outline is a reasoning spine, not a script.
 
 ## 16. Hot partition during ticket release
