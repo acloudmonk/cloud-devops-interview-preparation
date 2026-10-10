@@ -192,7 +192,23 @@ nav:
           - Rapid-Fire Revision: 11-kubernetes/rapid-fire.md
           - Active-Recall Flashcards: 11-kubernetes/flashcards.md
           - References & Videos: 11-kubernetes/references.md
-      - 12 Kubernetes Ecosystem: 12-kubernetes-ecosystem/index.md
+      - 12 Kubernetes Ecosystem:
+          - Module Overview: 12-kubernetes-ecosystem/index.md
+          - Ecosystem Decision Model: 12-kubernetes-ecosystem/concepts.md
+          - Packaging & Customization: 12-kubernetes-ecosystem/packaging-customization.md
+          - GitOps & Reconciliation: 12-kubernetes-ecosystem/gitops.md
+          - CNI, eBPF & Network Platforms: 12-kubernetes-ecosystem/networking-ebpf.md
+          - Gateway API & Service Mesh: 12-kubernetes-ecosystem/gateway-service-mesh.md
+          - Autoscaling & Capacity: 12-kubernetes-ecosystem/autoscaling-capacity.md
+          - Policy, Secrets & Certificates: 12-kubernetes-ecosystem/policy-secrets.md
+          - Operators & Ecosystem Operations: 12-kubernetes-ecosystem/operators-operations.md
+          - Platform Ecosystem Design Exercise: 12-kubernetes-ecosystem/design-exercise.md
+          - Scenario Questions: 12-kubernetes-ecosystem/scenarios.md
+          - Advanced Incident Drills: 12-kubernetes-ecosystem/scenario-drills.md
+          - Ten-Minute Ecosystem Review: 12-kubernetes-ecosystem/presentation-template.md
+          - Rapid-Fire Revision: 12-kubernetes-ecosystem/rapid-fire.md
+          - Active-Recall Flashcards: 12-kubernetes-ecosystem/flashcards.md
+          - References & Videos: 12-kubernetes-ecosystem/references.md
       - 13 Terraform & IaC: 13-terraform/index.md
       - 14 Ansible: 14-ansible/index.md
       - 15 DevSecOps: 15-devsecops/index.md
@@ -223,6 +239,7 @@ nav:
       - CI/CD Mock Interview: mock-interviews/cicd-progressive-delivery.md
       - Container Engineering Mock Interview: mock-interviews/docker-container-engineering.md
       - Kubernetes Platform Mock Interview: mock-interviews/kubernetes-platform.md
+      - Kubernetes Ecosystem Mock Interview: mock-interviews/kubernetes-ecosystem.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

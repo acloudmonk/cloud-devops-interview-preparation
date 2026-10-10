@@ -27,5 +27,8 @@ analysis, trade-offs, and executive communication.
 - [Kubernetes platform architecture](kubernetes-platform.md) — a 50-minute API,
   workload, scheduling, traffic, state, EKS, security, upgrade, and recovery
   interview.
+- [Kubernetes ecosystem architecture](kubernetes-ecosystem.md) — a 50-minute
+  packaging, GitOps, networking, traffic, scaling, policy, secrets, operator,
+  and add-on lifecycle interview.
 
 More interviews will be added only after the pilot format has been reviewed.
