@@ -72,7 +72,7 @@ component maturity, service limits, retention, and pricing before a real design.
 - [Azure Managed Grafana](https://learn.microsoft.com/en-us/azure/managed-grafana/overview)
 - [Google Cloud Observability](https://cloud.google.com/products/observability)
 - [Google Cloud Managed Service for Prometheus](https://cloud.google.com/stackdriver/docs/managed-prometheus)
-- [Google Cloud OpenTelemetry](https://cloud.google.com/trace/docs/setup/ot)
+- [Google Cloud: Instrument for Cloud Trace](https://docs.cloud.google.com/trace/docs/setup)
 
 ## Video channels
 
