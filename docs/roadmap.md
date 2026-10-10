@@ -45,7 +45,7 @@ scenario practice, revision, and communication.
 ## Milestone 5 — Security, reliability, and economics
 
 - DevSecOps and software supply-chain security — initial release
-- Zero Trust architecture
+- Zero Trust architecture — initial release
 - Observability and OpenTelemetry
 - Site Reliability Engineering
 - High availability, disaster recovery, and business continuity

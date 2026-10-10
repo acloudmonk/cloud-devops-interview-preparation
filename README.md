@@ -25,8 +25,8 @@ modernization, FinOps, distributed systems, and technical consulting.
 
 The documentation foundation and the Cloud Architecture, Linux, Networking,
 Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, Terraform/OpenTofu,
-Ansible, and DevSecOps modules are complete initial releases. Zero Trust
-Architecture is the next planned milestone. See the
+Ansible, DevSecOps, and Zero Trust Architecture modules are complete initial
+releases. Observability is the next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation
