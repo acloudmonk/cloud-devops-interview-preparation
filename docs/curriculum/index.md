@@ -10,6 +10,7 @@ continue to [Module 06: Linux & OS Fundamentals](../06-linux/index.md), then
 study [Module 07: Cloud Networking & DNS](../07-networking/index.md) and
 [Module 08: Git & Source-Control Strategy](../08-git/index.md), then complete
 [Module 09: CI/CD & Progressive Delivery](../09-cicd/index.md), followed by
-[Module 10: Docker & Container Engineering](../10-docker/index.md). Afterward,
-follow the [study roadmap](../roadmap.md). Every planned module already has a
-tracked landing page so its scope and delivery status remain visible.
+[Module 10: Docker & Container Engineering](../10-docker/index.md), then complete
+[Module 11: Kubernetes](../11-kubernetes/index.md). Afterward, follow the
+[study roadmap](../roadmap.md). Every planned module already has a tracked landing
+page so its scope and delivery status remain visible.

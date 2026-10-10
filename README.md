@@ -10,8 +10,9 @@ continue to [Linux & OS Fundamentals](docs/06-linux/index.md), and then study
 [Cloud Networking & DNS](docs/07-networking/index.md) followed by
 [Git & Source-Control Strategy](docs/08-git/index.md), then
 [CI/CD & Progressive Delivery](docs/09-cicd/index.md), followed by
-[Docker & Container Engineering](docs/10-docker/index.md). Follow each module's
-numbered path from concepts to its scored mock interview. Use the
+[Docker & Container Engineering](docs/10-docker/index.md), then
+[Kubernetes](docs/11-kubernetes/index.md). Follow each module's numbered path
+from concepts to its scored mock interview. Use the
 [site home](docs/index.md) for study guidance and the
 [master competency map](docs/master-competency-map.md) to see all 36 topics and
 their delivery status.
@@ -23,8 +24,8 @@ modernization, FinOps, distributed systems, and technical consulting.
 ## Current status
 
 The documentation foundation and the Cloud Architecture, Linux, Networking,
-Git, CI/CD, and Docker modules are complete initial releases. Kubernetes is the
-next planned milestone. See the
+Git, CI/CD, Docker, and Kubernetes modules are complete initial releases. The
+Kubernetes Ecosystem is the next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation
