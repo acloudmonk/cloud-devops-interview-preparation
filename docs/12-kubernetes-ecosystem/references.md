@@ -55,8 +55,8 @@ and test upgrade and removal paths before making a production decision.
 - [Istio architecture](https://istio.io/latest/docs/ops/deployment/architecture/)
   and [Gateway API support](https://istio.io/latest/docs/tasks/traffic-management/ingress/gateway-api/)
   — mesh control/data planes and standards-based traffic configuration.
-- [Linkerd architecture](https://linkerd.io/2/features/architecture/)
-  and [Gateway API support](https://linkerd.io/2/features/gateway-api/)
+- [Linkerd architecture](https://linkerd.io/docs/reference/architecture/)
+  and [Gateway API support](https://linkerd.io/docs/features/gateway-api/)
   — a contrasting mesh architecture and its use of Gateway API resources.
 
 ## Autoscaling and capacity
@@ -79,7 +79,7 @@ and test upgrade and removal paths before making a production decision.
 - [Kubernetes admission controllers](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/)
   and [Pod Security Admission](https://kubernetes.io/docs/concepts/security/pod-security-admission/)
   — built-in validation, enforcement modes, exemptions, and failure implications.
-- [Kyverno policy types](https://kyverno.io/docs/policy-types/)
+- [Kyverno policy types](https://kyverno.io/docs/policy-types/overview/)
   and [applying policies](https://kyverno.io/docs/guides/applying-policies/)
   — validation, mutation, generation, image verification, audit, and pipeline checks.
 - [OPA for Kubernetes admission](https://www.openpolicyagent.org/docs/kubernetes)
