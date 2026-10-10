@@ -18,8 +18,9 @@ knowledge.
     [CI/CD & Progressive Delivery](09-cicd/index.md), followed by
     [Docker & Container Engineering](10-docker/index.md), then
     [Kubernetes](11-kubernetes/index.md), followed by
-    [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md). Other numbered
-    modules remain visible scope placeholders for future milestones.
+    [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md), then
+    [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md).
+    Other numbered modules remain visible scope placeholders for future milestones.
 
 ## How to use this knowledge base
 
@@ -53,8 +54,9 @@ flowchart LR
 The current release contains the repository foundation, Cloud Architecture &
 Distributed Systems, Linux & OS Fundamentals, Cloud Networking & DNS, Git &
 Source-Control Strategy, CI/CD & Progressive Delivery, Docker & Container
-Engineering, Kubernetes, and Kubernetes Ecosystem. Remaining modules are tracked
-in the competency map and will be delivered in priority waves.
+Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
+Infrastructure as Code. Remaining modules are tracked in the competency map and
+will be delivered in priority waves.
 
 !!! note "Version-aware content"
     Cloud services and open-source platforms change continuously. Each module

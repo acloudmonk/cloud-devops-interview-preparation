@@ -8,8 +8,9 @@ separating technical modules from the supporting interview system.
 This is a coverage and status index, not the current study order. New learners
 should start with the
 [Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md),
-then follow the available Linux, Networking, Git, CI/CD, Docker, Kubernetes, and
-Kubernetes Ecosystem module paths. Use the
+then follow the available Linux, Networking, Git, CI/CD, Docker, Kubernetes,
+Kubernetes Ecosystem, and Terraform/OpenTofu Infrastructure as Code module
+paths. Use the
 [study roadmap](roadmap.md) to understand the long-term sequence; entries marked
 **Planned** are scope placeholders, not completed learning modules.
 
@@ -35,7 +36,7 @@ Status values:
 | 11 | Docker | [10 — Docker & Container Engineering](10-docker/index.md) | Initial release |
 | 12 | Kubernetes | [11 — Kubernetes](11-kubernetes/index.md) | Initial release |
 | 13 | Kubernetes Ecosystem | [12 — Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md) | Initial release |
-| 14 | Terraform / IaC | [13 — Terraform & Infrastructure as Code](13-terraform/index.md) | Planned |
+| 14 | Terraform / IaC | [13 — Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md) | Initial release |
 | 15 | Ansible | [14 — Ansible & Configuration Management](14-ansible/index.md) | Planned |
 | 16 | DevSecOps | [15 — DevSecOps & Software Supply Chain](15-devsecops/index.md) | Planned |
 | 17 | Zero Trust Architecture | [16 — Zero Trust Architecture](16-zero-trust/index.md) | Planned |

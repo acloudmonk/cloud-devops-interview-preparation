@@ -11,7 +11,9 @@ are ordered by dependency and interview value rather than vendor popularity.
     [CI/CD & Progressive Delivery](09-cicd/index.md), followed by
     [Docker & Container Engineering](10-docker/index.md), then
     [Kubernetes](11-kubernetes/index.md), followed by
-    [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md). The milestones and
+    [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md), then
+    [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md). The
+    milestones and
     24-week sequence below describe the intended full curriculum.
 
 ## Milestone 1 — Foundation and pilot
@@ -38,7 +40,7 @@ scenario practice, revision, and communication.
 
 - Kubernetes fundamentals, advanced operations, networking, and security — initial release
 - Helm, Kustomize, Argo CD, Flux, service mesh, policy, and secrets — initial release
-- Terraform/OpenTofu and cloud-native Infrastructure as Code
+- Terraform/OpenTofu and cloud-native Infrastructure as Code — initial release
 - Ansible and configuration management
 
 ## Milestone 4 — Cloud architecture

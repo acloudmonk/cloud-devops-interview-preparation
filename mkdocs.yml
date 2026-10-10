@@ -209,7 +209,24 @@ nav:
           - Rapid-Fire Revision: 12-kubernetes-ecosystem/rapid-fire.md
           - Active-Recall Flashcards: 12-kubernetes-ecosystem/flashcards.md
           - References & Videos: 12-kubernetes-ecosystem/references.md
-      - 13 Terraform & IaC: 13-terraform/index.md
+      - 13 Terraform, OpenTofu & IaC:
+          - Module Overview: 13-terraform/index.md
+          - IaC Decision Model: 13-terraform/concepts.md
+          - Configuration & Workflow: 13-terraform/configuration-workflow.md
+          - State & Backends: 13-terraform/state-backends.md
+          - Module Contracts: 13-terraform/modules-contracts.md
+          - Environments & Repository Architecture: 13-terraform/environments-architecture.md
+          - Providers & Workload Identity: 13-terraform/providers-identity.md
+          - Testing, Policy & Security: 13-terraform/testing-policy-security.md
+          - Automation & Operations: 13-terraform/automation-operations.md
+          - Terraform & OpenTofu: 13-terraform/terraform-opentofu.md
+          - IaC Platform Design Exercise: 13-terraform/design-exercise.md
+          - Scenario Questions: 13-terraform/scenarios.md
+          - Advanced Incident Drills: 13-terraform/scenario-drills.md
+          - Ten-Minute IaC Review: 13-terraform/presentation-template.md
+          - Rapid-Fire Revision: 13-terraform/rapid-fire.md
+          - Active-Recall Flashcards: 13-terraform/flashcards.md
+          - References & Videos: 13-terraform/references.md
       - 14 Ansible: 14-ansible/index.md
       - 15 DevSecOps: 15-devsecops/index.md
       - 16 Zero Trust: 16-zero-trust/index.md
@@ -240,6 +257,7 @@ nav:
       - Container Engineering Mock Interview: mock-interviews/docker-container-engineering.md
       - Kubernetes Platform Mock Interview: mock-interviews/kubernetes-platform.md
       - Kubernetes Ecosystem Mock Interview: mock-interviews/kubernetes-ecosystem.md
+      - Terraform & OpenTofu Mock Interview: mock-interviews/terraform-iac.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md
