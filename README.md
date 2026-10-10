@@ -8,7 +8,8 @@ Platform Engineering, SRE, and consulting interviews.
 Begin with [Cloud Architecture & Distributed Systems](docs/01-cloud-architecture/index.md),
 continue to [Linux & OS Fundamentals](docs/06-linux/index.md), and then study
 [Cloud Networking & DNS](docs/07-networking/index.md) followed by
-[Git & Source-Control Strategy](docs/08-git/index.md). Follow each module's
+[Git & Source-Control Strategy](docs/08-git/index.md), then
+[CI/CD & Progressive Delivery](docs/09-cicd/index.md). Follow each module's
 numbered path from concepts to its scored mock interview. Use the
 [site home](docs/index.md) for study guidance and the
 [master competency map](docs/master-competency-map.md) to see all 36 topics and
@@ -20,8 +21,9 @@ modernization, FinOps, distributed systems, and technical consulting.
 
 ## Current status
 
-The documentation foundation, Cloud Architecture, Linux, and Networking modules
-are complete. Git & Source-Control Strategy is the current milestone. See the
+The documentation foundation and the Cloud Architecture, Linux, Networking,
+Git, and CI/CD modules are complete initial releases. Docker & Container
+Engineering is the next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation

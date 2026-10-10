@@ -18,5 +18,8 @@ analysis, trade-offs, and executive communication.
   and multi-cloud translation.
 - [Git and source-control strategy](git-source-control.md) — a 50-minute workflow,
   governance, security, repository architecture, and recovery interview.
+- [CI/CD and progressive delivery](cicd-progressive-delivery.md) — a 50-minute
+  pipeline, supply-chain, workload-identity, rollout, data-change, and recovery
+  interview.
 
 More interviews will be added only after the pilot format has been reviewed.
