@@ -6,11 +6,12 @@ Platform Engineering, SRE, and consulting interviews.
 ## Start here
 
 Begin with [Cloud Architecture & Distributed Systems](docs/01-cloud-architecture/index.md),
-then continue to [Linux & OS Fundamentals](docs/06-linux/index.md). Follow each
-module's numbered path from concepts to its scored mock interview. Use the
-[site home](docs/index.md) for study guidance
-and the [master competency map](docs/master-competency-map.md) to see all 36
-topics and their delivery status.
+continue to [Linux & OS Fundamentals](docs/06-linux/index.md), and then study
+[Cloud Networking & DNS](docs/07-networking/index.md). Follow each module's
+numbered path from concepts to its scored mock interview. Use the
+[site home](docs/index.md) for study guidance and the
+[master competency map](docs/master-competency-map.md) to see all 36 topics and
+their delivery status.
 
 The curriculum covers AWS, Azure, GCP, Linux, networking, CI/CD, containers,
 Kubernetes, Infrastructure as Code, security, observability, reliability,
@@ -18,8 +19,8 @@ modernization, FinOps, distributed systems, and technical consulting.
 
 ## Current status
 
-The documentation foundation and Cloud Architecture module are complete. The
-Linux & OS Fundamentals module is the current milestone. See the
+The documentation foundation, Cloud Architecture, and Linux modules are
+complete. Cloud Networking & DNS is the current milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation

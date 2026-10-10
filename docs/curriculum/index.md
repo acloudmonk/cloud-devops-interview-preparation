@@ -7,5 +7,6 @@ workflow.
 
 Start with [Module 01: Cloud Architecture & Distributed Systems](../01-cloud-architecture/index.md),
 continue to [Module 06: Linux & OS Fundamentals](../06-linux/index.md), then
+study [Module 07: Cloud Networking & DNS](../07-networking/index.md). Afterward,
 follow the [study roadmap](../roadmap.md). Every planned module already has a
 tracked landing page so its scope and delivery status remain visible.
