@@ -79,7 +79,7 @@ and rollback before a migration.
 
 - [Terraform on Azure](https://learn.microsoft.com/en-us/azure/developer/terraform/)
 - [Authenticate Terraform to Azure](https://learn.microsoft.com/en-us/azure/developer/terraform/authenticate/authenticate-to-azure)
-- [Store Terraform state in Azure Storage](https://learn.microsoft.com/en-us/azure/developer/terraform/get-started/store-state-in-azure)
+- [Store Terraform state in Azure Storage](https://learn.microsoft.com/azure/developer/terraform/store-state-in-azure-storage)
 
 ### Google Cloud
 
