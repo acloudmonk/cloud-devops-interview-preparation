@@ -33,6 +33,9 @@ analysis, trade-offs, and executive communication.
 - [Terraform and OpenTofu Infrastructure as Code](terraform-iac.md) — a
   50-minute state, module, identity, delivery, governance, migration, and
   incident-recovery interview.
+- [Ansible and configuration management](ansible-configuration-management.md) —
+  a 50-minute inventory, identity, content, execution-platform, rollout,
+  recovery, and multi-cloud interview.
 
 Use each scorecard to identify weak decisions, then return to the corresponding
 module before repeating the interview.
