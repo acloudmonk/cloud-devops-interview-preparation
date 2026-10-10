@@ -245,7 +245,24 @@ nav:
           - Rapid-Fire Revision: 14-ansible/rapid-fire.md
           - Active-Recall Flashcards: 14-ansible/flashcards.md
           - References & Videos: 14-ansible/references.md
-      - 15 DevSecOps: 15-devsecops/index.md
+      - 15 DevSecOps & Software Supply Chain:
+          - Module Overview: 15-devsecops/index.md
+          - Secure-Delivery Decision Model: 15-devsecops/concepts.md
+          - Threat Modeling & Security Requirements: 15-devsecops/threat-modeling.md
+          - Source, Code, Dependencies & Secrets: 15-devsecops/code-dependencies.md
+          - Pipeline, Identity & Build Security: 15-devsecops/pipeline-security.md
+          - SBOMs, Provenance, Attestations & Signing: 15-devsecops/artifacts-provenance.md
+          - Container & Kubernetes Security: 15-devsecops/containers-kubernetes.md
+          - IaC & Cloud Security: 15-devsecops/iac-cloud-security.md
+          - Policy, Admission & Release Decisions: 15-devsecops/policy-admission.md
+          - Vulnerability Response & Governance: 15-devsecops/vulnerability-response.md
+          - Enterprise DevSecOps Design Exercise: 15-devsecops/design-exercise.md
+          - Scenario Questions: 15-devsecops/scenarios.md
+          - Advanced Incident Drills: 15-devsecops/scenario-drills.md
+          - Ten-Minute Secure-Delivery Review: 15-devsecops/presentation-template.md
+          - Rapid-Fire Revision: 15-devsecops/rapid-fire.md
+          - Active-Recall Flashcards: 15-devsecops/flashcards.md
+          - References & Videos: 15-devsecops/references.md
       - 16 Zero Trust: 16-zero-trust/index.md
       - 17 Observability: 17-observability/index.md
       - 18 Site Reliability Engineering: 18-sre/index.md
@@ -276,6 +293,7 @@ nav:
       - Kubernetes Ecosystem Mock Interview: mock-interviews/kubernetes-ecosystem.md
       - Terraform & OpenTofu Mock Interview: mock-interviews/terraform-iac.md
       - Ansible Configuration Management Mock Interview: mock-interviews/ansible-configuration-management.md
+      - DevSecOps Supply Chain Mock Interview: mock-interviews/devsecops-supply-chain.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md
