@@ -13,7 +13,8 @@ are ordered by dependency and interview value rather than vendor popularity.
     [Kubernetes](11-kubernetes/index.md), followed by
     [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md), then
     [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md),
-    followed by [Ansible & Configuration Management](14-ansible/index.md). The
+    followed by [Ansible & Configuration Management](14-ansible/index.md), then
+    [DevSecOps & Software Supply Chain](15-devsecops/index.md). The
     milestones and
     24-week sequence below describe the intended full curriculum.
 
@@ -53,7 +54,7 @@ scenario practice, revision, and communication.
 
 ## Milestone 5 — Security, reliability, and economics
 
-- DevSecOps and software supply-chain security
+- DevSecOps and software supply-chain security — initial release
 - Zero Trust architecture
 - Observability and OpenTelemetry
 - Site Reliability Engineering
