@@ -10,23 +10,33 @@ fails, how it is secured and operated, and what it costs is architect-level
 knowledge.
 
 !!! tip "Start the available course here"
-    Open the [Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md)
-    and follow its numbered learning path, then continue to
-    [Linux & OS Fundamentals](06-linux/index.md) and
-    [Cloud Networking & DNS](07-networking/index.md), followed by
-    [Git & Source-Control Strategy](08-git/index.md), then
-    [CI/CD & Progressive Delivery](09-cicd/index.md), followed by
-    [Docker & Container Engineering](10-docker/index.md), then
-    [Kubernetes](11-kubernetes/index.md), followed by
-    [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md), then
-    [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md),
-    followed by [Ansible & Configuration Management](14-ansible/index.md), then
-    [DevSecOps & Software Supply Chain](15-devsecops/index.md).
-    Other numbered modules remain visible scope placeholders for future milestones.
+    Open [Module 01: Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md)
+    and follow its numbered learning path. Return to the table below when you are
+    ready for the next released module.
+
+## Current learning path
+
+This is the canonical order for currently released learning material. Module IDs
+preserve the full curriculum structure; Modules 02–05 are planned, so the current
+path intentionally moves from Module 01 to Module 06.
+
+| Study step | Module ID | Module |
+| ---: | ---: | --- |
+| 1 | 01 | [Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md) |
+| 2 | 06 | [Linux & OS Fundamentals](06-linux/index.md) |
+| 3 | 07 | [Cloud Networking & DNS](07-networking/index.md) |
+| 4 | 08 | [Git & Source-Control Strategy](08-git/index.md) |
+| 5 | 09 | [CI/CD & Progressive Delivery](09-cicd/index.md) |
+| 6 | 10 | [Docker & Container Engineering](10-docker/index.md) |
+| 7 | 11 | [Kubernetes](11-kubernetes/index.md) |
+| 8 | 12 | [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md) |
+| 9 | 13 | [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md) |
+| 10 | 14 | [Ansible & Configuration Management](14-ansible/index.md) |
+| 11 | 15 | [DevSecOps & Software Supply Chain](15-devsecops/index.md) |
 
 ## How to use this knowledge base
 
-1. Begin at the [pilot module overview](01-cloud-architecture/index.md).
+1. Begin at the [Module 01 overview](01-cloud-architecture/index.md).
 2. Follow the numbered module path; use the
    [master competency map](master-competency-map.md) only to inspect broader
    coverage and status.

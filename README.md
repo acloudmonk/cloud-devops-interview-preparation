@@ -5,21 +5,17 @@ Platform Engineering, SRE, and consulting interviews.
 
 ## Start here
 
-Begin with [Cloud Architecture & Distributed Systems](docs/01-cloud-architecture/index.md),
-continue to [Linux & OS Fundamentals](docs/06-linux/index.md), and then study
-[Cloud Networking & DNS](docs/07-networking/index.md) followed by
-[Git & Source-Control Strategy](docs/08-git/index.md), then
-[CI/CD & Progressive Delivery](docs/09-cicd/index.md), followed by
-[Docker & Container Engineering](docs/10-docker/index.md), then
-[Kubernetes](docs/11-kubernetes/index.md), followed by
-[Kubernetes Ecosystem](docs/12-kubernetes-ecosystem/index.md), then
-[Terraform, OpenTofu & Infrastructure as Code](docs/13-terraform/index.md),
-followed by [Ansible & Configuration Management](docs/14-ansible/index.md), then
-[DevSecOps & Software Supply Chain](docs/15-devsecops/index.md).
-Follow each module's numbered path from concepts to its scored mock interview.
-Use the [site home](docs/index.md) for study guidance and the
-[master competency map](docs/master-competency-map.md) to see all 36 topics and
-their delivery status.
+| Goal | Start page |
+| --- | --- |
+| Begin learning now | [Module 01: Cloud Architecture & Distributed Systems](docs/01-cloud-architecture/index.md) |
+| See the numbered order of released modules | [Documentation home and current learning path](docs/index.md#current-learning-path) |
+| Inspect all 36 original topics and their status | [Master competency map](docs/master-competency-map.md) |
+| Understand future delivery and study phases | [Study and delivery roadmap](docs/roadmap.md) |
+
+Within each released module, follow its numbered path from concepts through the
+scored mock interview. Module IDs preserve the complete curriculum structure, so
+the current released path intentionally jumps from Module 01 to Module 06 while
+Modules 02–05 remain planned.
 
 The curriculum covers AWS, Azure, GCP, Linux, networking, CI/CD, containers,
 Kubernetes, Infrastructure as Code, security, observability, reliability,

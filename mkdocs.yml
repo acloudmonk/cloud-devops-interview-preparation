@@ -74,15 +74,15 @@ nav:
           - Module Overview: 01-cloud-architecture/index.md
           - Core Concepts: 01-cloud-architecture/concepts.md
           - Resilience & Integration Patterns: 01-cloud-architecture/patterns.md
-          - Scenario Questions: 01-cloud-architecture/scenarios.md
-          - Advanced Scenario Drills: 01-cloud-architecture/scenario-drills.md
+          - Capacity & SLO Worked Example: 01-cloud-architecture/capacity-slo-worked-example.md
           - AWS Reference Architecture: 01-cloud-architecture/reference-architecture.md
           - AWS Decision Matrix: 01-cloud-architecture/decision-matrix.md
           - Multi-Cloud Translation: 01-cloud-architecture/multi-cloud.md
-          - Capacity & SLO Worked Example: 01-cloud-architecture/capacity-slo-worked-example.md
           - Troubleshooting Playbook: 01-cloud-architecture/troubleshooting-playbook.md
           - Architecture Design Exercise: 01-cloud-architecture/lab.md
           - AWS Design Walkthrough: 01-cloud-architecture/design-walkthrough.md
+          - Scenario Questions: 01-cloud-architecture/scenarios.md
+          - Advanced Scenario Drills: 01-cloud-architecture/scenario-drills.md
           - Ten-Minute Presentation: 01-cloud-architecture/presentation-template.md
           - Rapid-Fire Revision: 01-cloud-architecture/rapid-fire.md
           - Active-Recall Flashcards: 01-cloud-architecture/flashcards.md

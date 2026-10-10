@@ -4,25 +4,15 @@ The roadmap doubles as a study sequence and a repository delivery plan. Topics
 are ordered by dependency and interview value rather than vendor popularity.
 
 !!! info "Current learner route"
-    Follow [Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md),
-    [Linux & OS Fundamentals](06-linux/index.md), and
-    [Cloud Networking & DNS](07-networking/index.md), followed by
-    [Git & Source-Control Strategy](08-git/index.md), then
-    [CI/CD & Progressive Delivery](09-cicd/index.md), followed by
-    [Docker & Container Engineering](10-docker/index.md), then
-    [Kubernetes](11-kubernetes/index.md), followed by
-    [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md), then
-    [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md),
-    followed by [Ansible & Configuration Management](14-ansible/index.md), then
-    [DevSecOps & Software Supply Chain](15-devsecops/index.md). The
-    milestones and
-    24-week sequence below describe the intended full curriculum.
+    Use the [current learning path](index.md#current-learning-path) for the
+    canonical order of released modules. The milestones and 24-week sequence
+    below describe the intended full curriculum.
 
-## Milestone 1 — Foundation and pilot
+## Milestone 1 — Foundation and first module
 
 - Documentation site, navigation, templates, and reference standards
 - Thirty-six-point traceability map
-- Cloud Architecture & Distributed Systems pilot
+- Cloud Architecture & Distributed Systems initial release
 - Scenario answer framework, worked examples, and lightweight design lab
 - Automated build and link validation
 

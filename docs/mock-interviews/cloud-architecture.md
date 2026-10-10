@@ -3,7 +3,7 @@
 [← Module overview](../01-cloud-architecture/index.md) ·
 [Master competency map](../master-competency-map.md)
 
-Use this 50-minute interview after completing the pilot module. A study partner
+Use this 50-minute interview after completing Module 01. A study partner
 can act as interviewer, or you can record yourself and reveal each follow-up
 only when its time begins.
 
