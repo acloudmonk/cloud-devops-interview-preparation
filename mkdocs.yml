@@ -91,7 +91,22 @@ nav:
       - 03 Azure Architecture: 03-azure/index.md
       - 04 GCP Architecture: 04-gcp/index.md
       - 05 Cross-Cloud Capability Mapping: 05-multi-cloud-mapping/index.md
-      - 06 Linux & OS Fundamentals: 06-linux/index.md
+      - 06 Linux & OS Fundamentals:
+          - Module Overview: 06-linux/index.md
+          - Operating-System Mental Model: 06-linux/concepts.md
+          - Processes, Services & Logs: 06-linux/processes-services.md
+          - CPU & Memory Reasoning: 06-linux/cpu-memory-performance.md
+          - Storage & Filesystems: 06-linux/storage-filesystems.md
+          - Identity, Permissions & Access: 06-linux/security-access.md
+          - Cloud VM Operations: 06-linux/cloud-vm-operations.md
+          - Troubleshooting Playbook: 06-linux/troubleshooting-playbook.md
+          - Production Design Exercise: 06-linux/design-exercise.md
+          - Scenario Questions: 06-linux/scenarios.md
+          - Advanced Incident Drills: 06-linux/scenario-drills.md
+          - Ten-Minute Operations Review: 06-linux/presentation-template.md
+          - Rapid-Fire Revision: 06-linux/rapid-fire.md
+          - Active-Recall Flashcards: 06-linux/flashcards.md
+          - References & Videos: 06-linux/references.md
       - 07 Networking & DNS: 07-networking/index.md
       - 08 Git & Source Control: 08-git/index.md
       - 09 CI/CD Engineering: 09-cicd/index.md
@@ -122,6 +137,7 @@ nav:
       - Scenario Answer Framework: interview-playbook/scenario-answer-framework.md
       - Mock Interview Overview: mock-interviews/index.md
       - Cloud Architecture Mock Interview: mock-interviews/cloud-architecture.md
+      - Linux Operations Mock Interview: mock-interviews/linux-operations.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

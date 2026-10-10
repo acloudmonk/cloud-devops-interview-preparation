@@ -11,9 +11,9 @@ knowledge.
 
 !!! tip "Start the available course here"
     Open the [Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md)
-    and follow its numbered learning path. It is the only complete module in
-    the current release; other numbered modules are visible placeholders for
-    future milestones.
+    and follow its numbered learning path, then continue to
+    [Linux & OS Fundamentals](06-linux/index.md). Other numbered modules remain
+    visible scope placeholders for future milestones.
 
 ## How to use this knowledge base
 
@@ -44,9 +44,9 @@ flowchart LR
 
 ## Current release
 
-The repository foundation and the Cloud Architecture & Distributed Systems
-pilot module form the first release. Remaining modules are tracked in the
-competency map and will be delivered in priority waves.
+The current release contains the repository foundation, Cloud Architecture &
+Distributed Systems, and Linux & OS Fundamentals. Remaining modules are tracked
+in the competency map and will be delivered in priority waves.
 
 !!! note "Version-aware content"
     Cloud services and open-source platforms change continuously. Each module

@@ -15,6 +15,7 @@ and follow its numbered module path. Use the
 Status values:
 
 - **Pilot complete** — initial concepts, scenarios, lab, and references exist.
+- **Initial release** — full learning, practice, assessment, and reference path exists.
 - **Foundation complete** — supporting framework exists.
 - **Planned** — module is in the delivery roadmap.
 
@@ -26,7 +27,7 @@ Status values:
 | 4 | Azure Architecture | [03 — Azure Architecture](03-azure/index.md) | Planned |
 | 5 | GCP Architecture | [04 — GCP Architecture](04-gcp/index.md) | Planned |
 | 6 | AWS vs Azure vs GCP mapping | [05 — Cross-Cloud Capability Map](05-multi-cloud-mapping/index.md) | Planned |
-| 7 | Linux | [06 — Linux & OS Troubleshooting](06-linux/index.md) | Planned |
+| 7 | Linux | [06 — Linux & OS Troubleshooting](06-linux/index.md) | Initial release |
 | 8 | Networking | [07 — Cloud Networking & DNS](07-networking/index.md) | Planned |
 | 9 | Git | [08 — Git & Source-Control Strategy](08-git/index.md) | Planned |
 | 10 | CI/CD | [09 — CI/CD & Progressive Delivery](09-cicd/index.md) | Planned |
