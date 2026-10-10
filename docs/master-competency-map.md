@@ -8,7 +8,7 @@ separating technical modules from the supporting interview system.
 This is a coverage and status index, not the current study order. New learners
 should start with the
 [Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md),
-then follow the available Linux and Networking module paths. Use the
+then follow the available Linux, Networking, and Git module paths. Use the
 [study roadmap](roadmap.md) to understand the long-term sequence; entries marked
 **Planned** are scope placeholders, not completed learning modules.
 
@@ -29,7 +29,7 @@ Status values:
 | 6 | AWS vs Azure vs GCP mapping | [05 — Cross-Cloud Capability Map](05-multi-cloud-mapping/index.md) | Planned |
 | 7 | Linux | [06 — Linux & OS Troubleshooting](06-linux/index.md) | Initial release |
 | 8 | Networking | [07 — Cloud Networking & DNS](07-networking/index.md) | Initial release |
-| 9 | Git | [08 — Git & Source-Control Strategy](08-git/index.md) | Planned |
+| 9 | Git | [08 — Git & Source-Control Strategy](08-git/index.md) | Initial release |
 | 10 | CI/CD | [09 — CI/CD & Progressive Delivery](09-cicd/index.md) | Planned |
 | 11 | Docker | [10 — Docker & Container Engineering](10-docker/index.md) | Planned |
 | 12 | Kubernetes | [11 — Kubernetes](11-kubernetes/index.md) | Planned |

@@ -124,7 +124,23 @@ nav:
           - Rapid-Fire Revision: 07-networking/rapid-fire.md
           - Active-Recall Flashcards: 07-networking/flashcards.md
           - References & Videos: 07-networking/references.md
-      - 08 Git & Source Control: 08-git/index.md
+      - 08 Git & Source Control:
+          - Module Overview: 08-git/index.md
+          - Git Mental Model: 08-git/concepts.md
+          - Daily Change Workflow: 08-git/daily-workflow.md
+          - Branching & Integration: 08-git/branching-integration.md
+          - Collaboration Strategies: 08-git/collaboration-strategies.md
+          - Pull-Request Governance: 08-git/pull-request-governance.md
+          - Repository Architecture: 08-git/repository-architecture.md
+          - Security & Integrity: 08-git/security-integrity.md
+          - Recovery & Troubleshooting: 08-git/recovery-troubleshooting.md
+          - Source-Control Design Exercise: 08-git/design-exercise.md
+          - Scenario Questions: 08-git/scenarios.md
+          - Advanced Incident Drills: 08-git/scenario-drills.md
+          - Ten-Minute Source-Control Review: 08-git/presentation-template.md
+          - Rapid-Fire Revision: 08-git/rapid-fire.md
+          - Active-Recall Flashcards: 08-git/flashcards.md
+          - References & Videos: 08-git/references.md
       - 09 CI/CD Engineering: 09-cicd/index.md
       - 10 Docker & Containers: 10-docker/index.md
       - 11 Kubernetes: 11-kubernetes/index.md
@@ -155,6 +171,7 @@ nav:
       - Cloud Architecture Mock Interview: mock-interviews/cloud-architecture.md
       - Linux Operations Mock Interview: mock-interviews/linux-operations.md
       - Networking Operations Mock Interview: mock-interviews/networking-operations.md
+      - Git Strategy Mock Interview: mock-interviews/git-source-control.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md
