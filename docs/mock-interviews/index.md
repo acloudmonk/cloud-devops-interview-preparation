@@ -39,6 +39,9 @@ analysis, trade-offs, and executive communication.
 - [DevSecOps and software supply chain](devsecops-supply-chain.md) — a 50-minute
   threat, build-trust, artifact-evidence, policy, vulnerability-response, and
   multi-cloud interview.
+- [Zero Trust architecture](zero-trust-architecture.md) — a 50-minute workforce,
+  workload, policy, segmentation, failure-recovery, migration, and multi-cloud
+  interview.
 
 Use each scorecard to identify weak decisions, then return to the corresponding
 module before repeating the interview.

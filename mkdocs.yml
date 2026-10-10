@@ -263,7 +263,24 @@ nav:
           - Rapid-Fire Revision: 15-devsecops/rapid-fire.md
           - Active-Recall Flashcards: 15-devsecops/flashcards.md
           - References & Videos: 15-devsecops/references.md
-      - 16 Zero Trust: 16-zero-trust/index.md
+      - 16 Zero Trust Architecture:
+          - Module Overview: 16-zero-trust/index.md
+          - Zero Trust Decision Model: 16-zero-trust/concepts.md
+          - Workforce Identity & Federation: 16-zero-trust/workforce-identity.md
+          - Authorization & Policy: 16-zero-trust/authorization-policy.md
+          - Devices, Context & Adaptive Access: 16-zero-trust/device-context.md
+          - Workload Identity & Service Access: 16-zero-trust/workload-identity.md
+          - Segmentation & Application Access: 16-zero-trust/segmentation-access.md
+          - Credentials, Secrets, Keys & PKI: 16-zero-trust/credentials-secrets-pki.md
+          - AWS-First & Multi-Cloud Architecture: 16-zero-trust/cloud-architecture.md
+          - Telemetry, Response & Adoption: 16-zero-trust/operations-adoption.md
+          - Enterprise Zero Trust Design Exercise: 16-zero-trust/design-exercise.md
+          - Scenario Questions: 16-zero-trust/scenarios.md
+          - Advanced Incident Drills: 16-zero-trust/scenario-drills.md
+          - Ten-Minute Zero Trust Review: 16-zero-trust/presentation-template.md
+          - Rapid-Fire Revision: 16-zero-trust/rapid-fire.md
+          - Active-Recall Flashcards: 16-zero-trust/flashcards.md
+          - References & Videos: 16-zero-trust/references.md
       - 17 Observability: 17-observability/index.md
       - 18 Site Reliability Engineering: 18-sre/index.md
       - 19 Platform Engineering: 19-platform-engineering/index.md
@@ -294,6 +311,7 @@ nav:
       - Terraform & OpenTofu Mock Interview: mock-interviews/terraform-iac.md
       - Ansible Configuration Management Mock Interview: mock-interviews/ansible-configuration-management.md
       - DevSecOps Supply Chain Mock Interview: mock-interviews/devsecops-supply-chain.md
+      - Zero Trust Architecture Mock Interview: mock-interviews/zero-trust-architecture.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

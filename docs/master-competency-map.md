@@ -36,7 +36,7 @@ Status values:
 | 14 | 13 | Terraform / IaC | [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md) | Initial release |
 | 15 | 14 | Ansible | [Ansible & Configuration Management](14-ansible/index.md) | Initial release |
 | 16 | 15 | DevSecOps | [DevSecOps & Software Supply Chain](15-devsecops/index.md) | Initial release |
-| 17 | 16 | Zero Trust Architecture | [Zero Trust Architecture](16-zero-trust/index.md) | Planned |
+| 17 | 16 | Zero Trust Architecture | [Zero Trust Architecture](16-zero-trust/index.md) | Initial release |
 | 18 | 17 | Observability | [Observability & OpenTelemetry](17-observability/index.md) | Planned |
 | 19 | 18 | Site Reliability Engineering | [SRE & Reliability Management](18-sre/index.md) | Planned |
 | 20 | 19 | Platform Engineering | [Internal Developer Platforms](19-platform-engineering/index.md) | Planned |
