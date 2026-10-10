@@ -13,7 +13,8 @@ continue to [Linux & OS Fundamentals](docs/06-linux/index.md), and then study
 [Docker & Container Engineering](docs/10-docker/index.md), then
 [Kubernetes](docs/11-kubernetes/index.md), followed by
 [Kubernetes Ecosystem](docs/12-kubernetes-ecosystem/index.md), then
-[Terraform, OpenTofu & Infrastructure as Code](docs/13-terraform/index.md).
+[Terraform, OpenTofu & Infrastructure as Code](docs/13-terraform/index.md),
+followed by [Ansible & Configuration Management](docs/14-ansible/index.md).
 Follow each module's numbered path from concepts to its scored mock interview.
 Use the [site home](docs/index.md) for study guidance and the
 [master competency map](docs/master-competency-map.md) to see all 36 topics and
@@ -27,8 +28,8 @@ modernization, FinOps, distributed systems, and technical consulting.
 
 The documentation foundation and the Cloud Architecture, Linux, Networking,
 Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
-Infrastructure as Code modules are complete initial releases. Ansible and
-Configuration Management is the next planned milestone. See the
+Infrastructure as Code, and Ansible Configuration Management modules are
+complete initial releases. DevSecOps is the next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation

@@ -227,7 +227,24 @@ nav:
           - Rapid-Fire Revision: 13-terraform/rapid-fire.md
           - Active-Recall Flashcards: 13-terraform/flashcards.md
           - References & Videos: 13-terraform/references.md
-      - 14 Ansible: 14-ansible/index.md
+      - 14 Ansible & Configuration Management:
+          - Module Overview: 14-ansible/index.md
+          - Configuration-Management Decision Model: 14-ansible/concepts.md
+          - Inventory, Variables & Facts: 14-ansible/inventory-variables.md
+          - Playbooks, Idempotency & Failure Control: 14-ansible/playbooks-idempotency.md
+          - Roles, Collections & Content Contracts: 14-ansible/roles-collections.md
+          - Execution Platforms & Operations: 14-ansible/execution-platform.md
+          - Security, Secrets & Trust: 14-ansible/security-secrets.md
+          - Testing & Quality Gates: 14-ansible/testing-quality.md
+          - AWS & Multi-Cloud Integration: 14-ansible/cloud-integration.md
+          - Terraform & Ansible Boundaries: 14-ansible/terraform-ansible-boundary.md
+          - Enterprise Automation Design Exercise: 14-ansible/design-exercise.md
+          - Scenario Questions: 14-ansible/scenarios.md
+          - Advanced Incident Drills: 14-ansible/scenario-drills.md
+          - Ten-Minute Automation Review: 14-ansible/presentation-template.md
+          - Rapid-Fire Revision: 14-ansible/rapid-fire.md
+          - Active-Recall Flashcards: 14-ansible/flashcards.md
+          - References & Videos: 14-ansible/references.md
       - 15 DevSecOps: 15-devsecops/index.md
       - 16 Zero Trust: 16-zero-trust/index.md
       - 17 Observability: 17-observability/index.md
@@ -258,6 +275,7 @@ nav:
       - Kubernetes Platform Mock Interview: mock-interviews/kubernetes-platform.md
       - Kubernetes Ecosystem Mock Interview: mock-interviews/kubernetes-ecosystem.md
       - Terraform & OpenTofu Mock Interview: mock-interviews/terraform-iac.md
+      - Ansible Configuration Management Mock Interview: mock-interviews/ansible-configuration-management.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

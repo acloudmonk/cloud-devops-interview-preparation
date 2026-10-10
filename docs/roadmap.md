@@ -12,7 +12,8 @@ are ordered by dependency and interview value rather than vendor popularity.
     [Docker & Container Engineering](10-docker/index.md), then
     [Kubernetes](11-kubernetes/index.md), followed by
     [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md), then
-    [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md). The
+    [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md),
+    followed by [Ansible & Configuration Management](14-ansible/index.md). The
     milestones and
     24-week sequence below describe the intended full curriculum.
 
@@ -41,7 +42,7 @@ scenario practice, revision, and communication.
 - Kubernetes fundamentals, advanced operations, networking, and security — initial release
 - Helm, Kustomize, Argo CD, Flux, service mesh, policy, and secrets — initial release
 - Terraform/OpenTofu and cloud-native Infrastructure as Code — initial release
-- Ansible and configuration management
+- Ansible and configuration management — initial release
 
 ## Milestone 4 — Cloud architecture
 

@@ -19,7 +19,8 @@ knowledge.
     [Docker & Container Engineering](10-docker/index.md), then
     [Kubernetes](11-kubernetes/index.md), followed by
     [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md), then
-    [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md).
+    [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md),
+    followed by [Ansible & Configuration Management](14-ansible/index.md).
     Other numbered modules remain visible scope placeholders for future milestones.
 
 ## How to use this knowledge base
@@ -55,8 +56,8 @@ The current release contains the repository foundation, Cloud Architecture &
 Distributed Systems, Linux & OS Fundamentals, Cloud Networking & DNS, Git &
 Source-Control Strategy, CI/CD & Progressive Delivery, Docker & Container
 Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
-Infrastructure as Code. Remaining modules are tracked in the competency map and
-will be delivered in priority waves.
+Infrastructure as Code, and Ansible Configuration Management. Remaining modules
+are tracked in the competency map and will be delivered in priority waves.
 
 !!! note "Version-aware content"
     Cloud services and open-source platforms change continuously. Each module
