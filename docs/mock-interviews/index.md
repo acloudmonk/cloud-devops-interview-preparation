@@ -1,6 +1,6 @@
 # Full Architect Mock Interviews
 
-Status: **Active pilot**
+Status: **Active**
 
 Use timed interview sets to practise discovery, structured design, failure
 analysis, trade-offs, and executive communication.
@@ -30,5 +30,9 @@ analysis, trade-offs, and executive communication.
 - [Kubernetes ecosystem architecture](kubernetes-ecosystem.md) — a 50-minute
   packaging, GitOps, networking, traffic, scaling, policy, secrets, operator,
   and add-on lifecycle interview.
+- [Terraform and OpenTofu Infrastructure as Code](terraform-iac.md) — a
+  50-minute state, module, identity, delivery, governance, migration, and
+  incident-recovery interview.
 
-More interviews will be added only after the pilot format has been reviewed.
+Use each scorecard to identify weak decisions, then return to the corresponding
+module before repeating the interview.

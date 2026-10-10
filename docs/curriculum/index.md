@@ -12,6 +12,8 @@ study [Module 07: Cloud Networking & DNS](../07-networking/index.md) and
 [Module 09: CI/CD & Progressive Delivery](../09-cicd/index.md), followed by
 [Module 10: Docker & Container Engineering](../10-docker/index.md), then complete
 [Module 11: Kubernetes](../11-kubernetes/index.md), followed by
-[Module 12: Kubernetes Ecosystem](../12-kubernetes-ecosystem/index.md). Afterward, follow the
+[Module 12: Kubernetes Ecosystem](../12-kubernetes-ecosystem/index.md), then
+[Module 13: Terraform, OpenTofu & Infrastructure as Code](../13-terraform/index.md).
+Afterward, follow the
 [study roadmap](../roadmap.md). Every planned module already has a tracked landing
 page so its scope and delivery status remain visible.

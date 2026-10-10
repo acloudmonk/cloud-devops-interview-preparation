@@ -12,9 +12,10 @@ continue to [Linux & OS Fundamentals](docs/06-linux/index.md), and then study
 [CI/CD & Progressive Delivery](docs/09-cicd/index.md), followed by
 [Docker & Container Engineering](docs/10-docker/index.md), then
 [Kubernetes](docs/11-kubernetes/index.md), followed by
-[Kubernetes Ecosystem](docs/12-kubernetes-ecosystem/index.md). Follow each
-module's numbered path from concepts to its scored mock interview. Use the
-[site home](docs/index.md) for study guidance and the
+[Kubernetes Ecosystem](docs/12-kubernetes-ecosystem/index.md), then
+[Terraform, OpenTofu & Infrastructure as Code](docs/13-terraform/index.md).
+Follow each module's numbered path from concepts to its scored mock interview.
+Use the [site home](docs/index.md) for study guidance and the
 [master competency map](docs/master-competency-map.md) to see all 36 topics and
 their delivery status.
 
@@ -25,9 +26,9 @@ modernization, FinOps, distributed systems, and technical consulting.
 ## Current status
 
 The documentation foundation and the Cloud Architecture, Linux, Networking,
-Git, CI/CD, Docker, Kubernetes, and Kubernetes Ecosystem modules are complete
-initial releases. Terraform and Infrastructure as Code is the next planned
-milestone. See the
+Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
+Infrastructure as Code modules are complete initial releases. Ansible and
+Configuration Management is the next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation
