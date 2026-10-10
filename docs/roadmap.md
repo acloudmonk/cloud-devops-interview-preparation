@@ -9,8 +9,9 @@ are ordered by dependency and interview value rather than vendor popularity.
     [Cloud Networking & DNS](07-networking/index.md), followed by
     [Git & Source-Control Strategy](08-git/index.md), then
     [CI/CD & Progressive Delivery](09-cicd/index.md), followed by
-    [Docker & Container Engineering](10-docker/index.md). The milestones and
-    24-week sequence below describe the intended full curriculum.
+    [Docker & Container Engineering](10-docker/index.md), then
+    [Kubernetes](11-kubernetes/index.md). The milestones and 24-week sequence
+    below describe the intended full curriculum.
 
 ## Milestone 1 — Foundation and pilot
 
@@ -34,7 +35,7 @@ scenario practice, revision, and communication.
 
 ## Milestone 3 — Cloud-native platform
 
-- Kubernetes fundamentals, advanced operations, networking, and security
+- Kubernetes fundamentals, advanced operations, networking, and security — initial release
 - Helm, Kustomize, Argo CD, Flux, service mesh, policy, and secrets
 - Terraform/OpenTofu and cloud-native Infrastructure as Code
 - Ansible and configuration management
