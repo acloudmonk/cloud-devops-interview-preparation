@@ -107,7 +107,23 @@ nav:
           - Rapid-Fire Revision: 06-linux/rapid-fire.md
           - Active-Recall Flashcards: 06-linux/flashcards.md
           - References & Videos: 06-linux/references.md
-      - 07 Networking & DNS: 07-networking/index.md
+      - 07 Networking & DNS:
+          - Module Overview: 07-networking/index.md
+          - Network Mental Model: 07-networking/concepts.md
+          - IP, CIDR, Subnetting & Routing: 07-networking/ip-cidr-routing.md
+          - DNS & Service Discovery: 07-networking/dns-service-discovery.md
+          - Transport, HTTP & TLS: 07-networking/transport-http-tls.md
+          - Load Balancing & Proxies: 07-networking/load-balancing-proxies.md
+          - Cloud Network Architecture: 07-networking/cloud-networking.md
+          - Hybrid & Private Connectivity: 07-networking/hybrid-connectivity.md
+          - Troubleshooting Playbook: 07-networking/troubleshooting-playbook.md
+          - Network Design Exercise: 07-networking/design-exercise.md
+          - Scenario Questions: 07-networking/scenarios.md
+          - Advanced Incident Drills: 07-networking/scenario-drills.md
+          - Ten-Minute Network Review: 07-networking/presentation-template.md
+          - Rapid-Fire Revision: 07-networking/rapid-fire.md
+          - Active-Recall Flashcards: 07-networking/flashcards.md
+          - References & Videos: 07-networking/references.md
       - 08 Git & Source Control: 08-git/index.md
       - 09 CI/CD Engineering: 09-cicd/index.md
       - 10 Docker & Containers: 10-docker/index.md
@@ -138,6 +154,7 @@ nav:
       - Mock Interview Overview: mock-interviews/index.md
       - Cloud Architecture Mock Interview: mock-interviews/cloud-architecture.md
       - Linux Operations Mock Interview: mock-interviews/linux-operations.md
+      - Networking Operations Mock Interview: mock-interviews/networking-operations.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

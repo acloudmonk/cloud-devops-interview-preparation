@@ -13,5 +13,8 @@ analysis, trade-offs, and executive communication.
 - [Linux production operations](linux-operations.md) — a 50-minute fleet and
   incident interview covering resource pressure, service lifecycle, recovery,
   secure access, and patching.
+- [Cloud networking operations](networking-operations.md) — a 50-minute design
+  and incident interview covering DNS, routes, policy, NAT, hybrid connectivity,
+  and multi-cloud translation.
 
 More interviews will be added only after the pilot format has been reviewed.

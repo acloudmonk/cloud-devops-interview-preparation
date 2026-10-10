@@ -4,10 +4,10 @@ The roadmap doubles as a study sequence and a repository delivery plan. Topics
 are ordered by dependency and interview value rather than vendor popularity.
 
 !!! info "Current learner route"
-    Only the [Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md)
-    is complete in the current release. Follow that module's numbered path now.
-    The milestones and 24-week sequence below describe the intended full
-    curriculum as future modules are delivered.
+    Follow [Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md),
+    [Linux & OS Fundamentals](06-linux/index.md), and
+    [Cloud Networking & DNS](07-networking/index.md) in that order. The milestones
+    and 24-week sequence below describe the intended full curriculum.
 
 ## Milestone 1 — Foundation and pilot
 
@@ -24,7 +24,7 @@ scenario practice, revision, and communication.
 ## Milestone 2 — Systems and delivery foundations
 
 - Linux and operating-system troubleshooting — initial release
-- Networking, DNS, HTTP, TLS, routing, and load balancing
+- Networking, DNS, HTTP, TLS, routing, and load balancing — initial release
 - Git and source-control operating models
 - CI/CD architecture and progressive delivery
 - Docker and container security
