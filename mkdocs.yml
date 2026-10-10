@@ -281,7 +281,24 @@ nav:
           - Rapid-Fire Revision: 16-zero-trust/rapid-fire.md
           - Active-Recall Flashcards: 16-zero-trust/flashcards.md
           - References & Videos: 16-zero-trust/references.md
-      - 17 Observability: 17-observability/index.md
+      - 17 Observability, OpenTelemetry, Prometheus & Grafana:
+          - Module Overview: 17-observability/index.md
+          - Observability Decision Model: 17-observability/concepts.md
+          - Metrics & Prometheus: 17-observability/metrics-prometheus.md
+          - Logs & Events: 17-observability/logs-events.md
+          - Traces & Profiles: 17-observability/traces-profiles.md
+          - OpenTelemetry & Collector Pipelines: 17-observability/opentelemetry-collector.md
+          - Grafana & Signal Correlation: 17-observability/grafana-correlation.md
+          - SLIs, SLOs, Alerting & Response: 17-observability/slos-alerting.md
+          - AWS-First & Multi-Cloud Architecture: 17-observability/cloud-architecture.md
+          - Operations, Cost, Security & Troubleshooting: 17-observability/operations-troubleshooting.md
+          - Enterprise Observability Design Exercise: 17-observability/design-exercise.md
+          - Scenario Questions: 17-observability/scenarios.md
+          - Advanced Incident Drills: 17-observability/scenario-drills.md
+          - Ten-Minute Observability Review: 17-observability/presentation-template.md
+          - Rapid-Fire Revision: 17-observability/rapid-fire.md
+          - Active-Recall Flashcards: 17-observability/flashcards.md
+          - References & Videos: 17-observability/references.md
       - 18 Site Reliability Engineering: 18-sre/index.md
       - 19 Platform Engineering: 19-platform-engineering/index.md
       - 20 Microservices: 20-microservices/index.md
@@ -312,6 +329,7 @@ nav:
       - Ansible Configuration Management Mock Interview: mock-interviews/ansible-configuration-management.md
       - DevSecOps Supply Chain Mock Interview: mock-interviews/devsecops-supply-chain.md
       - Zero Trust Architecture Mock Interview: mock-interviews/zero-trust-architecture.md
+      - Observability Platform Mock Interview: mock-interviews/observability-platform.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

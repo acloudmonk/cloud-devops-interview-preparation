@@ -42,6 +42,9 @@ analysis, trade-offs, and executive communication.
 - [Zero Trust architecture](zero-trust-architecture.md) — a 50-minute workforce,
   workload, policy, segmentation, failure-recovery, migration, and multi-cloud
   interview.
+- [Observability platform](observability-platform.md) — a 50-minute signal,
+  OpenTelemetry, Prometheus, Grafana, SLO, platform-operations, cost, and
+  multi-cloud interview.
 
 Use each scorecard to identify weak decisions, then return to the corresponding
 module before repeating the interview.
