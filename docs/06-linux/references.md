@@ -31,7 +31,7 @@ version on the affected system.
 
 ## Security sources
 
-- [Linux capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html)
+- [Linux capabilities](https://manpages.ubuntu.com/manpages/noble/man7/capabilities.7.html)
   — privilege decomposition and capability semantics.
 - [OpenSSH manuals](https://www.openssh.com/manual.html)
   — client, server, keys, certificates, and configuration reference.
