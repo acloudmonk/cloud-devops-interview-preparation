@@ -8,7 +8,7 @@ separating technical modules from the supporting interview system.
 This is a coverage and status index, not the current study order. New learners
 should start with the
 [Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md),
-then follow the available Linux, Networking, Git, and CI/CD module paths. Use the
+then follow the available Linux, Networking, Git, CI/CD, and Docker module paths. Use the
 [study roadmap](roadmap.md) to understand the long-term sequence; entries marked
 **Planned** are scope placeholders, not completed learning modules.
 
@@ -31,7 +31,7 @@ Status values:
 | 8 | Networking | [07 — Cloud Networking & DNS](07-networking/index.md) | Initial release |
 | 9 | Git | [08 — Git & Source-Control Strategy](08-git/index.md) | Initial release |
 | 10 | CI/CD | [09 — CI/CD & Progressive Delivery](09-cicd/index.md) | Initial release |
-| 11 | Docker | [10 — Docker & Container Engineering](10-docker/index.md) | Planned |
+| 11 | Docker | [10 — Docker & Container Engineering](10-docker/index.md) | Initial release |
 | 12 | Kubernetes | [11 — Kubernetes](11-kubernetes/index.md) | Planned |
 | 13 | Kubernetes Ecosystem | [12 — Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md) | Planned |
 | 14 | Terraform / IaC | [13 — Terraform & Infrastructure as Code](13-terraform/index.md) | Planned |

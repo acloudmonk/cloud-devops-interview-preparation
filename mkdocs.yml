@@ -158,7 +158,23 @@ nav:
           - Rapid-Fire Revision: 09-cicd/rapid-fire.md
           - Active-Recall Flashcards: 09-cicd/flashcards.md
           - References & Videos: 09-cicd/references.md
-      - 10 Docker & Containers: 10-docker/index.md
+      - 10 Docker & Container Engineering:
+          - Module Overview: 10-docker/index.md
+          - Container Mental Model: 10-docker/concepts.md
+          - Images & Build Engineering: 10-docker/images-builds.md
+          - Runtime Isolation & Resources: 10-docker/runtime-isolation.md
+          - Networking & Connectivity: 10-docker/networking.md
+          - Storage & State: 10-docker/storage.md
+          - Registries & Supply Chain: 10-docker/registries-supply-chain.md
+          - Security Hardening: 10-docker/security-hardening.md
+          - Operations & Troubleshooting: 10-docker/operations-troubleshooting.md
+          - Container-Platform Design Exercise: 10-docker/design-exercise.md
+          - Scenario Questions: 10-docker/scenarios.md
+          - Advanced Incident Drills: 10-docker/scenario-drills.md
+          - Ten-Minute Architecture Review: 10-docker/presentation-template.md
+          - Rapid-Fire Revision: 10-docker/rapid-fire.md
+          - Active-Recall Flashcards: 10-docker/flashcards.md
+          - References & Videos: 10-docker/references.md
       - 11 Kubernetes: 11-kubernetes/index.md
       - 12 Kubernetes Ecosystem: 12-kubernetes-ecosystem/index.md
       - 13 Terraform & IaC: 13-terraform/index.md
@@ -189,6 +205,7 @@ nav:
       - Networking Operations Mock Interview: mock-interviews/networking-operations.md
       - Git Strategy Mock Interview: mock-interviews/git-source-control.md
       - CI/CD Mock Interview: mock-interviews/cicd-progressive-delivery.md
+      - Container Engineering Mock Interview: mock-interviews/docker-container-engineering.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

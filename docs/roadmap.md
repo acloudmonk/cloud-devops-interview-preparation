@@ -8,7 +8,8 @@ are ordered by dependency and interview value rather than vendor popularity.
     [Linux & OS Fundamentals](06-linux/index.md), and
     [Cloud Networking & DNS](07-networking/index.md), followed by
     [Git & Source-Control Strategy](08-git/index.md), then
-    [CI/CD & Progressive Delivery](09-cicd/index.md). The milestones and
+    [CI/CD & Progressive Delivery](09-cicd/index.md), followed by
+    [Docker & Container Engineering](10-docker/index.md). The milestones and
     24-week sequence below describe the intended full curriculum.
 
 ## Milestone 1 — Foundation and pilot
@@ -29,7 +30,7 @@ scenario practice, revision, and communication.
 - Networking, DNS, HTTP, TLS, routing, and load balancing — initial release
 - Git and source-control operating models — initial release
 - CI/CD architecture and progressive delivery — initial release
-- Docker and container security
+- Docker and container security — initial release
 
 ## Milestone 3 — Cloud-native platform
 

@@ -21,5 +21,8 @@ analysis, trade-offs, and executive communication.
 - [CI/CD and progressive delivery](cicd-progressive-delivery.md) — a 50-minute
   pipeline, supply-chain, workload-identity, rollout, data-change, and recovery
   interview.
+- [Docker and container engineering](docker-container-engineering.md) — a
+  50-minute image, runtime, isolation, registry, AWS platform, state, and recovery
+  interview.
 
 More interviews will be added only after the pilot format has been reviewed.
