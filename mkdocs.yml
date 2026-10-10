@@ -141,7 +141,23 @@ nav:
           - Rapid-Fire Revision: 08-git/rapid-fire.md
           - Active-Recall Flashcards: 08-git/flashcards.md
           - References & Videos: 08-git/references.md
-      - 09 CI/CD Engineering: 09-cicd/index.md
+      - 09 CI/CD & Progressive Delivery:
+          - Module Overview: 09-cicd/index.md
+          - Delivery-System Mental Model: 09-cicd/concepts.md
+          - Pipeline Architecture: 09-cicd/pipeline-architecture.md
+          - Testing & Quality Gates: 09-cicd/testing-quality-gates.md
+          - Artifacts & Provenance: 09-cicd/artifacts-provenance.md
+          - Security & Runner Trust: 09-cicd/security-runners.md
+          - Deployment Strategies: 09-cicd/deployment-strategies.md
+          - Database, Config & Flags: 09-cicd/database-config-flags.md
+          - Operations & Troubleshooting: 09-cicd/operations-troubleshooting.md
+          - Delivery-System Design Exercise: 09-cicd/design-exercise.md
+          - Scenario Questions: 09-cicd/scenarios.md
+          - Advanced Incident Drills: 09-cicd/scenario-drills.md
+          - Ten-Minute Architecture Review: 09-cicd/presentation-template.md
+          - Rapid-Fire Revision: 09-cicd/rapid-fire.md
+          - Active-Recall Flashcards: 09-cicd/flashcards.md
+          - References & Videos: 09-cicd/references.md
       - 10 Docker & Containers: 10-docker/index.md
       - 11 Kubernetes: 11-kubernetes/index.md
       - 12 Kubernetes Ecosystem: 12-kubernetes-ecosystem/index.md
@@ -172,6 +188,7 @@ nav:
       - Linux Operations Mock Interview: mock-interviews/linux-operations.md
       - Networking Operations Mock Interview: mock-interviews/networking-operations.md
       - Git Strategy Mock Interview: mock-interviews/git-source-control.md
+      - CI/CD Mock Interview: mock-interviews/cicd-progressive-delivery.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md
