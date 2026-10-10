@@ -6,8 +6,9 @@ are ordered by dependency and interview value rather than vendor popularity.
 !!! info "Current learner route"
     Follow [Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md),
     [Linux & OS Fundamentals](06-linux/index.md), and
-    [Cloud Networking & DNS](07-networking/index.md) in that order. The milestones
-    and 24-week sequence below describe the intended full curriculum.
+    [Cloud Networking & DNS](07-networking/index.md), followed by
+    [Git & Source-Control Strategy](08-git/index.md). The milestones and 24-week
+    sequence below describe the intended full curriculum.
 
 ## Milestone 1 — Foundation and pilot
 
@@ -25,7 +26,7 @@ scenario practice, revision, and communication.
 
 - Linux and operating-system troubleshooting — initial release
 - Networking, DNS, HTTP, TLS, routing, and load balancing — initial release
-- Git and source-control operating models
+- Git and source-control operating models — initial release
 - CI/CD architecture and progressive delivery
 - Docker and container security
 

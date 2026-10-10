@@ -16,5 +16,7 @@ analysis, trade-offs, and executive communication.
 - [Cloud networking operations](networking-operations.md) — a 50-minute design
   and incident interview covering DNS, routes, policy, NAT, hybrid connectivity,
   and multi-cloud translation.
+- [Git and source-control strategy](git-source-control.md) — a 50-minute workflow,
+  governance, security, repository architecture, and recovery interview.
 
 More interviews will be added only after the pilot format has been reviewed.

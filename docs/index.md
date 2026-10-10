@@ -13,7 +13,8 @@ knowledge.
     Open the [Cloud Architecture & Distributed Systems pilot](01-cloud-architecture/index.md)
     and follow its numbered learning path, then continue to
     [Linux & OS Fundamentals](06-linux/index.md) and
-    [Cloud Networking & DNS](07-networking/index.md). Other numbered modules
+    [Cloud Networking & DNS](07-networking/index.md), followed by
+    [Git & Source-Control Strategy](08-git/index.md). Other numbered modules
     remain visible scope placeholders for future milestones.
 
 ## How to use this knowledge base
@@ -46,9 +47,9 @@ flowchart LR
 ## Current release
 
 The current release contains the repository foundation, Cloud Architecture &
-Distributed Systems, Linux & OS Fundamentals, and Cloud Networking & DNS.
-Remaining modules are tracked in the competency map and will be delivered in
-priority waves.
+Distributed Systems, Linux & OS Fundamentals, Cloud Networking & DNS, and Git &
+Source-Control Strategy. Remaining modules are tracked in the competency map
+and will be delivered in priority waves.
 
 !!! note "Version-aware content"
     Cloud services and open-source platforms change continuously. Each module
