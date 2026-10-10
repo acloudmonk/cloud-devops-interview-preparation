@@ -15,7 +15,7 @@ and names change; verify current behavior before using them in a design.
 
 ## Standards and durable guidance
 
-- [NIST Zero Trust Architecture project](https://csrc.nist.gov/projects/zero-trust-architecture)
+- [NIST: Implementing a Zero Trust Architecture](https://csrc.nist.gov/pubs/pd/2020/10/21/implementing-a-zero-trust-architecture/final)
 - [NIST SP 800-207A: Cloud-Native Applications in Multi-Cloud Environments](https://csrc.nist.gov/pubs/sp/800/207/a/final)
 - [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework)
 - [CISA Zero Trust resources](https://www.cisa.gov/zero-trust-maturity-model)
@@ -49,7 +49,7 @@ and names change; verify current behavior before using them in a design.
 
 ## Google Cloud translation
 
-- [Google Cloud Zero Trust architecture](https://cloud.google.com/architecture/zero-trust-overview)
+- [Google Cloud: Implement Zero Trust](https://docs.cloud.google.com/architecture/framework/security/implement-zero-trust)
 - [BeyondCorp Enterprise](https://cloud.google.com/beyondcorp-enterprise/docs/overview)
 - [Context-Aware Access](https://cloud.google.com/access-context-manager/docs/overview)
 - [Workforce Identity Federation](https://cloud.google.com/iam/docs/workforce-identity-federation)
