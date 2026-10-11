@@ -39,6 +39,7 @@ path intentionally moves from Module 01 to Module 06.
 | 15 | 25 | [High Availability, Disaster Recovery & Business Continuity](25-ha-dr-bcp/index.md) |
 | 16 | 26 | [FinOps and Cost Architecture](26-finops/index.md) |
 | 17 | 27 | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) |
+| 18 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
 
 ## How to use this knowledge base
 
@@ -76,8 +77,8 @@ Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
 Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
 Supply Chain, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
-and Cross-Cloud Well-Architected Reviews. Remaining modules are tracked in the
-competency map and will be
+Cross-Cloud Well-Architected Reviews, and Hybrid and Multi-Cloud Architecture.
+Remaining modules are tracked in the competency map and will be
 delivered in priority waves.
 
 !!! note "Version-aware content"

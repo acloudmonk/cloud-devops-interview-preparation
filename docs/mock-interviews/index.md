@@ -57,6 +57,9 @@ analysis, trade-offs, and executive communication.
 - [Cross-cloud Well-Architected review](well-architected-review.md) — a 50-minute
   review-charter, evidence, framework, risk, trade-off, facilitation, remediation,
   governance, and executive-communication interview.
+- [Hybrid and multi-cloud architecture](hybrid-multicloud.md) — a 50-minute
+  placement, connectivity, trust, data, portability, operations, resilience,
+  economics, and governance interview.
 
 Use each scorecard to identify weak decisions, then return to the corresponding
 module before repeating the interview.

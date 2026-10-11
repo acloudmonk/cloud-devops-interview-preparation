@@ -40,7 +40,7 @@ scenario practice, revision, and communication.
 - AWS, Azure, and GCP architecture
 - Cross-cloud capability and service mapping
 - Landing zones, governance, identity, networking, and operations
-- Hybrid and multi-cloud decision guidance
+- Hybrid and multi-cloud decision guidance — initial release
 
 ## Milestone 5 — Security, reliability, and economics
 
