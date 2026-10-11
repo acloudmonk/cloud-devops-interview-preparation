@@ -45,7 +45,7 @@ Status values:
 | 23 | 22 | Messaging & Event-Driven Architecture | [Messaging & Event-Driven Systems](22-event-driven/index.md) | Planned |
 | 24 | 23 | Database Architecture | [Database Architecture](23-databases/index.md) | Planned |
 | 25 | 24 | Cloud Migration & Modernization | [Migration & Modernization](24-migration-modernization/index.md) | Planned |
-| 26 | 25 | High Availability & Disaster Recovery | [HA, DR & Business Continuity](25-ha-dr-bcp/index.md) | Planned |
+| 26 | 25 | High Availability & Disaster Recovery | [HA, DR & Business Continuity](25-ha-dr-bcp/index.md) | Initial release |
 | 27 | 26 | FinOps | [FinOps & Cost Architecture](26-finops/index.md) | Planned |
 | 28 | 27 | Well-Architected Frameworks | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) | Planned |
 | 29 | 28 | Hybrid & Multi-Cloud | [Hybrid & Multi-Cloud](28-hybrid-multicloud/index.md) | Planned |
