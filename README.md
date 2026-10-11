@@ -12,6 +12,7 @@ Platform Engineering, SRE, and consulting interviews.
 | Inspect all 36 original topics and their status | [Master competency map](docs/master-competency-map.md) |
 | Understand future delivery and study phases | [Study and delivery roadmap](docs/roadmap.md) |
 | Practise cross-domain architecture decisions | [Architecture case studies](docs/case-studies/index.md) |
+| Practise consulting discovery and stakeholder skills | [Consultant Discovery Playbook](docs/interview-playbook/index.md) |
 
 Within each released module, follow its numbered path from concepts through the
 scored mock interview. Module IDs preserve the complete curriculum structure, so

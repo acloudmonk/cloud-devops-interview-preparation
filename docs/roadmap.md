@@ -69,10 +69,10 @@ scenario practice, revision, and communication.
 ## Milestone 7 — Interview mastery
 
 - Cross-domain case studies — initial release
-- Consultant discovery and stakeholder exercises
-- Mock interviews and scoring rubrics
-- Rapid-fire revision and flashcards
-- Architecture review exercises
+- Consultant discovery and stakeholder exercises — initial release
+- Mock interviews and scoring rubrics — initial release
+- Rapid-fire revision and flashcards — initial release
+- Architecture review exercises — initial release
 
 ## Suggested 24-week study sequence
 

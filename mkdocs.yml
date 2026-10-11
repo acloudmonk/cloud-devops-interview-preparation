@@ -650,8 +650,24 @@ nav:
       - Principal Architect Capstone: case-studies/capstone.md
       - References & Module Map: case-studies/references.md
   - Interview Playbook:
+      - Consultant Discovery Overview: interview-playbook/index.md
+      - Consultant Mindset & Engagement Lifecycle: interview-playbook/consultant-mindset.md
+      - Discovery Framework: interview-playbook/discovery-framework.md
+      - Stakeholders & Decision Rights: interview-playbook/stakeholder-mapping.md
+      - Requirements, Constraints & Evidence: interview-playbook/requirements-evidence.md
+      - Workshop Facilitation: interview-playbook/workshop-facilitation.md
+      - Ambiguity, Conflict & Difficult Conversations: interview-playbook/conflict-ambiguity.md
+      - Options, Value & Recommendations: interview-playbook/options-business-case.md
+      - Executive & Technical Communication: interview-playbook/executive-communication.md
+      - Reusable Worksheets & Templates: interview-playbook/templates.md
+      - Stakeholder Scenarios: interview-playbook/scenarios.md
+      - Advanced Facilitation Drills: interview-playbook/scenario-drills.md
+      - Consultant Rapid-Fire Revision: interview-playbook/rapid-fire.md
+      - Consultant Active-Recall Flashcards: interview-playbook/flashcards.md
+      - Consultant References, Books & Videos: interview-playbook/references.md
       - Scenario Answer Framework: interview-playbook/scenario-answer-framework.md
       - Mock Interview Overview: mock-interviews/index.md
+      - Consultant Discovery Mock Interview: mock-interviews/consultant-discovery.md
       - Cloud Architecture Mock Interview: mock-interviews/cloud-architecture.md
       - AWS Architecture Mock Interview: mock-interviews/aws-architecture.md
       - Azure Architecture Mock Interview: mock-interviews/azure-architecture.md
