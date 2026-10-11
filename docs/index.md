@@ -61,6 +61,10 @@ discovery, option analysis, security, delivery, reliability, operations, cost,
 migration, and stakeholder communication. The cases have a numbered practice path,
 common scorecard, failure injects, model reasoning, and a principal-level capstone.
 
+Use the [Consultant Discovery and Stakeholder Playbook](interview-playbook/index.md)
+to practise engagement framing, requirements discovery, decision rights, workshop
+facilitation, conflict, business cases, and executive communication.
+
 ## How to use this knowledge base
 
 1. Begin at the [Module 01 overview](01-cloud-architecture/index.md).
