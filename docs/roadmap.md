@@ -49,7 +49,8 @@ scenario practice, revision, and communication.
 - Observability, OpenTelemetry, Prometheus, and Grafana — initial release
 - Site Reliability Engineering — initial release
 - High availability, disaster recovery, and business continuity — initial release
-- FinOps and Well-Architected reviews
+- FinOps — initial release
+- Well-Architected reviews
 
 ## Milestone 6 — Application and consulting architecture
 

@@ -51,6 +51,9 @@ analysis, trade-offs, and executive communication.
 - [High availability, disaster recovery, and business continuity](high-availability-disaster-recovery.md)
   — a 50-minute BIA, recovery-objective, failure-domain, data, cyber-recovery,
   failover, continuity, exercise, and multi-cloud interview.
+- [FinOps and cost architecture](finops-cost-architecture.md) — a 50-minute value,
+  cost-data, allocation, unit-economics, planning, optimization, commitment,
+  platform, governance, and multi-cloud interview.
 
 Use each scorecard to identify weak decisions, then return to the corresponding
 module before repeating the interview.
