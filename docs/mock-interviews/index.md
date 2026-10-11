@@ -52,6 +52,8 @@ analysis, trade-offs, and executive communication.
   control-plane, delivery, security, reliability, adoption, and economics interview.
 - [Microservices Architecture](microservices-architecture.md) — a 50-minute domain,
   contract, data, consistency, resilience, security, operations, and migration interview.
+- [SaaS Architecture](saas-architecture.md) — a 50-minute tenancy, isolation,
+  control-plane, identity, lifecycle, reliability, metering, and economics interview.
 - [High availability, disaster recovery, and business continuity](high-availability-disaster-recovery.md)
   — a 50-minute BIA, recovery-objective, failure-domain, data, cyber-recovery,
   failover, continuity, exercise, and multi-cloud interview.
