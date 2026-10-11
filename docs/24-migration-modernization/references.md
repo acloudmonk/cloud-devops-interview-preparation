@@ -21,7 +21,6 @@ migration decision.
 - [AWS guidelines for a successful migration](https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-program-implementation/guidelines.html)
 - [AWS migration strategies](https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html)
 - [AWS Cloud Adoption Framework](https://aws.amazon.com/cloud-adoption-framework/)
-- [AWS guide for large migrations](https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/welcome.html)
 - [AWS Control Tower documentation](https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html)
 - [AWS Application Migration Service documentation](https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html)
 - [AWS Database Migration Service documentation](https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html)
