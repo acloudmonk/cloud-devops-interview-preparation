@@ -40,7 +40,7 @@ scenario practice, revision, and communication.
 - AWS architecture — initial release
 - Azure architecture — initial release
 - GCP architecture — initial release
-- Cross-cloud capability and service mapping
+- Cross-cloud capability and service mapping — initial release
 - Landing zones, governance, identity, networking, and operations
 - Hybrid and multi-cloud decision guidance — initial release
 

@@ -15,8 +15,7 @@ Platform Engineering, SRE, and consulting interviews.
 
 Within each released module, follow its numbered path from concepts through the
 scored mock interview. Module IDs preserve the complete curriculum structure, so
-the current released path moves through Modules 01–04 and then Module 06 while
-Module 05 remains planned.
+the current released path follows Modules 01–31 in their documented study order.
 
 The curriculum covers AWS, Azure, GCP, Linux, networking, CI/CD, containers,
 Kubernetes, Infrastructure as Code, security, observability, reliability,
@@ -25,7 +24,8 @@ modernization, FinOps, distributed systems, and technical consulting.
 ## Current status
 
 The documentation foundation and the Cloud Architecture, AWS Architecture, Azure
-Architecture, GCP Architecture, Linux, Networking, Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem,
+Architecture, GCP Architecture, Cross-Cloud Capability Mapping, Linux, Networking,
+Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem,
 Terraform/OpenTofu,
 Ansible, DevSecOps, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
@@ -33,8 +33,7 @@ Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud, APIs and Enterpris
 Identity, Python Automation, AI for Cloud and DevOps, Platform Engineering,
 Microservices Architecture, SaaS Architecture, Messaging and Event-Driven
 Architecture, Database Architecture, Cloud Migration and Modernization, and
-Cross-Domain Architecture Case Studies are complete initial releases. The
-cross-cloud capability-mapping module remains planned.
+Cross-Domain Architecture Case Studies are complete initial releases.
 See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 

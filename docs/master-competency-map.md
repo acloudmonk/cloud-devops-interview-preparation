@@ -25,7 +25,7 @@ Status values:
 | 3 | 02 | AWS Architecture | [AWS Architecture](02-aws/index.md) | Initial release |
 | 4 | 03 | Azure Architecture | [Azure Architecture](03-azure/index.md) | Initial release |
 | 5 | 04 | GCP Architecture | [GCP Architecture](04-gcp/index.md) | Initial release |
-| 6 | 05 | AWS vs Azure vs GCP mapping | [Cross-Cloud Capability Map](05-multi-cloud-mapping/index.md) | Planned |
+| 6 | 05 | AWS vs Azure vs GCP mapping | [Cross-Cloud Capability Map](05-multi-cloud-mapping/index.md) | Initial release |
 | 7 | 06 | Linux | [Linux & OS Troubleshooting](06-linux/index.md) | Initial release |
 | 8 | 07 | Networking | [Cloud Networking & DNS](07-networking/index.md) | Initial release |
 | 9 | 08 | Git | [Git & Source-Control Strategy](08-git/index.md) | Initial release |
