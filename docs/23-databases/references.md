@@ -39,7 +39,7 @@ decisions. Compatibility labels require workload-specific testing.
 - [Azure data-store technology choices](https://learn.microsoft.com/azure/architecture/guide/technology-choices/data-stores-getting-started)
 - [Azure mission-critical data-platform considerations](https://learn.microsoft.com/azure/well-architected/mission-critical/mission-critical-data-platform)
 - [Google Cloud database services](https://cloud.google.com/products/databases)
-- [Google Cloud database reliability guidance](https://cloud.google.com/architecture/framework/reliability/reliability-of-databases)
+- [Google Cloud: Test recovery from data loss](https://docs.cloud.google.com/architecture/framework/reliability/perform-testing-for-recovery-from-data-loss)
 - [Google SRE books](https://sre.google/books/)
 
 ## Video sources
