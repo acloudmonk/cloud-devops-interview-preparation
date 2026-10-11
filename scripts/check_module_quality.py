@@ -293,12 +293,35 @@ def validate_learning_path(modules: list[Path]) -> list[str]:
 
     if steps != list(range(1, len(rows) + 1)):
         errors.append("docs/index.md: study steps must be contiguous from 1")
-    expected_ids = [f"{number:02d}" for number in range(1, 32)]
+    expected_ids = [
+        "01",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "02",
+        "03",
+        "04",
+        "05",
+        *[f"{number:02d}" for number in range(15, 32)],
+    ]
     if module_ids != expected_ids:
-        errors.append("docs/index.md: module IDs must follow 01 through 31")
-    if paths != expected_paths:
+        errors.append("docs/index.md: modules differ from dependency study order")
+    if len(paths) != len(set(paths)):
+        errors.append("docs/index.md: learning path contains duplicate modules")
+    if any(
+        not path.startswith(f"{module_id}-")
+        for module_id, path in zip(module_ids, paths)
+    ):
+        errors.append("docs/index.md: a Module ID does not match its destination")
+    if set(paths) != set(expected_paths):
         errors.append(
-            "docs/index.md: learning-path modules differ from the competency map"
+            "docs/index.md: learning-path module set differs from competency map"
         )
     if re.search(r"\|\s*Planned\s*\|", read(MAP)):
         errors.append("docs/master-competency-map.md: a plan point remains Planned")
@@ -401,7 +424,7 @@ def main() -> int:
         "Cross-domain case-study validation passed for "
         f"{len(CASE_STUDY_FILES)} cases."
     )
-    print("Learning-path alignment validation passed for Modules 01-31.")
+    print("Dependency learning order and competency-map coverage validation passed.")
     print("Consultant discovery playbook validation passed.")
     return 0
 

@@ -8,7 +8,7 @@ Platform Engineering, SRE, and consulting interviews.
 | Goal | Start page |
 | --- | --- |
 | Begin learning now | [Module 01: Cloud Architecture & Distributed Systems](docs/01-cloud-architecture/index.md) |
-| See the numbered order of released modules | [Documentation home and current learning path](docs/index.md#current-learning-path) |
+| See the recommended dependency-based learning order | [Documentation home and current learning path](docs/index.md#current-learning-path) |
 | Inspect all 36 original topics and their status | [Master competency map](docs/master-competency-map.md) |
 | Understand future delivery and study phases | [Study and delivery roadmap](docs/roadmap.md) |
 | Practise cross-domain architecture decisions | [Architecture case studies](docs/case-studies/index.md) |

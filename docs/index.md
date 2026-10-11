@@ -16,34 +16,33 @@ knowledge.
 
 ## Current learning path
 
-This is the canonical order for currently released learning material. Module IDs
-preserve the full curriculum structure.
+This is the recommended dependency-based order for the released learning material.
+Module IDs preserve curriculum identity and therefore do not determine study order.
 
 !!! note "Learning order versus the competency map"
     This table answers **“What should I study next?”** Its **Study step** runs from
-    1–31 and currently matches Module IDs 01–31. The
+    1–31 in dependency order, so it intentionally differs from Module ID order. The
     [master competency map](master-competency-map.md) answers **“Where is each of
     the original 36 plan points covered?”** and therefore keeps a separate
-    **Original plan point** number. The 31 module destinations and their order must
-    agree across both pages; the numbering columns intentionally serve different
-    purposes.
+    **Original plan point** number. Both pages must contain the same 31 module
+    destinations, but their row order intentionally serves different purposes.
 
 | Study step | Module ID | Module |
 | ---: | ---: | --- |
 | 1 | 01 | [Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md) |
-| 2 | 02 | [AWS Architecture](02-aws/index.md) |
-| 3 | 03 | [Azure Architecture](03-azure/index.md) |
-| 4 | 04 | [GCP Architecture](04-gcp/index.md) |
-| 5 | 05 | [Cross-Cloud Capability Mapping](05-multi-cloud-mapping/index.md) |
-| 6 | 06 | [Linux & OS Fundamentals](06-linux/index.md) |
-| 7 | 07 | [Cloud Networking & DNS](07-networking/index.md) |
-| 8 | 08 | [Git & Source-Control Strategy](08-git/index.md) |
-| 9 | 09 | [CI/CD & Progressive Delivery](09-cicd/index.md) |
-| 10 | 10 | [Docker & Container Engineering](10-docker/index.md) |
-| 11 | 11 | [Kubernetes](11-kubernetes/index.md) |
-| 12 | 12 | [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md) |
-| 13 | 13 | [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md) |
-| 14 | 14 | [Ansible & Configuration Management](14-ansible/index.md) |
+| 2 | 06 | [Linux & OS Fundamentals](06-linux/index.md) |
+| 3 | 07 | [Cloud Networking & DNS](07-networking/index.md) |
+| 4 | 08 | [Git & Source-Control Strategy](08-git/index.md) |
+| 5 | 09 | [CI/CD & Progressive Delivery](09-cicd/index.md) |
+| 6 | 10 | [Docker & Container Engineering](10-docker/index.md) |
+| 7 | 11 | [Kubernetes](11-kubernetes/index.md) |
+| 8 | 12 | [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md) |
+| 9 | 13 | [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md) |
+| 10 | 14 | [Ansible & Configuration Management](14-ansible/index.md) |
+| 11 | 02 | [AWS Architecture](02-aws/index.md) |
+| 12 | 03 | [Azure Architecture](03-azure/index.md) |
+| 13 | 04 | [GCP Architecture](04-gcp/index.md) |
+| 14 | 05 | [Cross-Cloud Capability Mapping](05-multi-cloud-mapping/index.md) |
 | 15 | 15 | [DevSecOps & Software Supply Chain](15-devsecops/index.md) |
 | 16 | 16 | [Zero Trust Architecture](16-zero-trust/index.md) |
 | 17 | 17 | [Observability, OpenTelemetry, Prometheus & Grafana](17-observability/index.md) |

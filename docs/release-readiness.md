@@ -27,20 +27,23 @@ source review, and evidence-driven improvement—not additional breadth by defau
 
 | Page | Primary question | Numbering |
 | --- | --- | --- |
-| [Current learning path](index.md#current-learning-path) | What should I study next? | Study steps 1–31 and Module IDs 01–31 |
-| [Master competency map](master-competency-map.md) | Where is each original requirement covered? | Original plan points 1–36 plus module IDs where applicable |
+| [Current learning path](index.md#current-learning-path) | What should I study next? | Study steps 1–31 in dependency order |
+| [Master competency map](master-competency-map.md) | Where is each original requirement covered? | Original plan points 1–36 and Module ID order |
 
-They must share the same ordered destinations for Modules 01–31, but they should
-not be identical. Original point 1 defines the master map; points 33–36 define the
-interview framework, case studies, roadmap, and collaboration system rather than
-additional numbered modules. CI now rejects ordering or destination drift.
+They must contain the same 31 module destinations, but they should not use the same
+row order. The learning path follows prerequisites; the competency map preserves
+traceability and Module IDs. Original point 1 defines the master map; points 33–36
+define the interview framework, case studies, roadmap, and collaboration system
+rather than additional numbered modules. CI now rejects missing, duplicated, or
+incorrectly ordered study modules.
 
 ## Automated evidence
 
 The module-quality validation command verifies:
 
 - all released modules referenced by the competency map;
-- the contiguous 01–31 learner path and its alignment with the competency map;
+- the contiguous 1–31 study steps, exact dependency sequence, and the same module
+  set as the competency map;
 - required module pages, starting metadata, ordered paths, scenarios and answers;
 - at least 10 substantive drills, 50 rapid-fire questions, and 25 flashcards;
 - at least 15 references, three video sources, books, and review guidance;
