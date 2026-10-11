@@ -317,7 +317,24 @@ nav:
           - Rapid-Fire Revision: 18-sre/rapid-fire.md
           - Active-Recall Flashcards: 18-sre/flashcards.md
           - References & Videos: 18-sre/references.md
-      - 19 Platform Engineering: 19-platform-engineering/index.md
+      - 19 Platform Engineering:
+          - Module Overview: 19-platform-engineering/index.md
+          - Platform Engineering Decision Model: 19-platform-engineering/concepts.md
+          - Product & Operating Model: 19-platform-engineering/product-operating-model.md
+          - Platform Architecture: 19-platform-engineering/platform-architecture.md
+          - Golden Paths & Interfaces: 19-platform-engineering/golden-paths-interfaces.md
+          - Self-Service & Control Planes: 19-platform-engineering/self-service-control-planes.md
+          - Delivery & Software Supply Chain: 19-platform-engineering/delivery-supply-chain.md
+          - Security, Tenancy & Governance: 19-platform-engineering/security-tenancy-governance.md
+          - Reliability & Platform Operations: 19-platform-engineering/reliability-operations.md
+          - Adoption, Metrics & Economics: 19-platform-engineering/adoption-metrics-economics.md
+          - Enterprise Design Exercise: 19-platform-engineering/design-exercise.md
+          - Scenario Questions: 19-platform-engineering/scenarios.md
+          - Advanced Platform Drills: 19-platform-engineering/scenario-drills.md
+          - Ten-Minute Platform Review: 19-platform-engineering/presentation-template.md
+          - Rapid-Fire Revision: 19-platform-engineering/rapid-fire.md
+          - Active-Recall Flashcards: 19-platform-engineering/flashcards.md
+          - References & Videos: 19-platform-engineering/references.md
       - 20 Microservices: 20-microservices/index.md
       - 21 SaaS Architecture: 21-saas/index.md
       - 22 Event-Driven Architecture: 22-event-driven/index.md
@@ -479,6 +496,7 @@ nav:
       - Zero Trust Architecture Mock Interview: mock-interviews/zero-trust-architecture.md
       - Observability Platform Mock Interview: mock-interviews/observability-platform.md
       - Site Reliability Engineering Mock Interview: mock-interviews/site-reliability-engineering.md
+      - Platform Engineering Mock Interview: mock-interviews/platform-engineering.md
       - HA, DR & Business Continuity Mock Interview: mock-interviews/high-availability-disaster-recovery.md
       - FinOps & Cost Architecture Mock Interview: mock-interviews/finops-cost-architecture.md
       - Cross-Cloud Well-Architected Mock Interview: mock-interviews/well-architected-review.md

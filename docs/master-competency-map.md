@@ -39,7 +39,7 @@ Status values:
 | 17 | 16 | Zero Trust Architecture | [Zero Trust Architecture](16-zero-trust/index.md) | Initial release |
 | 18 | 17 | Observability | [Observability, OpenTelemetry, Prometheus & Grafana](17-observability/index.md) | Initial release |
 | 19 | 18 | Site Reliability Engineering | [SRE & Reliability Management](18-sre/index.md) | Initial release |
-| 20 | 19 | Platform Engineering | [Internal Developer Platforms](19-platform-engineering/index.md) | Planned |
+| 20 | 19 | Platform Engineering | [Internal Developer Platforms](19-platform-engineering/index.md) | Initial release |
 | 21 | 20 | Microservices Architecture | [Microservices](20-microservices/index.md) | Planned |
 | 22 | 21 | SaaS Architecture | [Multi-tenant SaaS](21-saas/index.md) | Planned |
 | 23 | 22 | Messaging & Event-Driven Architecture | [Messaging & Event-Driven Systems](22-event-driven/index.md) | Planned |

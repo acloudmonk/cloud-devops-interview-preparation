@@ -30,8 +30,8 @@ current primary documentation before any production recommendation.
 - [Generative AI observability in Microsoft Foundry](https://learn.microsoft.com/azure/ai-foundry/concepts/observability)
 - [Responsible AI in Azure workloads](https://learn.microsoft.com/azure/well-architected/ai/responsible-ai)
 - [Google Cloud Vertex AI generative AI](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/overview)
-- [Vertex AI evaluation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/evaluation-overview)
-- [Vertex AI RAG Engine](https://cloud.google.com/vertex-ai/generative-ai/docs/rag-overview)
+- [Google Cloud generative AI evaluation](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-overview)
+- [Google Cloud RAG Engine](https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/rag-engine/rag-overview)
 - [Google Secure AI Framework](https://saif.google/)
 
 ## Security, operations, and standards
