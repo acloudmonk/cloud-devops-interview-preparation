@@ -23,7 +23,7 @@ Status values:
 | 1 | — | Master Cloud + DevOps preparation map | This page and documentation navigation | Foundation complete |
 | 2 | 01 | Cloud Architecture Fundamentals | [Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md) | Initial release |
 | 3 | 02 | AWS Architecture | [AWS Architecture](02-aws/index.md) | Initial release |
-| 4 | 03 | Azure Architecture | [Azure Architecture](03-azure/index.md) | Planned |
+| 4 | 03 | Azure Architecture | [Azure Architecture](03-azure/index.md) | Initial release |
 | 5 | 04 | GCP Architecture | [GCP Architecture](04-gcp/index.md) | Planned |
 | 6 | 05 | AWS vs Azure vs GCP mapping | [Cross-Cloud Capability Map](05-multi-cloud-mapping/index.md) | Planned |
 | 7 | 06 | Linux | [Linux & OS Troubleshooting](06-linux/index.md) | Initial release |

@@ -38,7 +38,8 @@ scenario practice, revision, and communication.
 ## Milestone 4 — Cloud architecture
 
 - AWS architecture — initial release
-- Azure and GCP architecture
+- Azure architecture — initial release
+- GCP architecture
 - Cross-cloud capability and service mapping
 - Landing zones, governance, identity, networking, and operations
 - Hybrid and multi-cloud decision guidance — initial release
