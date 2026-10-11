@@ -44,7 +44,7 @@ Status values:
 | 22 | 21 | SaaS Architecture | [Multi-tenant SaaS](21-saas/index.md) | Initial release |
 | 23 | 22 | Messaging & Event-Driven Architecture | [Messaging & Event-Driven Systems](22-event-driven/index.md) | Initial release |
 | 24 | 23 | Database Architecture | [Database Architecture](23-databases/index.md) | Initial release |
-| 25 | 24 | Cloud Migration & Modernization | [Migration & Modernization](24-migration-modernization/index.md) | Planned |
+| 25 | 24 | Cloud Migration & Modernization | [Migration & Modernization](24-migration-modernization/index.md) | Initial release |
 | 26 | 25 | High Availability & Disaster Recovery | [HA, DR & Business Continuity](25-ha-dr-bcp/index.md) | Initial release |
 | 27 | 26 | FinOps | [FinOps & Cost Architecture](26-finops/index.md) | Initial release |
 | 28 | 27 | Well-Architected Frameworks | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) | Initial release |

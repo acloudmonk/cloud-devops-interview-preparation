@@ -31,9 +31,10 @@ Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud, APIs and Enterprise
 Identity, Python Automation, AI for Cloud and DevOps, Platform Engineering,
 Microservices Architecture, SaaS Architecture, Messaging and Event-Driven
-Architecture, Database Architecture, and Cross-Domain Architecture Case Studies are
-complete initial releases. Cloud Migration and Modernization is the next planned
-core-module milestone. See the
+Architecture, Database Architecture, Cloud Migration and Modernization, and
+Cross-Domain Architecture Case Studies are complete initial releases. The
+provider-specific AWS, Azure, GCP, and cross-cloud mapping modules remain planned.
+See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation
