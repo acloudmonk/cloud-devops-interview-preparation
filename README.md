@@ -27,9 +27,9 @@ The documentation foundation and the Cloud Architecture, Linux, Networking,
 Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, Terraform/OpenTofu,
 Ansible, DevSecOps, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
-Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud, and APIs and
-Enterprise Identity modules are complete initial releases. Python Automation is
-the next planned milestone. See the
+Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud, APIs and Enterprise
+Identity, and Python Automation modules are complete initial releases. AI for
+Cloud and DevOps is the next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation

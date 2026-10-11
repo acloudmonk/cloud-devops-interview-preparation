@@ -50,7 +50,7 @@ Status values:
 | 28 | 27 | Well-Architected Frameworks | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) | Initial release |
 | 29 | 28 | Hybrid & Multi-Cloud | [Hybrid & Multi-Cloud](28-hybrid-multicloud/index.md) | Initial release |
 | 30 | 29 | API & Identity Fundamentals | [APIs & Enterprise Identity](29-api-identity/index.md) | Initial release |
-| 31 | 30 | Python Automation | [Python Automation](30-python-automation/index.md) | Planned |
+| 31 | 30 | Python Automation | [Python Automation](30-python-automation/index.md) | Initial release |
 | 32 | 31 | AI for Cloud/DevOps | [AI for Cloud & DevOps](31-ai-for-devops/index.md) | Planned |
 | 33 | — | Scenario-Based Answer Framework | Interview Playbook | Foundation complete |
 | 34 | — | Example Senior Scenario | [Cross-Domain Case Studies](case-studies/index.md) | Planned |

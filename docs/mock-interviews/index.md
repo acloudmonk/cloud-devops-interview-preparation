@@ -63,6 +63,8 @@ analysis, trade-offs, and executive communication.
 - [APIs and enterprise identity](api-enterprise-identity.md) — a 50-minute API
   contract, federation, token, authorization, workload identity, security,
   resilience, lifecycle, and governance interview.
+- [Python automation](python-automation.md) — a 50-minute language, SDK, safety,
+  reliability, concurrency, testing, delivery, operations, and multi-cloud interview.
 
 Use each scorecard to identify weak decisions, then return to the corresponding
 module before repeating the interview.

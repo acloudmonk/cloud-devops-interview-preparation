@@ -413,7 +413,24 @@ nav:
           - Rapid-Fire Revision: 29-api-identity/rapid-fire.md
           - Active-Recall Flashcards: 29-api-identity/flashcards.md
           - References & Videos: 29-api-identity/references.md
-      - 30 Python Automation: 30-python-automation/index.md
+      - 30 Python Automation:
+          - Module Overview: 30-python-automation/index.md
+          - Automation Decision Model: 30-python-automation/concepts.md
+          - Python Language & Data Contracts: 30-python-automation/language-data.md
+          - CLI & Configuration Design: 30-python-automation/cli-configuration.md
+          - Cloud SDK & API Engineering: 30-python-automation/sdk-api-engineering.md
+          - Reliability & Idempotency: 30-python-automation/reliability-idempotency.md
+          - Concurrency & Performance: 30-python-automation/concurrency-performance.md
+          - Testing & Verification: 30-python-automation/testing-verification.md
+          - Packaging & Delivery: 30-python-automation/packaging-delivery.md
+          - Security, Observability & Governance: 30-python-automation/security-operations.md
+          - Enterprise Design Exercise: 30-python-automation/design-exercise.md
+          - Scenario Questions: 30-python-automation/scenarios.md
+          - Advanced Automation Drills: 30-python-automation/scenario-drills.md
+          - Ten-Minute Automation Review: 30-python-automation/presentation-template.md
+          - Rapid-Fire Revision: 30-python-automation/rapid-fire.md
+          - Active-Recall Flashcards: 30-python-automation/flashcards.md
+          - References & Videos: 30-python-automation/references.md
       - 31 AI for Cloud & DevOps: 31-ai-for-devops/index.md
   - Architecture Case Studies: case-studies/index.md
   - Interview Playbook:
@@ -438,6 +455,7 @@ nav:
       - Cross-Cloud Well-Architected Mock Interview: mock-interviews/well-architected-review.md
       - Hybrid & Multi-Cloud Mock Interview: mock-interviews/hybrid-multicloud.md
       - APIs & Enterprise Identity Mock Interview: mock-interviews/api-enterprise-identity.md
+      - Python Automation Mock Interview: mock-interviews/python-automation.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md
