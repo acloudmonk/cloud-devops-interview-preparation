@@ -54,6 +54,9 @@ analysis, trade-offs, and executive communication.
   contract, data, consistency, resilience, security, operations, and migration interview.
 - [SaaS Architecture](saas-architecture.md) — a 50-minute tenancy, isolation,
   control-plane, identity, lifecycle, reliability, metering, and economics interview.
+- [Messaging and Event-Driven Architecture](event-driven-architecture.md) — a
+  50-minute messaging, delivery, partitioning, schema, replay, resilience, and
+  multi-cloud platform interview.
 - [High availability, disaster recovery, and business continuity](high-availability-disaster-recovery.md)
   — a 50-minute BIA, recovery-objective, failure-domain, data, cyber-recovery,
   failover, continuity, exercise, and multi-cloud interview.
