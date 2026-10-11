@@ -47,7 +47,7 @@ scenario practice, revision, and communication.
 - DevSecOps and software supply-chain security — initial release
 - Zero Trust architecture — initial release
 - Observability, OpenTelemetry, Prometheus, and Grafana — initial release
-- Site Reliability Engineering
+- Site Reliability Engineering — initial release
 - High availability, disaster recovery, and business continuity
 - FinOps and Well-Architected reviews
 

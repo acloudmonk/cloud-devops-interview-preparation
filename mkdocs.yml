@@ -299,7 +299,24 @@ nav:
           - Rapid-Fire Revision: 17-observability/rapid-fire.md
           - Active-Recall Flashcards: 17-observability/flashcards.md
           - References & Videos: 17-observability/references.md
-      - 18 Site Reliability Engineering: 18-sre/index.md
+      - 18 Site Reliability Engineering:
+          - Module Overview: 18-sre/index.md
+          - SRE Decision Model: 18-sre/concepts.md
+          - SLIs, SLOs & Error-Budget Governance: 18-sre/slos-error-budgets.md
+          - Reliability Architecture & Risk: 18-sre/reliability-architecture.md
+          - Incident Response & Communication: 18-sre/incidents-response.md
+          - Postmortems & Organizational Learning: 18-sre/postmortems-learning.md
+          - Toil, Automation & Operational Engineering: 18-sre/toil-automation.md
+          - Capacity & Performance Engineering: 18-sre/capacity-performance.md
+          - Safe Change & Resilience Testing: 18-sre/safe-change-resilience.md
+          - On-Call & SRE Organization: 18-sre/organization-oncall.md
+          - Enterprise SRE Design Exercise: 18-sre/design-exercise.md
+          - Scenario Questions: 18-sre/scenarios.md
+          - Advanced Incident Drills: 18-sre/scenario-drills.md
+          - Ten-Minute Reliability Review: 18-sre/presentation-template.md
+          - Rapid-Fire Revision: 18-sre/rapid-fire.md
+          - Active-Recall Flashcards: 18-sre/flashcards.md
+          - References & Videos: 18-sre/references.md
       - 19 Platform Engineering: 19-platform-engineering/index.md
       - 20 Microservices: 20-microservices/index.md
       - 21 SaaS Architecture: 21-saas/index.md
@@ -330,6 +347,7 @@ nav:
       - DevSecOps Supply Chain Mock Interview: mock-interviews/devsecops-supply-chain.md
       - Zero Trust Architecture Mock Interview: mock-interviews/zero-trust-architecture.md
       - Observability Platform Mock Interview: mock-interviews/observability-platform.md
+      - Site Reliability Engineering Mock Interview: mock-interviews/site-reliability-engineering.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

@@ -25,9 +25,9 @@ modernization, FinOps, distributed systems, and technical consulting.
 
 The documentation foundation and the Cloud Architecture, Linux, Networking,
 Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, Terraform/OpenTofu,
-Ansible, DevSecOps, Zero Trust Architecture, and Observability modules are
-complete initial releases. Site Reliability Engineering is the next planned
-milestone. See the
+Ansible, DevSecOps, Zero Trust Architecture, Observability, and Site Reliability
+Engineering modules are complete initial releases. High Availability, Disaster
+Recovery, and Business Continuity is the next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation
