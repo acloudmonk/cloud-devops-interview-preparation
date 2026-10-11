@@ -449,7 +449,19 @@ nav:
           - Rapid-Fire Revision: 31-ai-for-devops/rapid-fire.md
           - Active-Recall Flashcards: 31-ai-for-devops/flashcards.md
           - References & Videos: 31-ai-for-devops/references.md
-  - Architecture Case Studies: case-studies/index.md
+  - Architecture Case Studies:
+      - Case-Study Overview: case-studies/index.md
+      - Case-Study Method: case-studies/method.md
+      - Common Scorecard: case-studies/scorecard.md
+      - Global Commerce Surge: case-studies/global-commerce.md
+      - Regulated Multi-Tenant SaaS: case-studies/regulated-saas.md
+      - Platform & Delivery Transformation: case-studies/platform-transformation.md
+      - Hybrid Modernization Program: case-studies/hybrid-modernization.md
+      - Cyber-Recovery Crisis: case-studies/cyber-recovery.md
+      - Reliability & FinOps Turnaround: case-studies/reliability-finops.md
+      - AI Operations Copilot: case-studies/ai-operations-copilot.md
+      - Principal Architect Capstone: case-studies/capstone.md
+      - References & Module Map: case-studies/references.md
   - Interview Playbook:
       - Scenario Answer Framework: interview-playbook/scenario-answer-framework.md
       - Mock Interview Overview: mock-interviews/index.md

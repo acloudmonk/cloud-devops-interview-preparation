@@ -11,6 +11,7 @@ Platform Engineering, SRE, and consulting interviews.
 | See the numbered order of released modules | [Documentation home and current learning path](docs/index.md#current-learning-path) |
 | Inspect all 36 original topics and their status | [Master competency map](docs/master-competency-map.md) |
 | Understand future delivery and study phases | [Study and delivery roadmap](docs/roadmap.md) |
+| Practise cross-domain architecture decisions | [Architecture case studies](docs/case-studies/index.md) |
 
 Within each released module, follow its numbered path from concepts through the
 scored mock interview. Module IDs preserve the complete curriculum structure, so
@@ -28,8 +29,9 @@ Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, Terraform/OpenTofu,
 Ansible, DevSecOps, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud, APIs and Enterprise
-Identity, Python Automation, and AI for Cloud and DevOps modules are complete
-initial releases. Cross-domain case studies are the next planned milestone. See the
+Identity, Python Automation, AI for Cloud and DevOps, and Cross-Domain Architecture
+Case Studies are complete initial releases. Platform Engineering is the next
+planned core-module milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation

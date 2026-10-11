@@ -44,6 +44,14 @@ path intentionally moves from Module 01 to Module 06.
 | 20 | 30 | [Python Automation for Cloud and DevOps](30-python-automation/index.md) |
 | 21 | 31 | [AI for Cloud and DevOps](31-ai-for-devops/index.md) |
 
+## Applied architecture practice
+
+After completing several relevant modules, use the
+[Cross-Domain Architecture Case Studies](case-studies/index.md) to combine
+discovery, option analysis, security, delivery, reliability, operations, cost,
+migration, and stakeholder communication. The cases have a numbered practice path,
+common scorecard, failure injects, model reasoning, and a principal-level capstone.
+
 ## How to use this knowledge base
 
 1. Begin at the [Module 01 overview](01-cloud-architecture/index.md).
@@ -81,8 +89,8 @@ Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
 Supply Chain, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud Architecture, APIs
-and Enterprise Identity, Python Automation for Cloud and DevOps, and AI for Cloud
-and DevOps.
+and Enterprise Identity, Python Automation for Cloud and DevOps, AI for Cloud and
+DevOps, and the Cross-Domain Architecture Case Studies.
 Remaining modules are tracked in the competency map and will be
 delivered in priority waves.
 

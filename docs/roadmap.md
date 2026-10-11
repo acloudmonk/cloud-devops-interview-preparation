@@ -64,7 +64,7 @@ scenario practice, revision, and communication.
 
 ## Milestone 7 — Interview mastery
 
-- Cross-domain case studies
+- Cross-domain case studies — initial release
 - Consultant discovery and stakeholder exercises
 - Mock interviews and scoring rubrics
 - Rapid-fire revision and flashcards

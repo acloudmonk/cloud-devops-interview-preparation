@@ -23,6 +23,17 @@ REQUIRED_PAGES = (
     "references.md",
 )
 
+CASE_STUDY_FILES = (
+    "global-commerce.md",
+    "regulated-saas.md",
+    "platform-transformation.md",
+    "hybrid-modernization.md",
+    "cyber-recovery.md",
+    "reliability-finops.md",
+    "ai-operations-copilot.md",
+    "capstone.md",
+)
+
 
 def read(path: Path) -> str:
     return path.read_text(encoding="utf-8")
@@ -204,15 +215,80 @@ def validate_module(module: Path) -> list[str]:
     return errors
 
 
+def validate_case_studies() -> list[str]:
+    """Validate the released cross-domain case-study learning path."""
+    errors: list[str] = []
+    case_dir = DOCS / "case-studies"
+    required = (
+        "index.md",
+        "method.md",
+        "scorecard.md",
+        *CASE_STUDY_FILES,
+        "references.md",
+    )
+    for name in required:
+        if not (case_dir / name).is_file():
+            errors.append(f"case-studies: missing required page {name}")
+    if errors:
+        return errors
+
+    index = read(case_dir / "index.md")
+    for marker in (
+        "Last reviewed:",
+        "Where to start",
+        "Recommended case-study path",
+        "Completion checklist",
+    ):
+        if marker not in index:
+            errors.append(f"case-studies/index.md: missing '{marker}'")
+    path_steps = len(re.findall(r"^\|\s*\d+\s*\|", index, re.MULTILINE))
+    if path_steps < 10:
+        errors.append(
+            f"case-studies/index.md: expected at least 10 ordered steps, "
+            f"found {path_steps}"
+        )
+
+    for name in CASE_STUDY_FILES:
+        text = read(case_dir / name)
+        for marker in (
+            "## Discovery prompts",
+            "## Candidate tasks",
+            "## Failure injects",
+            "## Model direction",
+            "## Strong close",
+        ):
+            if marker not in text:
+                errors.append(f"case-studies/{name}: missing '{marker}'")
+        bullet_count = len(re.findall(r"^-\s+", text, re.MULTILINE))
+        if bullet_count < 5:
+            errors.append(
+                f"case-studies/{name}: expected substantive prompts and injects"
+            )
+
+    references = read(case_dir / "references.md")
+    if len(re.findall(r"https?://", references)) < 15:
+        errors.append("case-studies/references.md: expected at least 15 links")
+    if len(re.findall(r"youtu(?:be\.com|\.be)", references, re.IGNORECASE)) < 3:
+        errors.append("case-studies/references.md: expected at least 3 video sources")
+    if not re.search(r"^## .*Books", references, re.MULTILINE | re.IGNORECASE):
+        errors.append("case-studies/references.md: missing a books section")
+    return errors
+
+
 def main() -> int:
     modules = released_modules()
     errors = [error for module in modules for error in validate_module(module)]
+    errors.extend(validate_case_studies())
     if errors:
         print("Released-module quality validation failed:")
         for error in errors:
             print(f"- {error}")
         return 1
     print(f"Released-module quality validation passed for {len(modules)} modules.")
+    print(
+        "Cross-domain case-study validation passed for "
+        f"{len(CASE_STUDY_FILES)} cases."
+    )
     return 0
 
 
