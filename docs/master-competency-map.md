@@ -53,7 +53,7 @@ Status values:
 | 31 | 30 | Python Automation | [Python Automation](30-python-automation/index.md) | Initial release |
 | 32 | 31 | AI for Cloud/DevOps | [AI for Cloud & DevOps](31-ai-for-devops/index.md) | Initial release |
 | 33 | — | Scenario-Based Answer Framework | Interview Playbook | Foundation complete |
-| 34 | — | Example Senior Scenario | [Cross-Domain Case Studies](case-studies/index.md) | Planned |
+| 34 | — | Example Senior Scenario | [Cross-Domain Case Studies](case-studies/index.md) | Initial release |
 | 35 | — | Six-Month Preparation Sequence | Study Roadmap | Foundation complete |
 | 36 | — | How We Prepare Together | Templates, workflow, assessments & [mock interviews](mock-interviews/index.md) | Foundation complete |
 
