@@ -30,9 +30,9 @@ Ansible, DevSecOps, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud, APIs and Enterprise
 Identity, Python Automation, AI for Cloud and DevOps, Platform Engineering,
-Microservices Architecture, SaaS Architecture, and Cross-Domain Architecture Case
-Studies are complete initial releases. Messaging and Event-Driven Architecture is
-the next planned core-module milestone. See the
+Microservices Architecture, SaaS Architecture, Messaging and Event-Driven
+Architecture, and Cross-Domain Architecture Case Studies are complete initial
+releases. Database Architecture is the next planned core-module milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation
