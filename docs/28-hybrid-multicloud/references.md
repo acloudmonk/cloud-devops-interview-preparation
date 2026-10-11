@@ -10,7 +10,7 @@ commercial behavior in current documentation before production decisions.
 1. [Google Cloud: Plan a hybrid and multi-cloud strategy](https://cloud.google.com/architecture/hybrid-multicloud-patterns/strategy)
 2. [Google Cloud hybrid and multi-cloud patterns](https://cloud.google.com/architecture/hybrid-multicloud-patterns-and-practices)
 3. [AWS hybrid-cloud best practices](https://docs.aws.amazon.com/prescriptive-guidance/latest/hybrid-cloud-best-practices/welcome.html)
-4. [Azure hybrid and multicloud documentation](https://learn.microsoft.com/azure/architecture/hybrid/)
+4. [Azure hybrid and adaptive cloud architecture](https://learn.microsoft.com/azure/architecture/hybrid/hybrid-start-here)
 5. [NIST Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final)
 
 ## AWS anchor
@@ -30,7 +30,7 @@ commercial behavior in current documentation before production decisions.
 - [Azure Arc overview](https://learn.microsoft.com/azure/azure-arc/overview)
 - [Azure ExpressRoute](https://learn.microsoft.com/azure/expressroute/expressroute-introduction)
 - [Azure Virtual WAN](https://learn.microsoft.com/azure/virtual-wan/virtual-wan-about)
-- [Azure private cloud and edge](https://learn.microsoft.com/azure/architecture/hybrid/azure-stack-hybrid-options)
+- [Azure Local overview](https://learn.microsoft.com/azure/azure-local/overview)
 - [Microsoft Entra workload identity federation](https://learn.microsoft.com/entra/workload-id/workload-identity-federation)
 - [Azure hybrid identity](https://learn.microsoft.com/entra/identity/hybrid/whatis-hybrid-identity)
 
