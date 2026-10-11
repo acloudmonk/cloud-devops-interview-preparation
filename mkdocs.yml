@@ -395,7 +395,24 @@ nav:
           - Rapid-Fire Revision: 28-hybrid-multicloud/rapid-fire.md
           - Active-Recall Flashcards: 28-hybrid-multicloud/flashcards.md
           - References & Videos: 28-hybrid-multicloud/references.md
-      - 29 APIs & Identity: 29-api-identity/index.md
+      - 29 APIs & Enterprise Identity:
+          - Module Overview: 29-api-identity/index.md
+          - API & Identity Decision Model: 29-api-identity/concepts.md
+          - API Contracts & Lifecycle: 29-api-identity/api-design-contracts.md
+          - Interaction Styles & Integration: 29-api-identity/api-styles-integration.md
+          - Gateways & API Management: 29-api-identity/gateway-management.md
+          - Identity & Federation Protocols: 29-api-identity/identity-protocols.md
+          - Authorization & Policy: 29-api-identity/authorization-policy.md
+          - Workload Identity & Federation: 29-api-identity/workload-federation.md
+          - Security & Threat Modeling: 29-api-identity/security-threats.md
+          - Operations, Governance & Resilience: 29-api-identity/operations-governance.md
+          - Enterprise Design Exercise: 29-api-identity/design-exercise.md
+          - Scenario Questions: 29-api-identity/scenarios.md
+          - Advanced Trust-Boundary Drills: 29-api-identity/scenario-drills.md
+          - Ten-Minute Architecture Review: 29-api-identity/presentation-template.md
+          - Rapid-Fire Revision: 29-api-identity/rapid-fire.md
+          - Active-Recall Flashcards: 29-api-identity/flashcards.md
+          - References & Videos: 29-api-identity/references.md
       - 30 Python Automation: 30-python-automation/index.md
       - 31 AI for Cloud & DevOps: 31-ai-for-devops/index.md
   - Architecture Case Studies: case-studies/index.md
@@ -420,6 +437,7 @@ nav:
       - FinOps & Cost Architecture Mock Interview: mock-interviews/finops-cost-architecture.md
       - Cross-Cloud Well-Architected Mock Interview: mock-interviews/well-architected-review.md
       - Hybrid & Multi-Cloud Mock Interview: mock-interviews/hybrid-multicloud.md
+      - APIs & Enterprise Identity Mock Interview: mock-interviews/api-enterprise-identity.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

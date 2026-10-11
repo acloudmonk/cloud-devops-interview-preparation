@@ -60,6 +60,9 @@ analysis, trade-offs, and executive communication.
 - [Hybrid and multi-cloud architecture](hybrid-multicloud.md) — a 50-minute
   placement, connectivity, trust, data, portability, operations, resilience,
   economics, and governance interview.
+- [APIs and enterprise identity](api-enterprise-identity.md) — a 50-minute API
+  contract, federation, token, authorization, workload identity, security,
+  resilience, lifecycle, and governance interview.
 
 Use each scorecard to identify weak decisions, then return to the corresponding
 module before repeating the interview.
