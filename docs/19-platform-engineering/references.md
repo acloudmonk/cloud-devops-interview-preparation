@@ -38,7 +38,7 @@ production decisions. Prefer primary sources and measure local developer outcome
 
 - [DORA research and guidance](https://dora.dev/)
 - [Microsoft platform engineering guide](https://learn.microsoft.com/platform-engineering/)
-- [Microsoft platform engineering capabilities model](https://learn.microsoft.com/platform-engineering/capability-model/)
+- [Microsoft platform engineering capabilities model](https://learn.microsoft.com/en-us/platform-engineering/overview/)
 - [Microsoft self-service with guardrails](https://learn.microsoft.com/platform-engineering/about/self-service)
 - [Google Cloud: Internal developer platforms](https://cloud.google.com/discover/what-is-an-internal-developer-platform)
 - [Team Topologies](https://teamtopologies.com/)
