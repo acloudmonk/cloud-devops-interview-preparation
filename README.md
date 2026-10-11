@@ -26,8 +26,9 @@ modernization, FinOps, distributed systems, and technical consulting.
 The documentation foundation and the Cloud Architecture, Linux, Networking,
 Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, Terraform/OpenTofu,
 Ansible, DevSecOps, Zero Trust Architecture, Observability, Site Reliability
-Engineering, and High Availability, Disaster Recovery, and Business Continuity
-modules are complete initial releases. FinOps is the next planned milestone. See the
+Engineering, High Availability, Disaster Recovery, Business Continuity, and FinOps
+modules are complete initial releases. Cross-Cloud Well-Architected Reviews is the
+next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation

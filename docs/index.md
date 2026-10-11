@@ -37,6 +37,7 @@ path intentionally moves from Module 01 to Module 06.
 | 13 | 17 | [Observability, OpenTelemetry, Prometheus & Grafana](17-observability/index.md) |
 | 14 | 18 | [Site Reliability Engineering](18-sre/index.md) |
 | 15 | 25 | [High Availability, Disaster Recovery & Business Continuity](25-ha-dr-bcp/index.md) |
+| 16 | 26 | [FinOps and Cost Architecture](26-finops/index.md) |
 
 ## How to use this knowledge base
 
@@ -73,8 +74,8 @@ Source-Control Strategy, CI/CD & Progressive Delivery, Docker & Container
 Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
 Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
 Supply Chain, Zero Trust Architecture, Observability, Site Reliability
-Engineering, and High Availability, Disaster Recovery, and Business Continuity.
-Remaining modules are tracked in the competency map and will be
+Engineering, High Availability, Disaster Recovery, Business Continuity, and
+FinOps. Remaining modules are tracked in the competency map and will be
 delivered in priority waves.
 
 !!! note "Version-aware content"

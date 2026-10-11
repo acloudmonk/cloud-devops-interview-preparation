@@ -341,7 +341,24 @@ nav:
           - Rapid-Fire Revision: 25-ha-dr-bcp/rapid-fire.md
           - Active-Recall Flashcards: 25-ha-dr-bcp/flashcards.md
           - References & Videos: 25-ha-dr-bcp/references.md
-      - 26 FinOps: 26-finops/index.md
+      - 26 FinOps:
+          - Module Overview: 26-finops/index.md
+          - FinOps Decision Model: 26-finops/concepts.md
+          - Allocation & Unit Economics: 26-finops/allocation-unit-economics.md
+          - Cost Data, Visibility & Reporting: 26-finops/cost-data-reporting.md
+          - Planning, Forecasting & Anomalies: 26-finops/planning-anomalies.md
+          - Workload & Architecture Optimization: 26-finops/workload-optimization.md
+          - Rate Optimization & Commitments: 26-finops/rate-optimization.md
+          - Kubernetes, Platforms & Shared Costs: 26-finops/platform-kubernetes-cost.md
+          - Governance & FinOps Practice: 26-finops/governance-operating-model.md
+          - AWS-First Multi-Cloud & Sustainability: 26-finops/cloud-mapping.md
+          - Enterprise FinOps Design Exercise: 26-finops/design-exercise.md
+          - Scenario Questions: 26-finops/scenarios.md
+          - Advanced Cost & Value Drills: 26-finops/scenario-drills.md
+          - Ten-Minute FinOps Review: 26-finops/presentation-template.md
+          - Rapid-Fire Revision: 26-finops/rapid-fire.md
+          - Active-Recall Flashcards: 26-finops/flashcards.md
+          - References & Videos: 26-finops/references.md
       - 27 Well-Architected Reviews: 27-well-architected/index.md
       - 28 Hybrid & Multi-Cloud: 28-hybrid-multicloud/index.md
       - 29 APIs & Identity: 29-api-identity/index.md
@@ -366,6 +383,7 @@ nav:
       - Observability Platform Mock Interview: mock-interviews/observability-platform.md
       - Site Reliability Engineering Mock Interview: mock-interviews/site-reliability-engineering.md
       - HA, DR & Business Continuity Mock Interview: mock-interviews/high-availability-disaster-recovery.md
+      - FinOps & Cost Architecture Mock Interview: mock-interviews/finops-cost-architecture.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md
