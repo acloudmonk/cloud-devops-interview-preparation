@@ -41,6 +41,7 @@ path intentionally moves from Module 01 to Module 06.
 | 17 | 27 | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) |
 | 18 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
 | 19 | 29 | [APIs and Enterprise Identity](29-api-identity/index.md) |
+| 20 | 30 | [Python Automation for Cloud and DevOps](30-python-automation/index.md) |
 
 ## How to use this knowledge base
 
@@ -78,8 +79,8 @@ Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
 Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
 Supply Chain, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
-Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud Architecture, and
-APIs and Enterprise Identity.
+Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud Architecture, APIs
+and Enterprise Identity, and Python Automation for Cloud and DevOps.
 Remaining modules are tracked in the competency map and will be
 delivered in priority waves.
 

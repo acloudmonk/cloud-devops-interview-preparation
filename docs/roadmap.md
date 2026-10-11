@@ -59,7 +59,8 @@ scenario practice, revision, and communication.
 - Database architecture
 - APIs and identity — initial release
 - Cloud migration and modernization
-- Python automation and AI for Cloud/DevOps
+- Python automation — initial release
+- AI for Cloud/DevOps
 
 ## Milestone 7 — Interview mastery
 
