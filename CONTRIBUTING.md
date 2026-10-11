@@ -72,6 +72,10 @@ Topic-specific depth can vary, but every released module must include:
 - working navigation plus passing strict build, Markdown, link, secret, and
   released-module quality checks.
 
+All numeric requirements above are **minimum floors, not maximums**. Add more
+material when it contributes distinct interview value and remains well structured;
+do not add repetition merely to increase a count.
+
 Run `python scripts/check_module_quality.py` before requesting review. This check
 is a minimum structural gate; reviewers must still assess technical accuracy,
 clarity, currency, originality, and the quality of engineering judgment.
