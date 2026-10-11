@@ -335,7 +335,24 @@ nav:
           - Rapid-Fire Revision: 19-platform-engineering/rapid-fire.md
           - Active-Recall Flashcards: 19-platform-engineering/flashcards.md
           - References & Videos: 19-platform-engineering/references.md
-      - 20 Microservices: 20-microservices/index.md
+      - 20 Microservices Architecture:
+          - Module Overview: 20-microservices/index.md
+          - Microservices Decision Model: 20-microservices/concepts.md
+          - Domain & Service Boundaries: 20-microservices/domain-boundaries.md
+          - Communication & Contracts: 20-microservices/communication-contracts.md
+          - Data Ownership & Consistency: 20-microservices/data-consistency.md
+          - Resilience & Performance: 20-microservices/resilience-performance.md
+          - Security & Identity: 20-microservices/security-identity.md
+          - Delivery & Testing: 20-microservices/delivery-testing.md
+          - Observability & Operations: 20-microservices/observability-operations.md
+          - Organization & Migration: 20-microservices/organization-migration.md
+          - Enterprise Design Exercise: 20-microservices/design-exercise.md
+          - Scenario Questions: 20-microservices/scenarios.md
+          - Advanced Architecture & Incident Drills: 20-microservices/scenario-drills.md
+          - Ten-Minute Architecture Review: 20-microservices/presentation-template.md
+          - Rapid-Fire Revision: 20-microservices/rapid-fire.md
+          - Active-Recall Flashcards: 20-microservices/flashcards.md
+          - References & Videos: 20-microservices/references.md
       - 21 SaaS Architecture: 21-saas/index.md
       - 22 Event-Driven Architecture: 22-event-driven/index.md
       - 23 Database Architecture: 23-databases/index.md
@@ -497,6 +514,7 @@ nav:
       - Observability Platform Mock Interview: mock-interviews/observability-platform.md
       - Site Reliability Engineering Mock Interview: mock-interviews/site-reliability-engineering.md
       - Platform Engineering Mock Interview: mock-interviews/platform-engineering.md
+      - Microservices Architecture Mock Interview: mock-interviews/microservices-architecture.md
       - HA, DR & Business Continuity Mock Interview: mock-interviews/high-availability-disaster-recovery.md
       - FinOps & Cost Architecture Mock Interview: mock-interviews/finops-cost-architecture.md
       - Cross-Cloud Well-Architected Mock Interview: mock-interviews/well-architected-review.md

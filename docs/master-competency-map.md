@@ -40,7 +40,7 @@ Status values:
 | 18 | 17 | Observability | [Observability, OpenTelemetry, Prometheus & Grafana](17-observability/index.md) | Initial release |
 | 19 | 18 | Site Reliability Engineering | [SRE & Reliability Management](18-sre/index.md) | Initial release |
 | 20 | 19 | Platform Engineering | [Internal Developer Platforms](19-platform-engineering/index.md) | Initial release |
-| 21 | 20 | Microservices Architecture | [Microservices](20-microservices/index.md) | Planned |
+| 21 | 20 | Microservices Architecture | [Microservices](20-microservices/index.md) | Initial release |
 | 22 | 21 | SaaS Architecture | [Multi-tenant SaaS](21-saas/index.md) | Planned |
 | 23 | 22 | Messaging & Event-Driven Architecture | [Messaging & Event-Driven Systems](22-event-driven/index.md) | Planned |
 | 24 | 23 | Database Architecture | [Database Architecture](23-databases/index.md) | Planned |

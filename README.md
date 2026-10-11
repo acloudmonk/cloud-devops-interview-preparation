@@ -29,9 +29,9 @@ Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, Terraform/OpenTofu,
 Ansible, DevSecOps, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud, APIs and Enterprise
-Identity, Python Automation, AI for Cloud and DevOps, Platform Engineering, and
-Cross-Domain Architecture Case Studies are complete initial releases. Microservices
-Architecture is the next planned core-module milestone. See the
+Identity, Python Automation, AI for Cloud and DevOps, Platform Engineering,
+Microservices Architecture, and Cross-Domain Architecture Case Studies are complete
+initial releases. SaaS Architecture is the next planned core-module milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation
