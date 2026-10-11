@@ -131,7 +131,28 @@ nav:
           - Rapid-Fire Revision: 03-azure/rapid-fire.md
           - Active-Recall Flashcards: 03-azure/flashcards.md
           - References & Videos: 03-azure/references.md
-      - 04 GCP Architecture: 04-gcp/index.md
+      - 04 GCP Architecture:
+          - Module Overview: 04-gcp/index.md
+          - GCP Architecture Decision Model: 04-gcp/concepts.md
+          - Global Infrastructure & Service Scope: 04-gcp/global-infrastructure.md
+          - Resource Hierarchy & Governance: 04-gcp/resource-hierarchy-governance.md
+          - Enterprise Platform & Shared Services: 04-gcp/enterprise-platform.md
+          - Identity, Security & Data Protection: 04-gcp/identity-security.md
+          - Networking, Hybrid Connectivity & Edge: 04-gcp/networking-edge.md
+          - Compute, Containers, Serverless & App Platforms: 04-gcp/compute-platforms.md
+          - Storage, Databases & Analytics: 04-gcp/data-platforms.md
+          - APIs, Messaging, Events & Workflows: 04-gcp/integration-services.md
+          - GCP Service-Selection Matrices: 04-gcp/service-selection.md
+          - Reliability, Observability & Operations: 04-gcp/reliability-operations.md
+          - Cost, Capacity, Quotas & Sustainability: 04-gcp/cost-capacity.md
+          - Google Cloud Well-Architected Review: 04-gcp/well-architected.md
+          - Enterprise GCP Design Exercise: 04-gcp/design-exercise.md
+          - Scenario Questions: 04-gcp/scenarios.md
+          - Advanced Architecture & Incident Drills: 04-gcp/scenario-drills.md
+          - Ten-Minute GCP Architecture Review: 04-gcp/presentation-template.md
+          - Rapid-Fire Revision: 04-gcp/rapid-fire.md
+          - Active-Recall Flashcards: 04-gcp/flashcards.md
+          - References & Videos: 04-gcp/references.md
       - 05 Cross-Cloud Capability Mapping: 05-multi-cloud-mapping/index.md
       - 06 Linux & OS Fundamentals:
           - Module Overview: 06-linux/index.md
@@ -613,6 +634,7 @@ nav:
       - Cloud Architecture Mock Interview: mock-interviews/cloud-architecture.md
       - AWS Architecture Mock Interview: mock-interviews/aws-architecture.md
       - Azure Architecture Mock Interview: mock-interviews/azure-architecture.md
+      - GCP Architecture Mock Interview: mock-interviews/gcp-architecture.md
       - Linux Operations Mock Interview: mock-interviews/linux-operations.md
       - Networking Operations Mock Interview: mock-interviews/networking-operations.md
       - Git Strategy Mock Interview: mock-interviews/git-source-control.md

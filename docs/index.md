@@ -17,40 +17,41 @@ knowledge.
 ## Current learning path
 
 This is the canonical order for currently released learning material. Module IDs
-preserve the full curriculum structure; Modules 04–05 are planned, so the current
-path intentionally moves from Module 03 to Module 06.
+preserve the full curriculum structure; Module 05 is planned, so the current path
+intentionally moves from Module 04 to Module 06.
 
 | Study step | Module ID | Module |
 | ---: | ---: | --- |
 | 1 | 01 | [Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md) |
 | 2 | 02 | [AWS Architecture](02-aws/index.md) |
 | 3 | 03 | [Azure Architecture](03-azure/index.md) |
-| 4 | 06 | [Linux & OS Fundamentals](06-linux/index.md) |
-| 5 | 07 | [Cloud Networking & DNS](07-networking/index.md) |
-| 6 | 08 | [Git & Source-Control Strategy](08-git/index.md) |
-| 7 | 09 | [CI/CD & Progressive Delivery](09-cicd/index.md) |
-| 8 | 10 | [Docker & Container Engineering](10-docker/index.md) |
-| 9 | 11 | [Kubernetes](11-kubernetes/index.md) |
-| 10 | 12 | [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md) |
-| 11 | 13 | [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md) |
-| 12 | 14 | [Ansible & Configuration Management](14-ansible/index.md) |
-| 13 | 15 | [DevSecOps & Software Supply Chain](15-devsecops/index.md) |
-| 14 | 16 | [Zero Trust Architecture](16-zero-trust/index.md) |
-| 15 | 17 | [Observability, OpenTelemetry, Prometheus & Grafana](17-observability/index.md) |
-| 16 | 18 | [Site Reliability Engineering](18-sre/index.md) |
-| 17 | 19 | [Platform Engineering and Internal Developer Platforms](19-platform-engineering/index.md) |
-| 18 | 20 | [Microservices Architecture](20-microservices/index.md) |
-| 19 | 21 | [SaaS Architecture](21-saas/index.md) |
-| 20 | 22 | [Messaging and Event-Driven Architecture](22-event-driven/index.md) |
-| 21 | 23 | [Database Architecture](23-databases/index.md) |
-| 22 | 24 | [Cloud Migration and Modernization](24-migration-modernization/index.md) |
-| 23 | 25 | [High Availability, Disaster Recovery & Business Continuity](25-ha-dr-bcp/index.md) |
-| 24 | 26 | [FinOps and Cost Architecture](26-finops/index.md) |
-| 25 | 27 | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) |
-| 26 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
-| 27 | 29 | [APIs and Enterprise Identity](29-api-identity/index.md) |
-| 28 | 30 | [Python Automation for Cloud and DevOps](30-python-automation/index.md) |
-| 29 | 31 | [AI for Cloud and DevOps](31-ai-for-devops/index.md) |
+| 4 | 04 | [GCP Architecture](04-gcp/index.md) |
+| 5 | 06 | [Linux & OS Fundamentals](06-linux/index.md) |
+| 6 | 07 | [Cloud Networking & DNS](07-networking/index.md) |
+| 7 | 08 | [Git & Source-Control Strategy](08-git/index.md) |
+| 8 | 09 | [CI/CD & Progressive Delivery](09-cicd/index.md) |
+| 9 | 10 | [Docker & Container Engineering](10-docker/index.md) |
+| 10 | 11 | [Kubernetes](11-kubernetes/index.md) |
+| 11 | 12 | [Kubernetes Ecosystem](12-kubernetes-ecosystem/index.md) |
+| 12 | 13 | [Terraform, OpenTofu & Infrastructure as Code](13-terraform/index.md) |
+| 13 | 14 | [Ansible & Configuration Management](14-ansible/index.md) |
+| 14 | 15 | [DevSecOps & Software Supply Chain](15-devsecops/index.md) |
+| 15 | 16 | [Zero Trust Architecture](16-zero-trust/index.md) |
+| 16 | 17 | [Observability, OpenTelemetry, Prometheus & Grafana](17-observability/index.md) |
+| 17 | 18 | [Site Reliability Engineering](18-sre/index.md) |
+| 18 | 19 | [Platform Engineering and Internal Developer Platforms](19-platform-engineering/index.md) |
+| 19 | 20 | [Microservices Architecture](20-microservices/index.md) |
+| 20 | 21 | [SaaS Architecture](21-saas/index.md) |
+| 21 | 22 | [Messaging and Event-Driven Architecture](22-event-driven/index.md) |
+| 22 | 23 | [Database Architecture](23-databases/index.md) |
+| 23 | 24 | [Cloud Migration and Modernization](24-migration-modernization/index.md) |
+| 24 | 25 | [High Availability, Disaster Recovery & Business Continuity](25-ha-dr-bcp/index.md) |
+| 25 | 26 | [FinOps and Cost Architecture](26-finops/index.md) |
+| 26 | 27 | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) |
+| 27 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
+| 28 | 29 | [APIs and Enterprise Identity](29-api-identity/index.md) |
+| 29 | 30 | [Python Automation for Cloud and DevOps](30-python-automation/index.md) |
+| 30 | 31 | [AI for Cloud and DevOps](31-ai-for-devops/index.md) |
 
 ## Applied architecture practice
 
@@ -90,7 +91,7 @@ flowchart LR
 ## Current release
 
 The current release contains the repository foundation, Cloud Architecture &
-Distributed Systems, AWS Architecture, Azure Architecture, Linux & OS Fundamentals,
+Distributed Systems, AWS Architecture, Azure Architecture, GCP Architecture, Linux & OS Fundamentals,
 Cloud Networking & DNS, Git & Source-Control Strategy, CI/CD & Progressive Delivery,
 Docker & Container
 Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
