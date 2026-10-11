@@ -1,6 +1,6 @@
 # Organizations, Landing Zones, and Governance
 
-[← Global infrastructure](global-infrastructure.md) · [Next: Identity and security →](identity-security.md)
+[← Global infrastructure](global-infrastructure.md) · [Next: Enterprise platform →](enterprise-platform.md)
 
 ## Use accounts as strong boundaries
 

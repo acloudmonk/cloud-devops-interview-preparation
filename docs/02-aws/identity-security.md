@@ -1,6 +1,6 @@
 # Identity, Security, and Data Protection
 
-[← Organizations and governance](multi-account-governance.md) · [Next: Networking and edge →](networking-edge.md)
+[← Enterprise platform](enterprise-platform.md) · [Next: Networking and edge →](networking-edge.md)
 
 ## Build from identities and resources
 

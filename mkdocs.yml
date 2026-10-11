@@ -92,13 +92,16 @@ nav:
           - AWS Architecture Decision Model: 02-aws/concepts.md
           - Global Infrastructure & Service Scope: 02-aws/global-infrastructure.md
           - Organizations, Landing Zones & Governance: 02-aws/multi-account-governance.md
+          - Enterprise Platform & Shared Services: 02-aws/enterprise-platform.md
           - Identity, Security & Data Protection: 02-aws/identity-security.md
           - Networking, Hybrid Connectivity & Edge: 02-aws/networking-edge.md
           - Compute, Containers & Serverless: 02-aws/compute-platforms.md
           - Storage, Databases & Analytics: 02-aws/data-platforms.md
           - APIs, Messaging, Events & Workflows: 02-aws/integration-services.md
+          - AWS Service-Selection Matrices: 02-aws/service-selection.md
           - Reliability, Observability & Operations: 02-aws/reliability-operations.md
           - Cost, Capacity, Quotas & Sustainability: 02-aws/cost-capacity.md
+          - AWS Well-Architected Review: 02-aws/well-architected.md
           - Enterprise AWS Design Exercise: 02-aws/design-exercise.md
           - Scenario Questions: 02-aws/scenarios.md
           - Advanced Architecture & Incident Drills: 02-aws/scenario-drills.md

@@ -59,3 +59,10 @@ Answer each in one or two sentences before adding an example.
 53. **Why use unit economics?** Cost per business outcome distinguishes efficiency from demand growth.
 54. **When should Savings Plans be purchased?** After stable eligible usage is understood and flexibility/risk are evaluated.
 55. **What makes an AWS design architect-level?** Traceable outcomes, deliberate boundaries, service semantics, failure behavior, evidence, operations, and economic trade-offs.
+56. **What does AWS RAM do?** It shares supported resources across accounts or an organization without transferring ownership.
+57. **What do CloudFormation StackSets do?** They deploy and manage CloudFormation stacks across multiple accounts and Regions.
+58. **What is Service Catalog for?** Publishing governed, versioned products that authorized consumers can provision.
+59. **Why can a shared service become risky?** It concentrates quota, change, security, availability, and ownership dependencies across consumers.
+60. **Name the six Well-Architected pillars.** Operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability.
+61. **Is a Well-Architected review an audit?** No; it is an evidence-based architecture and risk conversation with owned improvements.
+62. **What should a Well-Architected finding contain?** Affected outcome, evidence, likelihood, impact, recommendation, alternatives, owner, priority, and completion criteria.

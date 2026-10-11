@@ -1,6 +1,6 @@
 # Enterprise AWS Design Exercise
 
-[← Cost and capacity](cost-capacity.md) · [Next: Scenarios →](scenarios.md)
+[← Well-Architected review](well-architected.md) · [Next: Scenarios →](scenarios.md)
 
 ## Brief
 

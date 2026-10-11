@@ -1,6 +1,6 @@
 # Reliability, Observability, and Operations
 
-[← Integration services](integration-services.md) · [Next: Cost and capacity →](cost-capacity.md)
+[← Service-selection matrices](service-selection.md) · [Next: Cost and capacity →](cost-capacity.md)
 
 ## Derive resilience from objectives
 

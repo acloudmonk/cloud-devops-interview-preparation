@@ -1,6 +1,6 @@
 # Cost, Capacity, Quotas, and Sustainability
 
-[← Reliability and operations](reliability-operations.md) · [Next: Design exercise →](design-exercise.md)
+[← Reliability and operations](reliability-operations.md) · [Next: Well-Architected review →](well-architected.md)
 
 ## Model the bill before optimizing it
 

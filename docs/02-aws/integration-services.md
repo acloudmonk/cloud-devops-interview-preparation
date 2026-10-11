@@ -1,6 +1,6 @@
 # APIs, Messaging, Events, and Workflows
 
-[← Data platforms](data-platforms.md) · [Next: Reliability and operations →](reliability-operations.md)
+[← Data platforms](data-platforms.md) · [Next: Service-selection matrices →](service-selection.md)
 
 ## Select the interaction model first
 

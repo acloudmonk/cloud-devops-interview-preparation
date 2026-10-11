@@ -36,3 +36,8 @@ Cover the answer column and retrieve the answer aloud.
 | 28 | Idempotency | Repeating an operation produces no additional unintended effect |
 | 29 | RTO/RPO evidence | Timed recovery plus validated service and data integrity |
 | 30 | Unit economics | Cost divided by a meaningful business or technical outcome |
+| 31 | AWS RAM | Governed sharing of supported resources across accounts or an organization |
+| 32 | StackSets | Multi-account and multi-Region CloudFormation stack deployment and management |
+| 33 | Service Catalog | Governed catalog of versioned products for authorized self-service |
+| 34 | Six pillars | Operational excellence, security, reliability, performance efficiency, cost optimization, sustainability |
+| 35 | Well-Architected finding | Evidence-backed risk with owner, priority, treatment, and completion criteria |
