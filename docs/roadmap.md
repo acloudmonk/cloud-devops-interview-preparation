@@ -56,7 +56,8 @@ scenario practice, revision, and communication.
 
 - Platform engineering — initial release
 - Microservices — initial release
-- SaaS, messaging, and event-driven systems
+- SaaS architecture — initial release
+- Messaging and event-driven systems
 - Database architecture
 - APIs and identity — initial release
 - Cloud migration and modernization

@@ -353,7 +353,23 @@ nav:
           - Rapid-Fire Revision: 20-microservices/rapid-fire.md
           - Active-Recall Flashcards: 20-microservices/flashcards.md
           - References & Videos: 20-microservices/references.md
-      - 21 SaaS Architecture: 21-saas/index.md
+      - 21 SaaS Architecture:
+          - Module Overview: 21-saas/index.md
+          - SaaS Decision Model: 21-saas/concepts.md
+          - Tenancy, Isolation & Placement: 21-saas/tenancy-isolation.md
+          - Control Plane & Tenant Lifecycle: 21-saas/control-plane-lifecycle.md
+          - Identity & Authorization: 21-saas/identity-authorization.md
+          - Data, Residency & Compliance: 21-saas/data-residency-compliance.md
+          - Reliability, Performance & Scale: 21-saas/reliability-performance.md
+          - Metering, Billing & Economics: 21-saas/metering-billing-economics.md
+          - Delivery, Observability & Operations: 21-saas/delivery-operations.md
+          - Enterprise Design Exercise: 21-saas/design-exercise.md
+          - Scenario Questions: 21-saas/scenarios.md
+          - Advanced Architecture & Incident Drills: 21-saas/scenario-drills.md
+          - Ten-Minute Architecture Review: 21-saas/presentation-template.md
+          - Rapid-Fire Revision: 21-saas/rapid-fire.md
+          - Active-Recall Flashcards: 21-saas/flashcards.md
+          - References & Videos: 21-saas/references.md
       - 22 Event-Driven Architecture: 22-event-driven/index.md
       - 23 Database Architecture: 23-databases/index.md
       - 24 Migration & Modernization: 24-migration-modernization/index.md
@@ -515,6 +531,7 @@ nav:
       - Site Reliability Engineering Mock Interview: mock-interviews/site-reliability-engineering.md
       - Platform Engineering Mock Interview: mock-interviews/platform-engineering.md
       - Microservices Architecture Mock Interview: mock-interviews/microservices-architecture.md
+      - SaaS Architecture Mock Interview: mock-interviews/saas-architecture.md
       - HA, DR & Business Continuity Mock Interview: mock-interviews/high-availability-disaster-recovery.md
       - FinOps & Cost Architecture Mock Interview: mock-interviews/finops-cost-architecture.md
       - Cross-Cloud Well-Architected Mock Interview: mock-interviews/well-architected-review.md

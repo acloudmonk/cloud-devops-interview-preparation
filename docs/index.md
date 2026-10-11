@@ -38,13 +38,14 @@ path intentionally moves from Module 01 to Module 06.
 | 14 | 18 | [Site Reliability Engineering](18-sre/index.md) |
 | 15 | 19 | [Platform Engineering and Internal Developer Platforms](19-platform-engineering/index.md) |
 | 16 | 20 | [Microservices Architecture](20-microservices/index.md) |
-| 17 | 25 | [High Availability, Disaster Recovery & Business Continuity](25-ha-dr-bcp/index.md) |
-| 18 | 26 | [FinOps and Cost Architecture](26-finops/index.md) |
-| 19 | 27 | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) |
-| 20 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
-| 21 | 29 | [APIs and Enterprise Identity](29-api-identity/index.md) |
-| 22 | 30 | [Python Automation for Cloud and DevOps](30-python-automation/index.md) |
-| 23 | 31 | [AI for Cloud and DevOps](31-ai-for-devops/index.md) |
+| 17 | 21 | [SaaS Architecture](21-saas/index.md) |
+| 18 | 25 | [High Availability, Disaster Recovery & Business Continuity](25-ha-dr-bcp/index.md) |
+| 19 | 26 | [FinOps and Cost Architecture](26-finops/index.md) |
+| 20 | 27 | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) |
+| 21 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
+| 22 | 29 | [APIs and Enterprise Identity](29-api-identity/index.md) |
+| 23 | 30 | [Python Automation for Cloud and DevOps](30-python-automation/index.md) |
+| 24 | 31 | [AI for Cloud and DevOps](31-ai-for-devops/index.md) |
 
 ## Applied architecture practice
 
@@ -89,7 +90,8 @@ Source-Control Strategy, CI/CD & Progressive Delivery, Docker & Container
 Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
 Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
 Supply Chain, Zero Trust Architecture, Observability, Site Reliability
-Engineering, Platform Engineering, Microservices Architecture, High Availability,
+Engineering, Platform Engineering, Microservices Architecture, SaaS Architecture,
+High Availability,
 Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud Architecture, APIs
 and Enterprise Identity, Python Automation for Cloud and DevOps, AI for Cloud and
