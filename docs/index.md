@@ -34,6 +34,7 @@ path intentionally moves from Module 01 to Module 06.
 | 10 | 14 | [Ansible & Configuration Management](14-ansible/index.md) |
 | 11 | 15 | [DevSecOps & Software Supply Chain](15-devsecops/index.md) |
 | 12 | 16 | [Zero Trust Architecture](16-zero-trust/index.md) |
+| 13 | 17 | [Observability, OpenTelemetry, Prometheus & Grafana](17-observability/index.md) |
 
 ## How to use this knowledge base
 
@@ -69,8 +70,8 @@ Distributed Systems, Linux & OS Fundamentals, Cloud Networking & DNS, Git &
 Source-Control Strategy, CI/CD & Progressive Delivery, Docker & Container
 Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
 Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
-Supply Chain, and Zero Trust Architecture. Remaining modules are tracked in the
-competency map and will be delivered in priority waves.
+Supply Chain, Zero Trust Architecture, and Observability. Remaining modules are
+tracked in the competency map and will be delivered in priority waves.
 
 !!! note "Version-aware content"
     Cloud services and open-source platforms change continuously. Each module
