@@ -59,14 +59,18 @@ Status values:
 
 ## Target completeness for every core module
 
+- [ ] Clear starting point, numbered study path, boundaries, and completion criteria
 - [ ] Concepts and mental models
 - [ ] Architecture and trade-offs
 - [ ] Security, reliability, operations, and cost
 - [ ] Cross-cloud relevance
 - [ ] Troubleshooting guide
 - [ ] At least one scored architecture design exercise
-- [ ] 15–25 scenario-based questions
-- [ ] Rapid-fire revision questions
+- [ ] At least 15 scenario questions with model answers
+- [ ] At least 10 detailed advanced scenario drills
+- [ ] At least 50 rapid-fire questions and 25 active-recall flashcards
+- [ ] Timed, scored mock interview
 - [ ] Curated official documentation
-- [ ] Curated videos and further reading
+- [ ] Curated targeted videos, books, and a source-review loop
 - [ ] Version and last-reviewed metadata
+- [ ] Passing strict build, Markdown, link, secret, and module-quality checks

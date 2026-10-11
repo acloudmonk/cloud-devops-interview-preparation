@@ -5,7 +5,7 @@
 Verify provider capability, Region, SLA, routing, encryption, quota, support, and
 commercial behavior in current documentation before production decisions.
 
-## Strategy and patterns
+## Core reading order
 
 1. [Google Cloud: Plan a hybrid and multi-cloud strategy](https://cloud.google.com/architecture/hybrid-multicloud-patterns/strategy)
 2. [Google Cloud hybrid and multi-cloud patterns](https://cloud.google.com/architecture/hybrid-multicloud-patterns-and-practices)
@@ -51,14 +51,45 @@ commercial behavior in current documentation before production decisions.
 - [CNCF Cloud Native Maturity Model](https://maturitymodel.cncf.io/)
 - [Kubernetes multi-cluster concepts](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
 
-## Video channels
+## Targeted videos
+
+- [AWS re:Invent 2024: AWS wherever you need it—from cloud to edge](https://www.youtube.com/watch?v=_1quMnn2TI0)
+- [Microsoft: Introduction to the hybrid and multicloud scenario](https://www.youtube.com/watch?v=FxGyXb-cP6M)
+- [Google Cloud: Five hybrid and multicloud architecture designs](https://www.youtube.com/watch?v=tE9FcKiDJxo)
+
+Use these sessions to compare placement and operating choices, then verify current
+service behavior in the official documentation above.
+
+## Video discovery channels
 
 - [AWS Events](https://www.youtube.com/@AWSEventsChannel)
 - [Microsoft Azure](https://www.youtube.com/@MicrosoftAzure)
 - [Google Cloud Tech](https://www.youtube.com/@googlecloudtech)
 - [CNCF](https://www.youtube.com/@cncf)
 
-After each source, explain the business driver, placement, trust/data/failure
-boundaries, operating owner, lifecycle cost, evidence, and simplification trigger.
+## Books for deeper study
+
+- *Cloud Strategy: A Decision-Based Approach to Successful Cloud Migration* by
+  Gregor Hohpe
+- *Enterprise Integration Patterns* by Gregor Hohpe and Bobby Woolf
+- *Building Secure & Reliable Systems* by Heather Adkins and others
+
+Use books for durable decision models and current official documentation for
+provider capability, limits, and operating behavior.
+
+## Suggested review loop
+
+1. Start with the strategy sources and state the durable business reason for
+   using more than one environment.
+2. Study the AWS anchor for the primary implementation model.
+3. Translate the same requirement to Azure and Google Cloud without assuming
+   product names imply identical semantics.
+4. Use the standards and books to test portability, integration, security,
+   resilience, and operating assumptions.
+5. Select targeted videos only for a weak concept; verify product details in
+   the corresponding official documentation.
+6. Return to the scenarios or mock interview and explain the business driver,
+   placement, trust/data/failure boundaries, operating owner, lifecycle cost,
+   evidence, and simplification trigger.
 
 Return to the [module overview](index.md) when ready to continue.

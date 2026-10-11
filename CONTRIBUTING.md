@@ -50,6 +50,32 @@ block force pushes and deletion.
 - [ ] Secret scanning passes and no exception suppresses a real credential.
 - [ ] The pull request targets `main` and has manual approval before merge.
 
+## Released-module quality gate
+
+A module can be marked **Initial release** only when it provides a complete,
+ordered interview-preparation path rather than a collection of disconnected pages.
+Topic-specific depth can vary, but every released module must include:
+
+- a numbered path of at least 15 steps, `Last reviewed` metadata, a clear starting
+  point, learning objectives, scope or adjacent-module boundaries, and a completion
+  checklist;
+- architect-level theory covering decisions, alternatives, trade-offs, security,
+  reliability, operations, cost, and cross-cloud translation where relevant;
+- a scored design exercise or equivalent architecture walkthrough;
+- at least 15 scenario questions with model answers;
+- at least 10 separately headed advanced drills, each with substantive response
+  guidance rather than a one-line prompt;
+- at least 50 rapid-fire questions and 25 active-recall flashcards;
+- a timed, scored mock interview linked from the module path;
+- at least 15 authoritative references, three relevant video sources, durable
+  book recommendations, and a reading order or source-review loop; and
+- working navigation plus passing strict build, Markdown, link, secret, and
+  released-module quality checks.
+
+Run `python scripts/check_module_quality.py` before requesting review. This check
+is a minimum structural gate; reviewers must still assess technical accuracy,
+clarity, currency, originality, and the quality of engineering judgment.
+
 ## Templates
 
 Use the files in `docs/templates/` for chapters, scenarios, labs, and reference
