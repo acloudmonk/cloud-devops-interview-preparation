@@ -47,7 +47,15 @@ Prefer recent official sessions because names, features, limits, and guidance ev
 Review architecture, cloud foundations, IAM, networking, GKE, Cloud Run, data,
 reliability, Well-Architected, quotas, and cost based on your weak areas.
 
-## Review loop
+## Books for deeper study
+
+- *Google Cloud Certified Professional Cloud Architect Study Guide* by Dan Sullivan
+- *Building Secure and Reliable Systems* by Heather Adkins and others
+- *Site Reliability Engineering* by Betsy Beyer and others
+- *Designing Data-Intensive Applications* by Martin Kleppmann
+- *Cloud Strategy* by Gregor Hohpe
+
+## Suggested review loop
 
 1. Write journeys, qualities, demand, data, and constraints.
 2. Draw hierarchy, location, network, trust, ownership, and cost boundaries.

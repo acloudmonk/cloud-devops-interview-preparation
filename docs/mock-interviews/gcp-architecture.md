@@ -30,7 +30,7 @@ event-fed analytics, RTO 60 minutes/RPO 5 minutes, and a small platform team.
 3. Pub/Sub backlog grows while consumer CPU remains low.
 4. Restored records are consistent but completed-order totals differ.
 
-## Scoring anchors
+## Scorecard
 
 - **0:** omitted or unsafe.
 - **1:** names a concept without applying it.

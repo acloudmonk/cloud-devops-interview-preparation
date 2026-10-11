@@ -66,3 +66,68 @@ Answer each in 20–40 seconds.
 | 58 | Landing zone? | Evolving governed foundation, not a one-time network. |
 | 59 | Break glass? | Minimal, protected, monitored, tested emergency access. |
 | 60 | Best interview structure? | Clarify, decide, justify, fail, operate, verify. |
+
+## Spoken question set
+
+Use the compact table above as the answer key.
+
+1. **What is the Google Cloud resource hierarchy?**
+2. **Why use separate projects?**
+3. **How do IAM and Organization Policy differ?**
+4. **What does an IAM deny policy do?**
+5. **Why use folders?**
+6. **Does a Cloud Billing budget cap spend?**
+7. **What is global about a VPC network?**
+8. **What is a zone?**
+9. **Does multi-region automatically provide disaster recovery?**
+10. **What is Shared VPC?**
+11. **What important limitation does VPC Network Peering have?**
+12. **What does Cloud Router do?**
+13. **What does Cloud NAT do?**
+14. **What is Private Google Access?**
+15. **What is Private Service Connect?**
+16. **When would you compare HA VPN with Cloud Interconnect?**
+17. **How do global and regional load-balancing choices differ?**
+18. **What does Cloud Armor provide?**
+19. **What is a service account?**
+20. **How can a workload avoid service-account keys?**
+21. **What do VPC Service Controls provide?**
+22. **What trade-off does CMEK introduce?**
+23. **What does Secret Manager provide?**
+24. **Why retain Cloud Audit Logs?**
+25. **When does a managed instance group fit?**
+26. **When does GKE fit?**
+27. **When does Cloud Run fit?**
+28. **What downstream risk can Cloud Run scaling create?**
+29. **When do Cloud Run functions fit?**
+30. **When does App Engine fit?**
+31. **How should you choose a Cloud Storage location?**
+32. **When does Cloud SQL fit?**
+33. **When does AlloyDB fit?**
+34. **When does Spanner fit?**
+35. **When does Firestore fit?**
+36. **When does Bigtable fit?**
+37. **When does BigQuery fit?**
+38. **How do high availability and backup differ?**
+39. **What is Pub/Sub's default delivery behavior?**
+40. **What trade-off does an ordering key create?**
+41. **When does Cloud Tasks fit?**
+42. **When does Eventarc fit?**
+43. **When do Workflows fit?**
+44. **What makes replay safe?**
+45. **What is an SLI?**
+46. **What is an SLO?**
+47. **What is an error budget?**
+48. **What is a useful queue-backlog alert?**
+49. **What proves a restore succeeded?**
+50. **What must regional failover capacity include?**
+51. **Why are quotas architecture concerns?**
+52. **What is a committed use discount?**
+53. **When do Spot VMs fit?**
+54. **What is unit cost?**
+55. **What are the six Well-Architected pillars?**
+56. **What makes a strong risk statement?**
+57. **What makes a strong architecture decision record?**
+58. **What is a landing zone?**
+59. **What is break-glass access?**
+60. **What is the recommended interview-answer loop?**
