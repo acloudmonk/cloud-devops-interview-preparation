@@ -54,6 +54,9 @@ analysis, trade-offs, and executive communication.
 - [FinOps and cost architecture](finops-cost-architecture.md) — a 50-minute value,
   cost-data, allocation, unit-economics, planning, optimization, commitment,
   platform, governance, and multi-cloud interview.
+- [Cross-cloud Well-Architected review](well-architected-review.md) — a 50-minute
+  review-charter, evidence, framework, risk, trade-off, facilitation, remediation,
+  governance, and executive-communication interview.
 
 Use each scorecard to identify weak decisions, then return to the corresponding
 module before repeating the interview.
