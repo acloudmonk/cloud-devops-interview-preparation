@@ -28,8 +28,8 @@ Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, Terraform/OpenTofu,
 Ansible, DevSecOps, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud, APIs and Enterprise
-Identity, and Python Automation modules are complete initial releases. AI for
-Cloud and DevOps is the next planned milestone. See the
+Identity, Python Automation, and AI for Cloud and DevOps modules are complete
+initial releases. Cross-domain case studies are the next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation

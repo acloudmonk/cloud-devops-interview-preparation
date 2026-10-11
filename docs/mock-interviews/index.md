@@ -65,6 +65,8 @@ analysis, trade-offs, and executive communication.
   resilience, lifecycle, and governance interview.
 - [Python automation](python-automation.md) — a 50-minute language, SDK, safety,
   reliability, concurrency, testing, delivery, operations, and multi-cloud interview.
+- [AI for Cloud and DevOps](ai-cloud-devops.md) — a 50-minute use-case, RAG,
+  agent, evaluation, security, operations, cost, GPU, and multi-cloud interview.
 
 Use each scorecard to identify weak decisions, then return to the corresponding
 module before repeating the interview.

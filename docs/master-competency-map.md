@@ -51,7 +51,7 @@ Status values:
 | 29 | 28 | Hybrid & Multi-Cloud | [Hybrid & Multi-Cloud](28-hybrid-multicloud/index.md) | Initial release |
 | 30 | 29 | API & Identity Fundamentals | [APIs & Enterprise Identity](29-api-identity/index.md) | Initial release |
 | 31 | 30 | Python Automation | [Python Automation](30-python-automation/index.md) | Initial release |
-| 32 | 31 | AI for Cloud/DevOps | [AI for Cloud & DevOps](31-ai-for-devops/index.md) | Planned |
+| 32 | 31 | AI for Cloud/DevOps | [AI for Cloud & DevOps](31-ai-for-devops/index.md) | Initial release |
 | 33 | — | Scenario-Based Answer Framework | Interview Playbook | Foundation complete |
 | 34 | — | Example Senior Scenario | [Cross-Domain Case Studies](case-studies/index.md) | Planned |
 | 35 | — | Six-Month Preparation Sequence | Study Roadmap | Foundation complete |
