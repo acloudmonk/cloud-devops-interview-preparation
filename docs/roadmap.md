@@ -60,7 +60,7 @@ scenario practice, revision, and communication.
 - APIs and identity — initial release
 - Cloud migration and modernization
 - Python automation — initial release
-- AI for Cloud/DevOps
+- AI for Cloud/DevOps — initial release
 
 ## Milestone 7 — Interview mastery
 

@@ -42,6 +42,7 @@ path intentionally moves from Module 01 to Module 06.
 | 18 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
 | 19 | 29 | [APIs and Enterprise Identity](29-api-identity/index.md) |
 | 20 | 30 | [Python Automation for Cloud and DevOps](30-python-automation/index.md) |
+| 21 | 31 | [AI for Cloud and DevOps](31-ai-for-devops/index.md) |
 
 ## How to use this knowledge base
 
@@ -80,7 +81,8 @@ Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
 Supply Chain, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud Architecture, APIs
-and Enterprise Identity, and Python Automation for Cloud and DevOps.
+and Enterprise Identity, Python Automation for Cloud and DevOps, and AI for Cloud
+and DevOps.
 Remaining modules are tracked in the competency map and will be
 delivered in priority waves.
 
