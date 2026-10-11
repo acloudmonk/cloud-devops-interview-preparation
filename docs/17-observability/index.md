@@ -78,7 +78,7 @@ By the end of this module, you should be able to:
 
 ## Scope boundary
 
-General production reliability belongs to planned [Module 18](../18-sre/index.md),
+General production reliability belongs to [Module 18](../18-sre/index.md),
 Kubernetes platform mechanics to [Module 11](../11-kubernetes/index.md), and
 incident-specific host/network troubleshooting to Modules
 [06](../06-linux/index.md) and [07](../07-networking/index.md). This module focuses

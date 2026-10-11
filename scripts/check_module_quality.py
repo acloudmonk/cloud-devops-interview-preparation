@@ -11,6 +11,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 MAP = DOCS / "master-competency-map.md"
+LEARNING_PATH = DOCS / "index.md"
+PLAYBOOK = DOCS / "interview-playbook"
 
 REQUIRED_PAGES = (
     "index.md",
@@ -275,10 +277,143 @@ def validate_case_studies() -> list[str]:
     return errors
 
 
+def validate_learning_path(modules: list[Path]) -> list[str]:
+    """Keep learner order aligned with released modules in the traceability map."""
+    errors: list[str] = []
+    pattern = re.compile(
+        r"^\|\s*(?P<step>\d+)\s*\|\s*(?P<id>\d{2})\s*\|"
+        r"\s*\[[^\]]+\]\((?P<path>\d{2}-[^)]+/index\.md)\)\s*\|$",
+        re.MULTILINE,
+    )
+    rows = list(pattern.finditer(read(LEARNING_PATH)))
+    steps = [int(row.group("step")) for row in rows]
+    module_ids = [row.group("id") for row in rows]
+    paths = [Path(row.group("path")).parent.as_posix() for row in rows]
+    expected_paths = [module.relative_to(DOCS).as_posix() for module in modules]
+
+    if steps != list(range(1, len(rows) + 1)):
+        errors.append("docs/index.md: study steps must be contiguous from 1")
+    expected_ids = [
+        "01",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "02",
+        "03",
+        "04",
+        "05",
+        *[f"{number:02d}" for number in range(15, 32)],
+    ]
+    if module_ids != expected_ids:
+        errors.append("docs/index.md: modules differ from dependency study order")
+    if len(paths) != len(set(paths)):
+        errors.append("docs/index.md: learning path contains duplicate modules")
+    if any(
+        not path.startswith(f"{module_id}-")
+        for module_id, path in zip(module_ids, paths)
+    ):
+        errors.append("docs/index.md: a Module ID does not match its destination")
+    if set(paths) != set(expected_paths):
+        errors.append(
+            "docs/index.md: learning-path module set differs from competency map"
+        )
+    if re.search(r"\|\s*Planned\s*\|", read(MAP)):
+        errors.append("docs/master-competency-map.md: a plan point remains Planned")
+    for module in modules:
+        if re.search(r"^Status:\s*\*\*Planned\*\*", read(module / "index.md")):
+            errors.append(
+                f"{module.relative_to(DOCS).as_posix()}/index.md: still Planned"
+            )
+    return errors
+
+
+def validate_consultant_playbook() -> list[str]:
+    """Validate the non-numbered consultant discovery practice track."""
+    errors: list[str] = []
+    required = (
+        "index.md",
+        "consultant-mindset.md",
+        "discovery-framework.md",
+        "stakeholder-mapping.md",
+        "requirements-evidence.md",
+        "workshop-facilitation.md",
+        "conflict-ambiguity.md",
+        "options-business-case.md",
+        "executive-communication.md",
+        "templates.md",
+        "scenarios.md",
+        "scenario-drills.md",
+        "rapid-fire.md",
+        "flashcards.md",
+        "references.md",
+    )
+    for name in required:
+        if not (PLAYBOOK / name).is_file():
+            errors.append(f"interview-playbook: missing {name}")
+    if errors:
+        return errors
+
+    index = read(PLAYBOOK / "index.md")
+    for marker in (
+        "Last reviewed:",
+        "Where to start",
+        "Recommended learning path",
+        "Completion checklist",
+    ):
+        if marker not in index:
+            errors.append(f"interview-playbook/index.md: missing '{marker}'")
+    if len(re.findall(r"^\|\s*\d+\s*\|", index, re.MULTILINE)) < 15:
+        errors.append("interview-playbook/index.md: expected at least 15 steps")
+
+    scenarios = read(PLAYBOOK / "scenarios.md")
+    if len(re.findall(r"^##\s+\d+\.", scenarios, re.MULTILINE)) < 15:
+        errors.append("interview-playbook/scenarios.md: expected 15 scenarios")
+    if len(re.findall(r"\*\*Model direction:\*\*", scenarios)) < 15:
+        errors.append("interview-playbook/scenarios.md: expected 15 model directions")
+
+    drills = drill_sections(read(PLAYBOOK / "scenario-drills.md"))
+    if len(drills) < 10:
+        errors.append("interview-playbook/scenario-drills.md: expected 10 drills")
+    for title, body in drills:
+        if len(re.findall(r"\b[\w][\w/-]*\b", body, re.UNICODE)) < 20:
+            errors.append(f"interview-playbook/scenario-drills.md: '{title}' too short")
+
+    rapid = read(PLAYBOOK / "rapid-fire.md")
+    if len(re.findall(r"^\d+\.\s+\*\*", rapid, re.MULTILINE)) < 50:
+        errors.append("interview-playbook/rapid-fire.md: expected 50 questions")
+    if table_flashcard_count(read(PLAYBOOK / "flashcards.md")) < 25:
+        errors.append("interview-playbook/flashcards.md: expected 25 cards")
+
+    references = read(PLAYBOOK / "references.md")
+    if len(re.findall(r"https?://", references)) < 15:
+        errors.append("interview-playbook/references.md: expected 15 links")
+    if len(re.findall(r"youtu(?:be\.com|\.be)", references, re.IGNORECASE)) < 3:
+        errors.append("interview-playbook/references.md: expected 3 video sources")
+    if not re.search(r"^## .*Books", references, re.MULTILINE | re.IGNORECASE):
+        errors.append("interview-playbook/references.md: missing books")
+
+    mock = DOCS / "mock-interviews" / "consultant-discovery.md"
+    if (
+        not mock.is_file()
+        or "## Scorecard" not in read(mock)
+        or "50" not in read(mock)
+    ):
+        errors.append("consultant-discovery.md: missing scored 50-minute mock")
+    return errors
+
+
 def main() -> int:
     modules = released_modules()
     errors = [error for module in modules for error in validate_module(module)]
     errors.extend(validate_case_studies())
+    errors.extend(validate_learning_path(modules))
+    errors.extend(validate_consultant_playbook())
     if errors:
         print("Released-module quality validation failed:")
         for error in errors:
@@ -289,6 +424,8 @@ def main() -> int:
         "Cross-domain case-study validation passed for "
         f"{len(CASE_STUDY_FILES)} cases."
     )
+    print("Dependency learning order and competency-map coverage validation passed.")
+    print("Consultant discovery playbook validation passed.")
     return 0
 
 

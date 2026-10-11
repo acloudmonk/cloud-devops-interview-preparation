@@ -71,7 +71,7 @@ By the end of this module, you should be able to:
 General network mechanics belong to [Module 07](../07-networking/index.md),
 Kubernetes controls to [Module 11](../11-kubernetes/index.md), delivery-chain
 security to [Module 15](../15-devsecops/index.md), and broader API/identity design
-to planned Module 29. This module focuses on access decisions, trust reduction,
+to [Module 29](../29-api-identity/index.md). This module focuses on access decisions, trust reduction,
 policy enforcement, and migration across workforce and workload environments.
 
 ## Completion checklist
