@@ -18,7 +18,7 @@
 - [Google Cloud migration assessment](https://docs.cloud.google.com/migration-center/docs/migration-center-overview)
 - [FinOps Framework](https://www.finops.org/framework/)
 - [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework)
-- [CISA Stakeholder-Specific Vulnerability Categorization](https://www.cisa.gov/resources-tools/services/stakeholder-specific-vulnerability-categorization-ssvc)
+- [CISA Stakeholder-Specific Vulnerability Categorization guide](https://www.cisa.gov/sites/default/files/publications/cisa-ssvc-guide%20508c.pdf)
 - [Architecture Decision Records](https://adr.github.io/)
 - [The C4 model](https://c4model.com/)
 - [Google SRE: embracing risk](https://sre.google/sre-book/embracing-risk/)
