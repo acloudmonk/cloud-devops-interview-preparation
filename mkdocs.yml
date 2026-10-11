@@ -359,7 +359,24 @@ nav:
           - Rapid-Fire Revision: 26-finops/rapid-fire.md
           - Active-Recall Flashcards: 26-finops/flashcards.md
           - References & Videos: 26-finops/references.md
-      - 27 Well-Architected Reviews: 27-well-architected/index.md
+      - 27 Well-Architected Reviews:
+          - Module Overview: 27-well-architected/index.md
+          - Architecture-Review Decision Model: 27-well-architected/concepts.md
+          - Scope, Discovery & Evidence: 27-well-architected/scope-evidence.md
+          - AWS Pillars & Lenses: 27-well-architected/aws-framework.md
+          - Azure & Google Cloud Mapping: 27-well-architected/cloud-framework-mapping.md
+          - Findings, Risk & Prioritization: 27-well-architected/risk-prioritization.md
+          - Trade-offs & Architecture Decisions: 27-well-architected/tradeoffs-decisions.md
+          - Facilitation & Stakeholder Communication: 27-well-architected/facilitation.md
+          - Remediation & Continuous Governance: 27-well-architected/remediation-governance.md
+          - Review Tools, Automation & Metrics: 27-well-architected/tools-automation.md
+          - Enterprise Review Design Exercise: 27-well-architected/design-exercise.md
+          - Scenario Questions: 27-well-architected/scenarios.md
+          - Advanced Review-Room Drills: 27-well-architected/scenario-drills.md
+          - Ten-Minute Executive Review: 27-well-architected/presentation-template.md
+          - Rapid-Fire Revision: 27-well-architected/rapid-fire.md
+          - Active-Recall Flashcards: 27-well-architected/flashcards.md
+          - References & Videos: 27-well-architected/references.md
       - 28 Hybrid & Multi-Cloud: 28-hybrid-multicloud/index.md
       - 29 APIs & Identity: 29-api-identity/index.md
       - 30 Python Automation: 30-python-automation/index.md
@@ -384,6 +401,7 @@ nav:
       - Site Reliability Engineering Mock Interview: mock-interviews/site-reliability-engineering.md
       - HA, DR & Business Continuity Mock Interview: mock-interviews/high-availability-disaster-recovery.md
       - FinOps & Cost Architecture Mock Interview: mock-interviews/finops-cost-architecture.md
+      - Cross-Cloud Well-Architected Mock Interview: mock-interviews/well-architected-review.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

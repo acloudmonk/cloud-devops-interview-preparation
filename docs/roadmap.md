@@ -50,7 +50,7 @@ scenario practice, revision, and communication.
 - Site Reliability Engineering — initial release
 - High availability, disaster recovery, and business continuity — initial release
 - FinOps — initial release
-- Well-Architected reviews
+- Well-Architected reviews — initial release
 
 ## Milestone 6 — Application and consulting architecture
 

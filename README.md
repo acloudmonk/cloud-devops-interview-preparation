@@ -27,8 +27,8 @@ The documentation foundation and the Cloud Architecture, Linux, Networking,
 Git, CI/CD, Docker, Kubernetes, Kubernetes Ecosystem, Terraform/OpenTofu,
 Ansible, DevSecOps, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, and FinOps
-modules are complete initial releases. Cross-Cloud Well-Architected Reviews is the
-next planned milestone. See the
+modules and Cross-Cloud Well-Architected Reviews are complete initial releases.
+Hybrid and Multi-Cloud is the next planned milestone. See the
 [master competency map](docs/master-competency-map.md) for coverage status.
 
 ## View the documentation
