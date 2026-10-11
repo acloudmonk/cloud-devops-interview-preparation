@@ -41,13 +41,14 @@ path intentionally moves from Module 01 to Module 06.
 | 17 | 21 | [SaaS Architecture](21-saas/index.md) |
 | 18 | 22 | [Messaging and Event-Driven Architecture](22-event-driven/index.md) |
 | 19 | 23 | [Database Architecture](23-databases/index.md) |
-| 20 | 25 | [High Availability, Disaster Recovery & Business Continuity](25-ha-dr-bcp/index.md) |
-| 21 | 26 | [FinOps and Cost Architecture](26-finops/index.md) |
-| 22 | 27 | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) |
-| 23 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
-| 24 | 29 | [APIs and Enterprise Identity](29-api-identity/index.md) |
-| 25 | 30 | [Python Automation for Cloud and DevOps](30-python-automation/index.md) |
-| 26 | 31 | [AI for Cloud and DevOps](31-ai-for-devops/index.md) |
+| 20 | 24 | [Cloud Migration and Modernization](24-migration-modernization/index.md) |
+| 21 | 25 | [High Availability, Disaster Recovery & Business Continuity](25-ha-dr-bcp/index.md) |
+| 22 | 26 | [FinOps and Cost Architecture](26-finops/index.md) |
+| 23 | 27 | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) |
+| 24 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
+| 25 | 29 | [APIs and Enterprise Identity](29-api-identity/index.md) |
+| 26 | 30 | [Python Automation for Cloud and DevOps](30-python-automation/index.md) |
+| 27 | 31 | [AI for Cloud and DevOps](31-ai-for-devops/index.md) |
 
 ## Applied architecture practice
 
@@ -93,7 +94,8 @@ Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
 Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
 Supply Chain, Zero Trust Architecture, Observability, Site Reliability
 Engineering, Platform Engineering, Microservices Architecture, SaaS Architecture,
-Messaging and Event-Driven Architecture, Database Architecture, High Availability,
+Messaging and Event-Driven Architecture, Database Architecture, Cloud Migration and
+Modernization, High Availability,
 Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud Architecture, APIs
 and Enterprise Identity, Python Automation for Cloud and DevOps, AI for Cloud and

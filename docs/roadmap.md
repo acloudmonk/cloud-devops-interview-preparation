@@ -60,7 +60,7 @@ scenario practice, revision, and communication.
 - Messaging and event-driven systems — initial release
 - Database architecture — initial release
 - APIs and identity — initial release
-- Cloud migration and modernization
+- Cloud migration and modernization — initial release
 - Python automation — initial release
 - AI for Cloud/DevOps — initial release
 
