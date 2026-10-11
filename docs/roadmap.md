@@ -55,7 +55,8 @@ scenario practice, revision, and communication.
 ## Milestone 6 — Application and consulting architecture
 
 - Platform engineering — initial release
-- Microservices, SaaS, messaging, and event-driven systems
+- Microservices — initial release
+- SaaS, messaging, and event-driven systems
 - Database architecture
 - APIs and identity — initial release
 - Cloud migration and modernization

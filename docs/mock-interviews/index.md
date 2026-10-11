@@ -50,6 +50,8 @@ analysis, trade-offs, and executive communication.
   multi-cloud interview.
 - [Platform Engineering](platform-engineering.md) — a 50-minute product, golden-path,
   control-plane, delivery, security, reliability, adoption, and economics interview.
+- [Microservices Architecture](microservices-architecture.md) — a 50-minute domain,
+  contract, data, consistency, resilience, security, operations, and migration interview.
 - [High availability, disaster recovery, and business continuity](high-availability-disaster-recovery.md)
   — a 50-minute BIA, recovery-objective, failure-domain, data, cyber-recovery,
   failover, continuity, exercise, and multi-cloud interview.
