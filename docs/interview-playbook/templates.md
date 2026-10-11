@@ -31,15 +31,24 @@
 
 ## Decision record
 
-**Decision:**  
-**Owner/date:**  
-**Context and constraints:**  
-**Options considered:**  
-**Recommendation and rationale:**  
-**Trade-offs and dissent:**  
-**Assumptions and evidence:**  
-**Risks and owners:**  
-**Validation/acceptance:**  
+**Decision:**
+
+**Owner/date:**
+
+**Context and constraints:**
+
+**Options considered:**
+
+**Recommendation and rationale:**
+
+**Trade-offs and dissent:**
+
+**Assumptions and evidence:**
+
+**Risks and owners:**
+
+**Validation/acceptance:**
+
 **Review and exit triggers:**
 
 ## Action log
