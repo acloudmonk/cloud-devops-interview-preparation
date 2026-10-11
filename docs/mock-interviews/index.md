@@ -10,6 +10,8 @@ analysis, trade-offs, and executive communication.
 - [Cloud architecture and distributed systems](cloud-architecture.md) — a
   50-minute ticketing-platform interview with follow-up branches, a scorecard,
   and a repeatable improvement loop.
+- [AWS Architecture](aws-architecture.md) — a 50-minute AWS foundation, identity,
+  network, compute, data, integration, resilience, operations, quota, and cost interview.
 - [Linux production operations](linux-operations.md) — a 50-minute fleet and
   incident interview covering resource pressure, service lifecycle, recovery,
   secure access, and patching.
