@@ -57,6 +57,8 @@ analysis, trade-offs, and executive communication.
 - [Messaging and Event-Driven Architecture](event-driven-architecture.md) — a
   50-minute messaging, delivery, partitioning, schema, replay, resilience, and
   multi-cloud platform interview.
+- [Database Architecture](database-architecture.md) — a 50-minute data-model,
+  transaction, query, scale, recovery, security, and migration interview.
 - [High availability, disaster recovery, and business continuity](high-availability-disaster-recovery.md)
   — a 50-minute BIA, recovery-objective, failure-domain, data, cyber-recovery,
   failover, continuity, exercise, and multi-cloud interview.

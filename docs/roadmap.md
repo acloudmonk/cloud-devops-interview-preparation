@@ -58,7 +58,7 @@ scenario practice, revision, and communication.
 - Microservices — initial release
 - SaaS architecture — initial release
 - Messaging and event-driven systems — initial release
-- Database architecture
+- Database architecture — initial release
 - APIs and identity — initial release
 - Cloud migration and modernization
 - Python automation — initial release
