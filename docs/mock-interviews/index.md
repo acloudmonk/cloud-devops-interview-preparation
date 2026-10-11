@@ -14,6 +14,8 @@ analysis, trade-offs, and executive communication.
   network, compute, data, integration, resilience, operations, quota, and cost interview.
 - [Azure Architecture](azure-architecture.md) — a 50-minute Azure landing-zone,
   identity, network, compute, data, integration, resilience, quota, and cost interview.
+- [GCP Architecture](gcp-architecture.md) — a 50-minute Google Cloud foundation,
+  identity, network, compute, data, integration, resilience, quota, and cost interview.
 - [Linux production operations](linux-operations.md) — a 50-minute fleet and
   incident interview covering resource pressure, service lifecycle, recovery,
   secure access, and patching.
