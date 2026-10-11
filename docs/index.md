@@ -19,6 +19,15 @@ knowledge.
 This is the canonical order for currently released learning material. Module IDs
 preserve the full curriculum structure.
 
+!!! note "Learning order versus the competency map"
+    This table answers **“What should I study next?”** Its **Study step** runs from
+    1–31 and currently matches Module IDs 01–31. The
+    [master competency map](master-competency-map.md) answers **“Where is each of
+    the original 36 plan points covered?”** and therefore keeps a separate
+    **Original plan point** number. The 31 module destinations and their order must
+    agree across both pages; the numbering columns intentionally serve different
+    purposes.
+
 | Study step | Module ID | Module |
 | ---: | ---: | --- |
 | 1 | 01 | [Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md) |
@@ -65,6 +74,9 @@ Use the [Consultant Discovery and Stakeholder Playbook](interview-playbook/index
 to practise engagement framing, requirements discovery, decision rights, workshop
 facilitation, conflict, business cases, and executive communication.
 
+The [v1 readiness report](release-readiness.md) records curriculum inventory,
+automated quality evidence, navigation alignment, and remaining maintenance guidance.
+
 ## How to use this knowledge base
 
 1. Begin at the [Module 01 overview](01-cloud-architecture/index.md).
@@ -108,9 +120,10 @@ Modernization, High Availability,
 Disaster Recovery, Business Continuity, FinOps,
 Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud Architecture, APIs
 and Enterprise Identity, Python Automation for Cloud and DevOps, AI for Cloud and
-DevOps, and the Cross-Domain Architecture Case Studies.
-Remaining modules are tracked in the competency map and will be
-delivered in priority waves.
+DevOps, the Cross-Domain Architecture Case Studies, and the Consultant Discovery
+and Stakeholder Playbook. All numbered modules are initial releases; the
+[competency map](master-competency-map.md) now serves as traceability rather than
+a backlog.
 
 !!! note "Version-aware content"
     Cloud services and open-source platforms change continuously. Each module

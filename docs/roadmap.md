@@ -3,6 +3,10 @@
 The roadmap doubles as a study sequence and a repository delivery plan. Topics
 are ordered by dependency and interview value rather than vendor popularity.
 
+All planned curriculum and interview-mastery deliverables now have initial releases.
+The repository is in validation and iterative-improvement mode; see the
+[v1 readiness report](release-readiness.md).
+
 !!! info "Current learner route"
     Use the [current learning path](index.md#current-learning-path) for the
     canonical order of released modules. The milestones and 24-week sequence
@@ -41,7 +45,7 @@ scenario practice, revision, and communication.
 - Azure architecture — initial release
 - GCP architecture — initial release
 - Cross-cloud capability and service mapping — initial release
-- Landing zones, governance, identity, networking, and operations
+- Landing zones, governance, identity, networking, and operations — initial release
 - Hybrid and multi-cloud decision guidance — initial release
 
 ## Milestone 5 — Security, reliability, and economics

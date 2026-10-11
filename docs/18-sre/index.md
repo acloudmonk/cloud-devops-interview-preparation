@@ -70,7 +70,7 @@ By the end of this module, you should be able to:
 [Module 17](../17-observability/index.md) covers telemetry, Prometheus, Grafana,
 OpenTelemetry, and alert design. This module uses that evidence to govern service
 reliability and human response. Detailed high availability, disaster recovery,
-and business continuity remain planned for [Module 25](../25-ha-dr-bcp/index.md);
+and business continuity are covered in [Module 25](../25-ha-dr-bcp/index.md);
 this module covers the operating practices that make those designs trustworthy.
 
 ## Completion checklist

@@ -1,22 +1,22 @@
 # Master Competency Map
 
 This map preserves all 36 points from the original preparation plan while
-separating technical modules from the supporting interview system.
+separating 31 numbered learning modules from the supporting interview system.
 
 ## How to use this page
 
-This is a coverage and status index, not the current study order. The **Original
-plan point** column preserves the source 36-point plan; **Module ID** identifies
-the numbered curriculum directory. Use the
+This is a coverage and status index, not a second learning sequence. The **Original
+plan point** column preserves source numbers 1–36; **Module ID** identifies the
+numbered curriculum directory, so Module 01 corresponds to original point 2.
+Original points 1 and 33–36 are supporting systems rather than modules. Use the
 [current learning path](index.md#current-learning-path) for released study order
-and the [study roadmap](roadmap.md) for the long-term sequence. Entries marked
-**Planned** are scope placeholders, not completed learning modules.
+and the [study roadmap](roadmap.md) for the study sequence.
 
 Status values:
 
 - **Initial release** — full learning, practice, assessment, and reference path exists.
 - **Foundation complete** — supporting framework exists.
-- **Planned** — module is in the delivery roadmap.
+- **Planned** — reserved for a future scoped item; no current row has this status.
 
 | Original plan point | Module ID | Original area | Knowledge-base destination | Status |
 | ---: | ---: | --- | --- | --- |
@@ -57,20 +57,11 @@ Status values:
 | 35 | — | Six-Month Preparation Sequence | Study Roadmap | Foundation complete |
 | 36 | — | How We Prepare Together | [Consultant playbook](interview-playbook/index.md), workflow, assessments & [mock interviews](mock-interviews/index.md) | Foundation complete |
 
-## Target completeness for every core module
+## Verified initial-release standard
 
-- [ ] Clear starting point, numbered study path, boundaries, and completion criteria
-- [ ] Concepts and mental models
-- [ ] Architecture and trade-offs
-- [ ] Security, reliability, operations, and cost
-- [ ] Cross-cloud relevance
-- [ ] Troubleshooting guide
-- [ ] At least one scored architecture design exercise
-- [ ] At least 15 scenario questions with model answers
-- [ ] At least 10 detailed advanced scenario drills
-- [ ] At least 50 rapid-fire questions and 25 active-recall flashcards
-- [ ] Timed, scored mock interview
-- [ ] Curated official documentation
-- [ ] Curated targeted videos, books, and a source-review loop
-- [ ] Version and last-reviewed metadata
-- [ ] Passing strict build, Markdown, link, secret, and module-quality checks
+All 31 modules satisfy the automated structural standard: clear start and ordered
+path, concepts, scenarios, substantive drills, at least 50 rapid-fire questions,
+at least 25 flashcards, curated references/books/videos, review metadata, and a
+timed scored mock. Strict build, Markdown, link, secret, and module-quality checks
+run in CI. See the [v1 readiness report](release-readiness.md) for evidence,
+boundaries, and ongoing review guidance.

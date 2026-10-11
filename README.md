@@ -13,6 +13,7 @@ Platform Engineering, SRE, and consulting interviews.
 | Understand future delivery and study phases | [Study and delivery roadmap](docs/roadmap.md) |
 | Practise cross-domain architecture decisions | [Architecture case studies](docs/case-studies/index.md) |
 | Practise consulting discovery and stakeholder skills | [Consultant Discovery Playbook](docs/interview-playbook/index.md) |
+| Review curriculum completeness and validation evidence | [v1 readiness report](docs/release-readiness.md) |
 
 Within each released module, follow its numbered path from concepts through the
 scored mock interview. Module IDs preserve the complete curriculum structure, so
