@@ -48,7 +48,7 @@ Status values:
 | 26 | 25 | High Availability & Disaster Recovery | [HA, DR & Business Continuity](25-ha-dr-bcp/index.md) | Initial release |
 | 27 | 26 | FinOps | [FinOps & Cost Architecture](26-finops/index.md) | Initial release |
 | 28 | 27 | Well-Architected Frameworks | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) | Initial release |
-| 29 | 28 | Hybrid & Multi-Cloud | [Hybrid & Multi-Cloud](28-hybrid-multicloud/index.md) | Planned |
+| 29 | 28 | Hybrid & Multi-Cloud | [Hybrid & Multi-Cloud](28-hybrid-multicloud/index.md) | Initial release |
 | 30 | 29 | API & Identity Fundamentals | [APIs & Enterprise Identity](29-api-identity/index.md) | Planned |
 | 31 | 30 | Python Automation | [Python Automation](30-python-automation/index.md) | Planned |
 | 32 | 31 | AI for Cloud/DevOps | [AI for Cloud & DevOps](31-ai-for-devops/index.md) | Planned |
@@ -59,14 +59,18 @@ Status values:
 
 ## Target completeness for every core module
 
+- [ ] Clear starting point, numbered study path, boundaries, and completion criteria
 - [ ] Concepts and mental models
 - [ ] Architecture and trade-offs
 - [ ] Security, reliability, operations, and cost
 - [ ] Cross-cloud relevance
 - [ ] Troubleshooting guide
 - [ ] At least one scored architecture design exercise
-- [ ] 15–25 scenario-based questions
-- [ ] Rapid-fire revision questions
+- [ ] At least 15 scenario questions with model answers
+- [ ] At least 10 detailed advanced scenario drills
+- [ ] At least 50 rapid-fire questions and 25 active-recall flashcards
+- [ ] Timed, scored mock interview
 - [ ] Curated official documentation
-- [ ] Curated videos and further reading
+- [ ] Curated targeted videos, books, and a source-review loop
 - [ ] Version and last-reviewed metadata
+- [ ] Passing strict build, Markdown, link, secret, and module-quality checks

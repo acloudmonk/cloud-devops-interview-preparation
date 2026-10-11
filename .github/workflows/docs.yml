@@ -23,6 +23,9 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: Check released-module quality
+        run: python scripts/check_module_quality.py
+
       - name: Install documentation dependencies
         run: python -m pip install -r requirements.txt
 

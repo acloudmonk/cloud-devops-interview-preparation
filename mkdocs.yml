@@ -377,7 +377,24 @@ nav:
           - Rapid-Fire Revision: 27-well-architected/rapid-fire.md
           - Active-Recall Flashcards: 27-well-architected/flashcards.md
           - References & Videos: 27-well-architected/references.md
-      - 28 Hybrid & Multi-Cloud: 28-hybrid-multicloud/index.md
+      - 28 Hybrid & Multi-Cloud:
+          - Module Overview: 28-hybrid-multicloud/index.md
+          - Distributed-Estate Decision Model: 28-hybrid-multicloud/concepts.md
+          - Strategy & Workload Placement: 28-hybrid-multicloud/strategy-placement.md
+          - Connectivity, Routing & DNS: 28-hybrid-multicloud/connectivity-dns.md
+          - Identity, Security & Trust: 28-hybrid-multicloud/identity-security.md
+          - Data Placement & Integration: 28-hybrid-multicloud/data-integration.md
+          - Platforms, Portability & Delivery: 28-hybrid-multicloud/platform-portability.md
+          - Operations & Observability: 28-hybrid-multicloud/operations-observability.md
+          - Resilience & Continuity: 28-hybrid-multicloud/resilience-continuity.md
+          - Governance, Cost & Capability: 28-hybrid-multicloud/governance-cost.md
+          - Enterprise Design Exercise: 28-hybrid-multicloud/design-exercise.md
+          - Scenario Questions: 28-hybrid-multicloud/scenarios.md
+          - Advanced Distributed-Estate Drills: 28-hybrid-multicloud/scenario-drills.md
+          - Ten-Minute Strategy Review: 28-hybrid-multicloud/presentation-template.md
+          - Rapid-Fire Revision: 28-hybrid-multicloud/rapid-fire.md
+          - Active-Recall Flashcards: 28-hybrid-multicloud/flashcards.md
+          - References & Videos: 28-hybrid-multicloud/references.md
       - 29 APIs & Identity: 29-api-identity/index.md
       - 30 Python Automation: 30-python-automation/index.md
       - 31 AI for Cloud & DevOps: 31-ai-for-devops/index.md
@@ -402,6 +419,7 @@ nav:
       - HA, DR & Business Continuity Mock Interview: mock-interviews/high-availability-disaster-recovery.md
       - FinOps & Cost Architecture Mock Interview: mock-interviews/finops-cost-architecture.md
       - Cross-Cloud Well-Architected Mock Interview: mock-interviews/well-architected-review.md
+      - Hybrid & Multi-Cloud Mock Interview: mock-interviews/hybrid-multicloud.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md
