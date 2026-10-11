@@ -153,7 +153,28 @@ nav:
           - Rapid-Fire Revision: 04-gcp/rapid-fire.md
           - Active-Recall Flashcards: 04-gcp/flashcards.md
           - References & Videos: 04-gcp/references.md
-      - 05 Cross-Cloud Capability Mapping: 05-multi-cloud-mapping/index.md
+      - 05 Cross-Cloud Capability Mapping:
+          - Module Overview: 05-multi-cloud-mapping/index.md
+          - Capability-First Decision Model: 05-multi-cloud-mapping/concepts.md
+          - Hierarchy, Landing Zones & Governance: 05-multi-cloud-mapping/governance.md
+          - Identity, Security & Keys: 05-multi-cloud-mapping/identity-security.md
+          - Locations, Scope & Resilience: 05-multi-cloud-mapping/locations-resilience.md
+          - Networking, Edge & Private Connectivity: 05-multi-cloud-mapping/networking.md
+          - Compute, Containers & Serverless: 05-multi-cloud-mapping/compute-platforms.md
+          - Storage, Databases & Analytics: 05-multi-cloud-mapping/data-platforms.md
+          - APIs, Messaging, Events & Workflows: 05-multi-cloud-mapping/integration.md
+          - Delivery, Artifacts & IaC: 05-multi-cloud-mapping/delivery-iac.md
+          - Observability, Operations & Incidents: 05-multi-cloud-mapping/operations.md
+          - Cost, Contracts, Capacity & Sustainability: 05-multi-cloud-mapping/cost-commercial.md
+          - Portability, Interoperability & Placement: 05-multi-cloud-mapping/portability-placement.md
+          - Cross-Cloud Capability Matrices: 05-multi-cloud-mapping/capability-matrices.md
+          - Enterprise Portfolio Design Exercise: 05-multi-cloud-mapping/design-exercise.md
+          - Scenario Questions: 05-multi-cloud-mapping/scenarios.md
+          - Advanced Architecture & Incident Drills: 05-multi-cloud-mapping/scenario-drills.md
+          - Ten-Minute Cross-Cloud Architecture Review: 05-multi-cloud-mapping/presentation-template.md
+          - Rapid-Fire Revision: 05-multi-cloud-mapping/rapid-fire.md
+          - Active-Recall Flashcards: 05-multi-cloud-mapping/flashcards.md
+          - References, Books & Videos: 05-multi-cloud-mapping/references.md
       - 06 Linux & OS Fundamentals:
           - Module Overview: 06-linux/index.md
           - Operating-System Mental Model: 06-linux/concepts.md
@@ -635,6 +656,7 @@ nav:
       - AWS Architecture Mock Interview: mock-interviews/aws-architecture.md
       - Azure Architecture Mock Interview: mock-interviews/azure-architecture.md
       - GCP Architecture Mock Interview: mock-interviews/gcp-architecture.md
+      - Cross-Cloud Mapping Mock Interview: mock-interviews/cross-cloud-mapping.md
       - Linux Operations Mock Interview: mock-interviews/linux-operations.md
       - Networking Operations Mock Interview: mock-interviews/networking-operations.md
       - Git Strategy Mock Interview: mock-interviews/git-source-control.md
