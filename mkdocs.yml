@@ -388,7 +388,25 @@ nav:
           - Rapid-Fire Revision: 22-event-driven/rapid-fire.md
           - Active-Recall Flashcards: 22-event-driven/flashcards.md
           - References & Videos: 22-event-driven/references.md
-      - 23 Database Architecture: 23-databases/index.md
+      - 23 Database Architecture:
+          - Module Overview: 23-databases/index.md
+          - Database Architecture Decision Model: 23-databases/concepts.md
+          - Data Models & Platform Selection: 23-databases/data-model-selection.md
+          - Transactions, Consistency & Concurrency: 23-databases/transactions-consistency.md
+          - Schema, Indexing & Query Design: 23-databases/schema-index-query.md
+          - Replication, Availability & Global Data: 23-databases/replication-availability.md
+          - Partitioning, Sharding & Scale: 23-databases/partitioning-sharding.md
+          - Caching & Connection Management: 23-databases/caching-connections.md
+          - Security, Privacy & Governance: 23-databases/security-governance.md
+          - Backup, Recovery & Migration: 23-databases/backup-recovery-migration.md
+          - AWS-First Multi-Cloud Capability Map: 23-databases/cloud-mapping.md
+          - Enterprise Design Exercise: 23-databases/design-exercise.md
+          - Scenario Questions: 23-databases/scenarios.md
+          - Advanced Architecture & Incident Drills: 23-databases/scenario-drills.md
+          - Ten-Minute Architecture Review: 23-databases/presentation-template.md
+          - Rapid-Fire Revision: 23-databases/rapid-fire.md
+          - Active-Recall Flashcards: 23-databases/flashcards.md
+          - References & Videos: 23-databases/references.md
       - 24 Migration & Modernization: 24-migration-modernization/index.md
       - 25 High Availability, DR & BCP:
           - Module Overview: 25-ha-dr-bcp/index.md
@@ -550,6 +568,7 @@ nav:
       - Microservices Architecture Mock Interview: mock-interviews/microservices-architecture.md
       - SaaS Architecture Mock Interview: mock-interviews/saas-architecture.md
       - Messaging & Event-Driven Architecture Mock Interview: mock-interviews/event-driven-architecture.md
+      - Database Architecture Mock Interview: mock-interviews/database-architecture.md
       - HA, DR & Business Continuity Mock Interview: mock-interviews/high-availability-disaster-recovery.md
       - FinOps & Cost Architecture Mock Interview: mock-interviews/finops-cost-architecture.md
       - Cross-Cloud Well-Architected Mock Interview: mock-interviews/well-architected-review.md
