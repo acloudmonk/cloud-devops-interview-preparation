@@ -107,16 +107,21 @@ def validate_module(module: Path) -> list[str]:
         re.findall(r"\*\*(?:Model answer|Architect-level answer):\*\*", scenarios)
     )
     if scenario_count < 15:
-        errors.append(f"{label}/scenarios.md: expected 15 scenarios, found {scenario_count}")
+        errors.append(
+            f"{label}/scenarios.md: expected at least 15 scenarios, "
+            f"found {scenario_count}"
+        )
     if answer_count < 15:
         errors.append(
-            f"{label}/scenarios.md: expected 15 model answers, found {answer_count}"
+            f"{label}/scenarios.md: expected at least 15 model answers, "
+            f"found {answer_count}"
         )
 
     drills = drill_sections(read(module / "scenario-drills.md"))
     if len(drills) < 10:
         errors.append(
-            f"{label}/scenario-drills.md: expected 10 separately headed drills, "
+            f"{label}/scenario-drills.md: expected at least 10 separately headed "
+            f"drills, "
             f"found {len(drills)}"
         )
     for title, body in drills:
@@ -129,7 +134,10 @@ def validate_module(module: Path) -> list[str]:
     rapid = read(module / "rapid-fire.md")
     rapid_count = len(re.findall(r"^\d+\.\s+\*\*", rapid, re.MULTILINE))
     if rapid_count < 50:
-        errors.append(f"{label}/rapid-fire.md: expected 50 questions, found {rapid_count}")
+        errors.append(
+            f"{label}/rapid-fire.md: expected at least 50 questions, "
+            f"found {rapid_count}"
+        )
 
     flashcards = read(module / "flashcards.md")
     numbered_cards = len(
@@ -138,7 +146,8 @@ def validate_module(module: Path) -> list[str]:
     flashcard_count = max(numbered_cards, table_flashcard_count(flashcards))
     if flashcard_count < 25:
         errors.append(
-            f"{label}/flashcards.md: expected 25 cards, found {flashcard_count}"
+            f"{label}/flashcards.md: expected at least 25 cards, "
+            f"found {flashcard_count}"
         )
 
     references = read(module / "references.md")
@@ -148,11 +157,13 @@ def validate_module(module: Path) -> list[str]:
     )
     if reference_count < 15:
         errors.append(
-            f"{label}/references.md: expected 15 links, found {reference_count}"
+            f"{label}/references.md: expected at least 15 links, "
+            f"found {reference_count}"
         )
     if video_count < 3:
         errors.append(
-            f"{label}/references.md: expected 3 video sources, found {video_count}"
+            f"{label}/references.md: expected at least 3 video sources, "
+            f"found {video_count}"
         )
     if not re.search(r"^## .*Books", references, re.MULTILINE | re.IGNORECASE):
         errors.append(f"{label}/references.md: missing a books section")

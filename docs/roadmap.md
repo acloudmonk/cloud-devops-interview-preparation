@@ -57,7 +57,7 @@ scenario practice, revision, and communication.
 - Platform engineering
 - Microservices, SaaS, messaging, and event-driven systems
 - Database architecture
-- APIs and identity
+- APIs and identity — initial release
 - Cloud migration and modernization
 - Python automation and AI for Cloud/DevOps
 

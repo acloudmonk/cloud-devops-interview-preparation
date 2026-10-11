@@ -40,6 +40,7 @@ path intentionally moves from Module 01 to Module 06.
 | 16 | 26 | [FinOps and Cost Architecture](26-finops/index.md) |
 | 17 | 27 | [Cross-Cloud Well-Architected Reviews](27-well-architected/index.md) |
 | 18 | 28 | [Hybrid and Multi-Cloud Architecture](28-hybrid-multicloud/index.md) |
+| 19 | 29 | [APIs and Enterprise Identity](29-api-identity/index.md) |
 
 ## How to use this knowledge base
 
@@ -77,7 +78,8 @@ Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
 Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
 Supply Chain, Zero Trust Architecture, Observability, Site Reliability
 Engineering, High Availability, Disaster Recovery, Business Continuity, FinOps,
-Cross-Cloud Well-Architected Reviews, and Hybrid and Multi-Cloud Architecture.
+Cross-Cloud Well-Architected Reviews, Hybrid and Multi-Cloud Architecture, and
+APIs and Enterprise Identity.
 Remaining modules are tracked in the competency map and will be
 delivered in priority waves.
 
