@@ -323,7 +323,24 @@ nav:
       - 22 Event-Driven Architecture: 22-event-driven/index.md
       - 23 Database Architecture: 23-databases/index.md
       - 24 Migration & Modernization: 24-migration-modernization/index.md
-      - 25 High Availability, DR & BCP: 25-ha-dr-bcp/index.md
+      - 25 High Availability, DR & BCP:
+          - Module Overview: 25-ha-dr-bcp/index.md
+          - Continuity Decision Model: 25-ha-dr-bcp/concepts.md
+          - Business Impact & Recovery Objectives: 25-ha-dr-bcp/objectives-bia.md
+          - HA & Failure-Domain Architecture: 25-ha-dr-bcp/ha-failure-domains.md
+          - Disaster-Recovery Strategies: 25-ha-dr-bcp/dr-strategies.md
+          - Data Protection & Recoverability: 25-ha-dr-bcp/data-protection-recovery.md
+          - Multi-Region Failover & Failback: 25-ha-dr-bcp/multi-region-failover.md
+          - Business Continuity & Crisis Management: 25-ha-dr-bcp/business-continuity.md
+          - Runbooks, Exercises & Governance: 25-ha-dr-bcp/testing-governance.md
+          - AWS-First Multi-Cloud Capability Map: 25-ha-dr-bcp/cloud-mapping.md
+          - Enterprise Continuity Design Exercise: 25-ha-dr-bcp/design-exercise.md
+          - Scenario Questions: 25-ha-dr-bcp/scenarios.md
+          - Advanced Recovery Drills: 25-ha-dr-bcp/scenario-drills.md
+          - Ten-Minute Continuity Review: 25-ha-dr-bcp/presentation-template.md
+          - Rapid-Fire Revision: 25-ha-dr-bcp/rapid-fire.md
+          - Active-Recall Flashcards: 25-ha-dr-bcp/flashcards.md
+          - References & Videos: 25-ha-dr-bcp/references.md
       - 26 FinOps: 26-finops/index.md
       - 27 Well-Architected Reviews: 27-well-architected/index.md
       - 28 Hybrid & Multi-Cloud: 28-hybrid-multicloud/index.md
@@ -348,6 +365,7 @@ nav:
       - Zero Trust Architecture Mock Interview: mock-interviews/zero-trust-architecture.md
       - Observability Platform Mock Interview: mock-interviews/observability-platform.md
       - Site Reliability Engineering Mock Interview: mock-interviews/site-reliability-engineering.md
+      - HA, DR & Business Continuity Mock Interview: mock-interviews/high-availability-disaster-recovery.md
   - Reference Catalog:
       - Source Standards: reference-catalog/index.md
       - Trusted Sources: reference-catalog/trusted-sources.md

@@ -48,7 +48,7 @@ scenario practice, revision, and communication.
 - Zero Trust architecture — initial release
 - Observability, OpenTelemetry, Prometheus, and Grafana — initial release
 - Site Reliability Engineering — initial release
-- High availability, disaster recovery, and business continuity
+- High availability, disaster recovery, and business continuity — initial release
 - FinOps and Well-Architected reviews
 
 ## Milestone 6 — Application and consulting architecture

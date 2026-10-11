@@ -36,6 +36,7 @@ path intentionally moves from Module 01 to Module 06.
 | 12 | 16 | [Zero Trust Architecture](16-zero-trust/index.md) |
 | 13 | 17 | [Observability, OpenTelemetry, Prometheus & Grafana](17-observability/index.md) |
 | 14 | 18 | [Site Reliability Engineering](18-sre/index.md) |
+| 15 | 25 | [High Availability, Disaster Recovery & Business Continuity](25-ha-dr-bcp/index.md) |
 
 ## How to use this knowledge base
 
@@ -71,8 +72,9 @@ Distributed Systems, Linux & OS Fundamentals, Cloud Networking & DNS, Git &
 Source-Control Strategy, CI/CD & Progressive Delivery, Docker & Container
 Engineering, Kubernetes, Kubernetes Ecosystem, and Terraform/OpenTofu
 Infrastructure as Code, Ansible Configuration Management, DevSecOps and Software
-Supply Chain, Zero Trust Architecture, Observability, and Site Reliability
-Engineering. Remaining modules are tracked in the competency map and will be
+Supply Chain, Zero Trust Architecture, Observability, Site Reliability
+Engineering, and High Availability, Disaster Recovery, and Business Continuity.
+Remaining modules are tracked in the competency map and will be
 delivered in priority waves.
 
 !!! note "Version-aware content"
