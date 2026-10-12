@@ -1,0 +1,50 @@
+name: Content improvement
+description: Report unclear, incorrect, inconsistent, or missing learning content.
+title: "docs: "
+body:
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Improvement type
+      options:
+        - Technical accuracy
+        - Clarity or explanation
+        - Navigation or learning order
+        - Missing scenario or follow-up
+        - Formatting or accessibility
+        - Other focused content improvement
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page path or URL
+      placeholder: docs/02-aws/networking-edge.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and learner impact
+      description: Explain what is wrong or unclear and how it affects learning.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement
+      description: Describe the smallest useful correction or addition.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Authoritative evidence
+      description: Link official documentation, a standard, or primary research when applicable.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Information safety
+      options:
+        - label: I removed credentials, account identifiers, customer data, proprietary interview questions, and confidential incident details.
+          required: true

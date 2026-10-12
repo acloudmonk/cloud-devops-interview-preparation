@@ -88,7 +88,8 @@ automated quality evidence, navigation alignment, and remaining maintenance guid
 6. Score yourself using the
    [scenario answer framework](interview-playbook/scenario-answer-framework.md).
 7. Finish with active recall and the timed mock interview.
-8. Revisit weak decisions with the linked primary sources.
+8. Record the evidence in the [study progress and improvement log](study-progress.md).
+9. Revisit weak decisions with the linked primary sources and repeat the mock.
 
 ## Architect decision loop
 

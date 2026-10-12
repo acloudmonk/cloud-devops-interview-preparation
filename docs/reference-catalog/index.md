@@ -34,3 +34,7 @@ Each module reference list records:
 - Flag version-sensitive pages and revisit them at least quarterly.
 - Replace deleted or obsolete resources; preserve the reason in Git history.
 - Reject interview dumps, leaked questions, and unexplained certification lists.
+
+Follow the [content maintenance and review process](../maintenance.md) for monthly
+link validation, quarterly version-sensitive review, feedback triage, and honest
+`Last reviewed` or `Last verified` dates.

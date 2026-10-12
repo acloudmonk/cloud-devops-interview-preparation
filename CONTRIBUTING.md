@@ -81,6 +81,19 @@ Run `python scripts/check_module_quality.py` before requesting review. This chec
 is a minimum structural gate; reviewers must still assess technical accuracy,
 clarity, currency, originality, and the quality of engineering judgment.
 
+## Content feedback and reference updates
+
+Use the repository
+[issue chooser](https://github.com/acloudmonk/cloud-devops-interview-preparation/issues/new/choose)
+for a focused content improvement or reference/version report. Include the affected
+page, learner impact, a bounded proposal, and authoritative evidence when applicable.
+Do not submit credentials, account identifiers, customer data, proprietary interview
+questions, or confidential incident details.
+
+Maintainers triage and review changes using the
+[content maintenance process](docs/maintenance.md). A review date must change only
+when the page was substantively rechecked.
+
 ## Templates
 
 Use the files in `docs/templates/` for chapters, scenarios, architecture design

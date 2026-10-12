@@ -1,0 +1,52 @@
+name: Reference or version update
+description: Report a broken, moved, deprecated, or version-sensitive source.
+title: "references: "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Repository page path
+      placeholder: docs/17-observability/references.md
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Affected source URL
+      placeholder: https://example.com/official-documentation
+    validations:
+      required: true
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Change type
+      options:
+        - Broken or unreachable
+        - Moved to a new canonical URL
+        - Deprecated or discontinued
+        - Version or behavior changed
+        - Pricing, quota, or regional availability changed
+        - Better authoritative replacement available
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Verification and replacement
+      description: Provide the official notice, current behavior, and canonical replacement when available.
+    validations:
+      required: true
+  - type: input
+    id: verified_date
+    attributes:
+      label: Date verified
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Information safety
+      options:
+        - label: I removed credentials, account identifiers, customer data, proprietary interview questions, and confidential incident details.
+          required: true

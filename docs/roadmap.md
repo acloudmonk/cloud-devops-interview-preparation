@@ -99,3 +99,8 @@ scenario practice, revision, and communication.
 | 23 | Platform, microservices, and SaaS architecture |
 | 24 | Migration, FinOps, DR, and Well-Architected reviews |
 | Ongoing | Case studies, revision, and mock interviews |
+
+Use the [study progress and improvement log](study-progress.md) to record evidence,
+mock scores, weak decisions, corrective sources, and repeat dates. Treat the schedule
+as a planning baseline: adjust pace when evidence shows that a prerequisite needs more
+work, but preserve the dependency order.
