@@ -131,4 +131,4 @@ Monitor customer outcome, saturation, and recovery:
 5. Load, fault, restore, and game-day validation.
 6. Optional multi-Region experiment based on measured recovery needs.
 
-Record significant choices using the lab's Architecture Decision Record template.
+Record significant choices using the exercise's Architecture Decision Record template.

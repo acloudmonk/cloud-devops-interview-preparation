@@ -34,7 +34,8 @@ block force pushes and deletion.
    transcripts.
 6. Date-sensitive material must include a `Last reviewed` date.
 7. Commands and examples must be safe, minimal, and reproducible.
-8. Cloud labs must include prerequisites, estimated cost, and teardown steps.
+8. Any separately approved future cloud implementation lab must include
+   prerequisites, estimated cost, security constraints, validation, and teardown.
 
 ## Pull-request checklist
 
@@ -82,5 +83,6 @@ clarity, currency, originality, and the quality of engineering judgment.
 
 ## Templates
 
-Use the files in `docs/templates/` for chapters, scenarios, labs, and reference
-entries. Consistent structure makes the repository easier to review and study.
+Use the files in `docs/templates/` for chapters, scenarios, architecture design
+exercises, and reference entries. Consistent structure makes the repository easier
+to review and study.

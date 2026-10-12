@@ -14,7 +14,7 @@ infrastructure deployment, or cloud account.
 ## Objective
 
 Produce and defend an architecture for a global ticket-release platform with a
-large scheduled demand spike. The lab assesses requirements discovery,
+large scheduled demand spike. The exercise assesses requirements discovery,
 capacity reasoning, failure design, security, observability, cost, and
 communication—not diagram aesthetics.
 
@@ -148,9 +148,9 @@ Use [AWS reference architecture](reference-architecture.md) for service
 selection and [multi-cloud translation](multi-cloud.md) when evaluating Azure
 or Google Cloud alternatives.
 
-## Teardown
+## Optional cloud-extension safety
 
-The base lab requires no cloud resources. If you extend it into a cloud account,
+The base exercise requires no cloud resources. If you extend it into a cloud account,
 record every resource before creation, use a dedicated sandbox, set a budget
 alert, and verify that compute, databases, load balancers, public IP addresses,
 logs, snapshots, and retained storage are removed afterward.

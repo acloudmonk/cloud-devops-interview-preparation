@@ -50,7 +50,7 @@ business processing from a product label.
 DynamoDB, Cosmos DB, Firestore, Bigtable, and Spanner have different data
 models, transaction boundaries, consistency options, partition behavior, and
 multi-region conflict models. Start with access patterns and invariants. For the
-ticket lab, the decisive capability is an atomic, conditional transition of a
+ticket exercise, the decisive capability is an atomic, conditional transition of a
 seat plus an idempotency strategy.
 
 ### Global networking uses different abstractions

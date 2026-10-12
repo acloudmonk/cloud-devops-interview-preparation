@@ -79,7 +79,7 @@ Every major module is designed to contain:
 - security, reliability, operations, and cost considerations;
 - AWS, Azure, and GCP relevance;
 - troubleshooting guidance;
-- lightweight design exercises and paper labs;
+- lightweight paper-and-whiteboard design exercises;
 - scenario-based questions with architect-level answers;
 - curated documentation, books, talks, and videos.
 

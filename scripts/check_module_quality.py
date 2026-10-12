@@ -17,6 +17,7 @@ PLAYBOOK = DOCS / "interview-playbook"
 REQUIRED_PAGES = (
     "index.md",
     "concepts.md",
+    "design-exercise.md",
     "scenarios.md",
     "scenario-drills.md",
     "presentation-template.md",
