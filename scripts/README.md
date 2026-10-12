@@ -1,7 +1,7 @@
 # Repository Automation
 
-Validation, reference maintenance, flashcard generation, and content-quality
-automation will live here. Scripts must be safe, documented, and testable.
+Validation and content-quality automation live here. Scripts must be safe,
+documented, and testable.
 
 ## Released-module quality check
 

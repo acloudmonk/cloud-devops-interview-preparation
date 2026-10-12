@@ -155,6 +155,6 @@ edition before purchasing.
 3. One cloud Well-Architected framework end to end
 4. Builders' Library articles on timeouts/retries and overload
 5. The SRE chapters on service objectives and handling overload
-6. The design lab, scenario drills, and troubleshooting playbook
+6. The design exercise, scenario drills, and troubleshooting playbook
 7. The timed mock interview and active-recall cards
 8. Relevant chapters from *Designing Data-Intensive Applications* and *Release It!*

@@ -18,7 +18,7 @@ Describe the learner or repository outcome delivered by this pull request.
 - [ ] Secret scanning passes
 - [ ] Examples contain no credentials, account IDs, local paths, or personal data
 - [ ] Generated files, caches, virtual environments, and state are excluded
-- [ ] Labs document cost, security constraints, validation, and teardown
+- [ ] Any optional implementation lab documents cost, security constraints, validation, and teardown
 - [ ] Competency-map status is updated where applicable
 
 ## Architecture and content review

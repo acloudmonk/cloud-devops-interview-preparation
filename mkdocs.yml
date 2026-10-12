@@ -1,5 +1,5 @@
 site_name: Cloud & DevOps Architect Knowledge Base
-site_description: Architect-level cloud and DevOps learning, scenarios, labs, and interview preparation.
+site_description: Architect-level cloud and DevOps learning, scenarios, design exercises, and interview preparation.
 repo_url: https://github.com/acloudmonk/cloud-devops-interview-preparation
 repo_name: acloudmonk/cloud-devops-interview-preparation
 edit_uri: edit/main/docs/
@@ -80,7 +80,7 @@ nav:
           - AWS Decision Matrix: 01-cloud-architecture/decision-matrix.md
           - Multi-Cloud Translation: 01-cloud-architecture/multi-cloud.md
           - Troubleshooting Playbook: 01-cloud-architecture/troubleshooting-playbook.md
-          - Architecture Design Exercise: 01-cloud-architecture/lab.md
+          - Architecture Design Exercise: 01-cloud-architecture/design-exercise.md
           - AWS Design Walkthrough: 01-cloud-architecture/design-walkthrough.md
           - Scenario Questions: 01-cloud-architecture/scenarios.md
           - Advanced Scenario Drills: 01-cloud-architecture/scenario-drills.md

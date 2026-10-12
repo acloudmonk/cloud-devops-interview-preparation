@@ -17,7 +17,7 @@ The repository is in validation and iterative-improvement mode; see the
 - Documentation site, navigation, templates, and reference standards
 - Thirty-six-point traceability map
 - Cloud Architecture & Distributed Systems initial release
-- Scenario answer framework, worked examples, and lightweight design lab
+- Scenario answer framework, worked examples, and lightweight design exercise
 - Automated build and link validation
 
 Executable application and cloud-deployment labs are deferred optional material.

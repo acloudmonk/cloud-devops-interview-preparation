@@ -49,7 +49,7 @@ By the end of the module, you should be able to:
 
 | Step | Page | Outcome |
 | ---: | --- | --- |
-| 8 | [Architecture design exercise](lab.md) | Create your answer before seeing the walkthrough; no deployment required |
+| 8 | [Architecture design exercise](design-exercise.md) | Create your answer before seeing the walkthrough; no deployment required |
 | 9 | [AWS design walkthrough](design-walkthrough.md) | Compare decisions with a reasoned example, not one model answer |
 | 10 | [Scenario questions and model answers](scenarios.md) | Answer 15 core questions aloud before reading each answer |
 | 11 | [Advanced scenario drills](scenario-drills.md) | Practise 12 ambiguous and failure-oriented follow-ups |
@@ -67,7 +67,7 @@ By the end of the module, you should be able to:
 ## Completion checklist
 
 - [ ] I can explain every learning objective without reading the page.
-- [ ] I completed the design lab before reading the walkthrough.
+- [ ] I completed the design exercise before reading the walkthrough.
 - [ ] I answered all 27 scenarios aloud.
 - [ ] I can present the recommendation, trade-offs, and failure behavior in ten minutes.
 - [ ] I completed the mock interview and recorded evidence for weak dimensions.
