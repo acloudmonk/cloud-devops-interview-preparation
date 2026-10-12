@@ -20,7 +20,7 @@ Status values:
 
 | Original plan point | Module ID | Original area | Knowledge-base destination | Status |
 | ---: | ---: | --- | --- | --- |
-| 1 | — | Master Cloud + DevOps preparation map | This page and documentation navigation | Foundation complete |
+| 1 | — | Master Cloud + DevOps preparation map | [Master Competency Map](master-competency-map.md) and [documentation home](index.md) | Foundation complete |
 | 2 | 01 | Cloud Architecture Fundamentals | [Cloud Architecture & Distributed Systems](01-cloud-architecture/index.md) | Initial release |
 | 3 | 02 | AWS Architecture | [AWS Architecture](02-aws/index.md) | Initial release |
 | 4 | 03 | Azure Architecture | [Azure Architecture](03-azure/index.md) | Initial release |
@@ -52,10 +52,10 @@ Status values:
 | 30 | 29 | API & Identity Fundamentals | [APIs & Enterprise Identity](29-api-identity/index.md) | Initial release |
 | 31 | 30 | Python Automation | [Python Automation](30-python-automation/index.md) | Initial release |
 | 32 | 31 | AI for Cloud/DevOps | [AI for Cloud & DevOps](31-ai-for-devops/index.md) | Initial release |
-| 33 | — | Scenario-Based Answer Framework | Interview Playbook | Foundation complete |
+| 33 | — | Scenario-Based Answer Framework | [Interview Playbook](interview-playbook/index.md) and [Scenario-Based Answer Framework](interview-playbook/scenario-answer-framework.md) | Foundation complete |
 | 34 | — | Example Senior Scenario | [Cross-Domain Case Studies](case-studies/index.md) | Initial release |
-| 35 | — | Six-Month Preparation Sequence | Study Roadmap | Foundation complete |
-| 36 | — | How We Prepare Together | [Consultant playbook](interview-playbook/index.md), workflow, assessments & [mock interviews](mock-interviews/index.md) | Foundation complete |
+| 35 | — | Six-Month Preparation Sequence | [Study Roadmap](roadmap.md) | Foundation complete |
+| 36 | — | How We Prepare Together | [Consultant Discovery and Stakeholder Playbook](interview-playbook/index.md) and [Full Architect Mock Interviews](mock-interviews/index.md) | Foundation complete |
 
 ## Verified initial-release standard
 

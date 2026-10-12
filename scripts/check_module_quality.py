@@ -333,6 +333,43 @@ def validate_learning_path(modules: list[Path]) -> list[str]:
     return errors
 
 
+def validate_supporting_map_links() -> list[str]:
+    """Require every non-module plan point to link to its existing destinations."""
+    errors: list[str] = []
+    expected = {
+        1: ("master-competency-map.md", "index.md"),
+        33: (
+            "interview-playbook/index.md",
+            "interview-playbook/scenario-answer-framework.md",
+        ),
+        34: ("case-studies/index.md",),
+        35: ("roadmap.md",),
+        36: ("interview-playbook/index.md", "mock-interviews/index.md"),
+    }
+    map_text = read(MAP)
+
+    for point, destinations in expected.items():
+        row = re.search(rf"^\|\s*{point}\s*\|.*$", map_text, re.MULTILINE)
+        if not row:
+            errors.append(
+                f"docs/master-competency-map.md: missing supporting point {point}"
+            )
+            continue
+        linked = set(re.findall(r"\[[^\]]+\]\(([^)]+)\)", row.group(0)))
+        for destination in destinations:
+            if destination not in linked:
+                errors.append(
+                    "docs/master-competency-map.md: supporting point "
+                    f"{point} must link to {destination}"
+                )
+            if not (DOCS / destination).is_file():
+                errors.append(
+                    "docs/master-competency-map.md: supporting destination does not "
+                    f"exist: {destination}"
+                )
+    return errors
+
+
 def validate_consultant_playbook() -> list[str]:
     """Validate the non-numbered consultant discovery practice track."""
     errors: list[str] = []
@@ -413,6 +450,7 @@ def main() -> int:
     errors = [error for module in modules for error in validate_module(module)]
     errors.extend(validate_case_studies())
     errors.extend(validate_learning_path(modules))
+    errors.extend(validate_supporting_map_links())
     errors.extend(validate_consultant_playbook())
     if errors:
         print("Released-module quality validation failed:")
@@ -425,6 +463,7 @@ def main() -> int:
         f"{len(CASE_STUDY_FILES)} cases."
     )
     print("Dependency learning order and competency-map coverage validation passed.")
+    print("Supporting competency-map destination validation passed.")
     print("Consultant discovery playbook validation passed.")
     return 0
 
