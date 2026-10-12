@@ -20,13 +20,13 @@ version on the affected system.
   — CPU, memory, and I/O contention signals.
 - [Linux man-pages project](https://www.kernel.org/doc/man-pages/)
   — system-call and Linux interface reference.
-- [systemd service units](https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html)
+- [systemd service units](https://manpages.debian.org/bookworm/systemd/systemd.service.5.en.html)
   — service lifecycle, restart, and process behavior.
-- [systemd unit relationships](https://www.freedesktop.org/software/systemd/man/latest/systemd.unit.html)
+- [systemd unit relationships](https://manpages.debian.org/bookworm/systemd/systemd.unit.5.en.html)
   — dependency and ordering semantics.
-- [systemd resource control](https://www.freedesktop.org/software/systemd/man/latest/systemd.resource-control.html)
+- [systemd resource control](https://manpages.debian.org/bookworm/systemd/systemd.resource-control.5.en.html)
   — cgroup-backed service resource policies.
-- [journalctl](https://www.freedesktop.org/software/systemd/man/latest/journalctl.html)
+- [journalctl](https://manpages.debian.org/bookworm/systemd/journalctl.1.en.html)
   — querying system and service journal evidence.
 
 ## Security sources
