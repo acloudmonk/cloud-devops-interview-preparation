@@ -11,6 +11,7 @@ Platform Engineering, SRE, and consulting interviews.
 | See the recommended dependency-based learning order | [Documentation home and current learning path](docs/index.md#current-learning-path) |
 | Inspect all 36 original topics and their status | [Master competency map](docs/master-competency-map.md) |
 | Understand future delivery and study phases | [Study and delivery roadmap](docs/roadmap.md) |
+| Track study evidence, mock scores, and weak areas | [Study progress and improvement log](docs/study-progress.md) |
 | Practise cross-domain architecture decisions | [Architecture case studies](docs/case-studies/index.md) |
 | Practise consulting discovery and stakeholder skills | [Consultant Discovery Playbook](docs/interview-playbook/index.md) |
 | Review curriculum completeness and validation evidence | [v1 readiness report](docs/release-readiness.md) |
@@ -88,3 +89,5 @@ The current priority is theoretical depth, architecture reasoning,
 troubleshooting, and scenario-based interview practice.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) before adding or changing content.
+Use the [issue chooser](https://github.com/acloudmonk/cloud-devops-interview-preparation/issues/new/choose)
+to report a focused content or reference problem without including confidential data.

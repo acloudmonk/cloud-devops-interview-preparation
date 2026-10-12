@@ -69,6 +69,8 @@ nav:
       - v1 Readiness Report: release-readiness.md
       - Master Competency Map: master-competency-map.md
       - Study Roadmap: roadmap.md
+      - Study Progress & Improvement Log: study-progress.md
+      - Content Maintenance & Review: maintenance.md
   - Curriculum:
       - Curriculum Overview: curriculum/index.md
       - 01 Cloud Architecture & Distributed Systems:
