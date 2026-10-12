@@ -18,9 +18,9 @@ support, and service availability before implementation.
   — image transfer/storage, execution, supervision, snapshots, and runtime integration.
 - [runc repository and documentation](https://github.com/opencontainers/runc)
   — OCI runtime implementation, security advisories, and release behavior.
-- [Linux namespaces](https://manpages.ubuntu.com/manpages/noble/man7/namespaces.7.html),
+- [Linux namespaces](https://manpages.debian.org/bookworm/manpages/namespaces.7.en.html),
   [cgroups v2](https://docs.kernel.org/admin-guide/cgroup-v2.html), and
-  [capabilities](https://manpages.ubuntu.com/manpages/noble/man7/capabilities.7.html)
+  [capabilities](https://manpages.debian.org/bookworm/manpages/capabilities.7.en.html)
   — operating-system mechanisms behind container isolation and resource control.
 
 ## Docker build and runtime

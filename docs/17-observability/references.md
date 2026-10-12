@@ -7,7 +7,7 @@ component maturity, service limits, retention, and pricing before a real design.
 
 ## Core reading order
 
-1. [OpenTelemetry concepts](https://opentelemetry.io/docs/concepts/)
+1. [What is OpenTelemetry?](https://opentelemetry.io/docs/what-is-opentelemetry/)
 2. [Prometheus overview](https://prometheus.io/docs/introduction/overview/)
 3. [Prometheus data model](https://prometheus.io/docs/concepts/data_model/)
 4. [Grafana fundamentals](https://grafana.com/docs/grafana/latest/fundamentals/)
