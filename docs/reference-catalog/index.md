@@ -31,10 +31,10 @@ Each module reference list records:
 - Prefer a small, high-signal reading path over dozens of unexplained links.
 - Do not copy documentation or video transcripts; summarize in original words.
 - Mark vendor claims as vendor guidance rather than universal fact.
-- Flag version-sensitive pages and revisit them at least quarterly.
+- Flag version-sensitive pages and revisit them during an explicitly requested review.
 - Replace deleted or obsolete resources; preserve the reason in Git history.
 - Reject interview dumps, leaked questions, and unexplained certification lists.
 
-Follow the [content maintenance and review process](../maintenance.md) for monthly
-link validation, quarterly version-sensitive review, feedback triage, and honest
-`Last reviewed` or `Last verified` dates.
+Follow the [manual content maintenance process](../maintenance.md) for validation
+commands, feedback triage, source review, and honest `Last reviewed` or
+`Last verified` dates.

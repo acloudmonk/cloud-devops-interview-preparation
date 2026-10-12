@@ -2,23 +2,22 @@
 
 [← Documentation home](index.md) · [Reference standards](reference-catalog/index.md)
 
-This repository changes when evidence justifies an improvement. Maintenance should
-preserve a focused interview curriculum rather than continuously adding breadth.
+This repository changes only when a maintainer explicitly requests a review or an
+approved issue identifies a focused correction. There is no recurring, scheduled,
+or event-triggered content-maintenance process.
 
-## Review cadence
+## Start a review manually
 
-| Cadence | Review | Evidence |
-| --- | --- | --- |
-| Every pull request | Build, Markdown, links, secrets, module structure | Passing required checks |
-| Monthly | Scheduled documentation and external-link validation | GitHub Actions result and owned failures |
-| Quarterly | Version-sensitive cloud, platform, framework, and reference review | Updated verification date plus source-backed PR |
-| Event-driven | Deprecation, security advisory, major release, broken source, or learner evidence | Focused issue and bounded PR |
+Begin maintenance only after a maintainer chooses a specific page, module, reference,
+or reported problem. Record that scope in a feature branch or issue so the work is
+visible and bounded. Normal pull-request checks remain automatic quality gates for an
+already requested change; they do not create or modify documentation.
 
 A passing link check proves reachability, not technical currency. A human reviewer must
 still confirm service lifecycle, terminology, behavior, quotas, regional availability,
 pricing assumptions, framework pillars, and recommended replacements.
 
-## Quarterly review procedure
+## Manual review procedure
 
 1. Select one or more owner modules; do not update all dates mechanically.
 2. Check official lifecycle and release notices before secondary commentary.
@@ -28,6 +27,28 @@ pricing assumptions, framework pillars, and recommended replacements.
 5. Replace obsolete sources and record meaningful semantic changes in the PR.
 6. Run the complete local validation suite and obtain manual approval.
 7. Update `Last reviewed` or `Last verified` only for pages actually examined.
+
+## Manual validation commands
+
+Run these commands from the repository root after making an approved change:
+
+```powershell
+python scripts/check_module_quality.py
+python -m mkdocs build --strict
+npx --yes markdownlint-cli2 "**/*.md" "#site/**" "#.venv/**"
+git diff --check
+```
+
+To request the complete GitHub documentation workflow manually on `main`, including
+external-link validation, use:
+
+```powershell
+gh workflow run docs.yml --ref main
+gh run list --workflow docs.yml --limit 1
+```
+
+The same checks run automatically only as safeguards on a pull request or a push to
+`main`; no scheduled workflow starts a review.
 
 ## Feedback triage
 

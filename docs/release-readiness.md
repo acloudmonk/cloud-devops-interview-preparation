@@ -71,8 +71,9 @@ external/internal link validation, and secret scanning.
 1. Follow the 24-week roadmap and use the
    [study progress log](study-progress.md) to record weak concepts and repeat scores.
 2. Improve pages when learner evidence, incidents, interviews, or source changes justify it.
-3. Follow the [maintenance process](maintenance.md) to recheck provider service names,
-   limits, prices, Regions, references, and framework guidance.
+3. When explicitly requested, follow the [manual maintenance process](maintenance.md)
+   to recheck provider service names, limits, prices, Regions, references, and
+   framework guidance.
 4. Preserve feature-branch, pull-request, manual-approval, and secret-scan practices.
 5. Treat new modules as exceptional; prefer deepening an existing owner module.
 
