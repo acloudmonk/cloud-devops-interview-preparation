@@ -1,8 +1,14 @@
 cache = true
 max_cache_age = "1d"
-max_retries = 2
-retry_wait_time = 2
-timeout = 20
+cache_exclude_status = "400.."
+max_concurrency = 8
+host_concurrency = 2
+host_request_interval = "250ms"
+max_retries = 4
+retry_wait_time = 5
+timeout = 30
+method = "get"
+user_agent = "Mozilla/5.0 (compatible; cloud-devops-interview-preparation link checker; +https://github.com/acloudmonk/cloud-devops-interview-preparation)"
 accept = [200, 204, 206, 403, 429]
 exclude_all_private = true
 exclude = [
